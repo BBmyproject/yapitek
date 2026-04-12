@@ -1,0 +1,1386 @@
+{
+  "HeroBanner": {
+    "sectionLabel": "Karşılama",
+    "imageAlt": "Modern mimari ve şehir silüeti",
+    "title": "Mimari Bir Duruş, Sağlam Bir Gelecek.",
+    "description": "Yapıtek Anka İnşaat, her projede kaliteyi, estetiği ve mühendisliği bir araya getirir.",
+    "cta": "İletişime Geçin"
+  },
+  "LocaleSwitcher": {
+    "tr": "TR",
+    "en": "EN"
+  },
+  "Navigation": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "projects": "Projeler",
+    "contact": "İletişim",
+    "headerLocation": "Ankara, TR",
+    "headerPhone": "0 (312) 911 8911",
+    "headerPhoneHref": "tel:+903129118911",
+    "menuOpen": "Menüyü aç",
+    "menuClose": "Menüyü kapat",
+    "mobileNavLabel": "Mobil ana menü"
+  },
+  "AboutPage": {
+    "heroSectionLabel": "Hakkımızda giriş",
+    "heroImageAlt": "Modern mimari ve şehir silüeti",
+    "metaTitle": "Hakkımızda | Yapıtek Anka İnşaat",
+    "metaDescription": "Yapıtek Anka İnşaat’ın yaklaşımı, değerleri ve uzmanlık alanları hakkında bilgi edinin.",
+    "kicker": "Yapıtek Anka İnşaat",
+    "title": "Hakkımızda",
+    "lead": "Mühendislik disiplini, mimari özen ve sahada güvenilir uygulamayı aynı çatı altında sunuyoruz.",
+    "p1": "Yapıtek Anka İnşaat olarak konut, ticari ve karma kullanım projelerinde; planlama, tasarım ve inşaat süreçlerini bütüncül bir bakışla yönetiyoruz. Her projede kaliteyi, sürdürülebilirliği ve uzun vadeli değeri ön planda tutuyoruz.",
+    "p2": "Paydaşlarımızla şeffaf iletişim kurar, riskleri önceden görür ve zamanında teslim kültürünü işimizin merkezine koyarız. Amacımız yalnızca yapı teslim etmek değil, güven veren yaşam ve çalışma ortamları oluşturmaktır.",
+    "p3": "Ekibimiz; sahadan proje yönetimine kadar her aşamada deneyim ve yenilikçi çözümlerle yanınızdadır. Bir sonraki projenizi birlikte hayata geçirmek için bizimle iletişime geçebilirsiniz.",
+    "backHome": "Anasayfaya dön"
+  },
+  "AboutOurStory": {
+    "wideBannerAlt": "Yapıtek Anka seçkin proje ve mimari görünüm",
+    "kicker": "Hikayemiz",
+    "title": "Köklerimiz ve yolculuğumuz",
+    "cardAlt": {
+      "0": "Konut projesi iç mekân görünümü",
+      "1": "Modern yapı cephesi",
+      "2": "Yaşam alanı ve mimari detay"
+    },
+    "cardText": {
+      "0": "Evart Oran’dan Docs Vadi’ye uzanan portföyde geliştirme ve ortaklıkla güçlenen referans ağı.",
+      "1": "Mimari kaliteyi, yaşam kalitesi ve yatırım değerini aynı çatı altında değerlendiren bütüncül yaklaşım.",
+      "2": "Arsadan teslime şeffaf, kontrollü ve ölçülebilir bir sistemle yürütülen proje yönetimi."
+    },
+    "longHeading": "HAKKIMIZDA",
+    "longBody": {
+      "0": "Yapıtek Anka İnşaat, 2014 yılından bu yana; inşaat, gayrimenkul geliştirme ve yatırım alanlarında faaliyet gösteren, projelerinde mimari kaliteyi ve yatırım değerini birlikte ele alan bir yapı markasıdır.",
+      "1": "Kurulduğu günden itibaren; konut, ticari ve karma kullanım projelerinin yanı sıra, kurumsal yapılar ve sosyal projelerde de aktif rol alarak geniş bir portföy oluşturmuştur.",
+      "2": "Evart Oran, Evart Yalıkavak, Evart Estates Yalıkavak, May Life İncek ve Docs Vadi gibi projelerde geliştirme, uygulama ve proje ortaklığı süreçlerinde yer alarak sektörde güçlü bir referans ağı oluşturmuştur.",
+      "3": "Yapıtek, her projeyi yalnızca bir yapı olarak değil; uzun vadeli yatırım değeri, yaşam kalitesi ve sürdürülebilirlik perspektifiyle ele alır.",
+      "4": "Arsa analizinden proje geliştirmeye, mimari planlamadan uygulama ve teslim süreçlerine kadar tüm aşamalar; şeffaf, kontrollü ve ölçülebilir bir sistemle yönetilir.",
+      "5": "Geliştirdiği projelerde; doğru lokasyon seçimi, kullanıcı odaklı mimari yaklaşım ve yatırım potansiyeli birlikte değerlendirilir.",
+      "6": "Bu yaklaşım, Yapıtek’i yalnızca bir yüklenici değil; değer üreten bir proje geliştirici konumuna taşır."
+    }
+  },
+  "AboutApproach": {
+    "kicker": "Yaklaşımımız",
+    "title": "Kurumsal disiplin, net süreçler",
+    "subtitle": "Her projede güvenilir üretim, sistematik geliştirme ve net bir misyon–vizyon çerçevesiyle ilerliyoruz.",
+    "c0Title": "KURUMSAL YAKLAŞIM",
+    "c0Lead": "Yapıtek Anka İnşaat, tüm projelerinde aşağıdaki temel prensiplerle hareket eder:",
+    "c0Bullets": [
+      "Güvenilir ve sağlam yapı üretimi",
+      "Modern mimari ve teknik çözümler",
+      "Enerji verimliliği ve çevreye duyarlı uygulamalar",
+      "Zamanında ve eksiksiz teslim prensibi"
+    ],
+    "c0Body": "Enerji ve mühendislik alanındaki saha tecrübesi ile operasyonel gücünü inşaat projelerine entegre eder; finansal disiplin ve teknik doğruluğu birlikte yönetir.",
+    "c0ImageAlt": "Kurumsal yaklaşım — proje ve teknik uygulama",
+    "c1Title": "PROJE GELİŞTİRME MODELİ",
+    "c1Lead": "Yapıtek’in proje yaklaşımı, sistematik ve stratejik bir süreç üzerine kuruludur:",
+    "c1Bullets": [
+      "Arsa ve çevre analizleri",
+      "Proje potansiyelinin doğru belirlenmesi",
+      "Mimari ve teknik planlama",
+      "Kontrollü inşaat ve kalite denetimi",
+      "Teslim sonrası sürdürülebilir yapı yaklaşımı"
+    ],
+    "c1Body": "Bu model sayesinde her proje; yalnızca inşa edilmez, planlanır, geliştirilir ve değer üretir.",
+    "c1ImageAlt": "Proje geliştirme — planlama ve uygulama",
+    "c2Title": "MİSYON VE VİZYON",
+    "c2MissionTitle": "MİSYON",
+    "c2MissionP1": "Yaşam kalitesini artıran, bulunduğu bölgeye değer katan ve yatırım açısından sürdürülebilir projeler geliştirerek; modern şehir yaşamına estetik, fonksiyonel ve güvenilir çözümler sunmak.",
+    "c2MissionP2": "Kullanıcı ihtiyaçlarını merkeze alan, kaliteli ve uzun ömürlü yapılar inşa ederek sektörde güvenilir bir marka olmak.",
+    "c2VisionTitle": "VİZYON",
+    "c2VisionP1": "Yapı geliştirme ve inşaat sektöründe; yenilikçi mimari yaklaşımı, güçlü mühendislik altyapısı ve stratejik yatırım vizyonu ile öne çıkan, ulusal ve uluslararası ölçekte referans gösterilen bir marka haline gelmek.",
+    "c2VisionP2": "Geleceğin yaşam standartlarını bugünden tasarlayan projelerle, sürdürülebilir değer üreten öncü bir yapı şirketi olmak.",
+    "c2ImageAlt": "Misyon ve vizyon — şehir ve mimari"
+  },
+  "AboutSection": {
+    "label": "Yapıtek Anka İnşaat",
+    "title": "Güvenle Yükselen Yapılar",
+    "p1": "Yapıtek Anka İnşaat, mühendislik gücünü, mimari yaklaşımı ve uygulama disiplinini tek bir çatı altında birleştirerek projeler geliştirir.",
+    "p2": "Konut, ticari ve karma kullanım projelerinde; her detayın titizlikle planlandığı, uzun vadeli değer üreten yapılar inşa ediyoruz.",
+    "p3": "Her projeye yalnızca bir yapı olarak değil, yaşamın bir parçası olarak yaklaşırız.",
+    "p4": "Çünkü bizim için inşaat; sadece bugünü değil, geleceği inşa etmektir.",
+    "signName": "Ahmet Yılmaz",
+    "signRole": "Yönetim Kurulu Başkanı"
+  },
+  "HomeLastProjects": {
+    "kicker": "Projelerimiz",
+    "title": "Son dönemde tamamlanan ve süren referanslarımız",
+    "body": "Konut, ticari ve kamusal ölçekte yürüttüğümüz projelerden güncel bir seçki. her satır bir hikâye; detaylar için projeler sayfasına geçebilir veya doğrudan inceleyebilirsiniz.",
+    "allProjectsCta": "Tüm projeler",
+    "inspectCta": "incele",
+    "listLabel": "Öne çıkan projeler listesi",
+    "previewLabel": "Seçili proje görseli: {title}"
+  },
+  "ContactPage": {
+    "metaTitle": "İletişim | Yapıtek Anka İnşaat",
+    "metaDescription": "Yapıtek Anka İnşaat iletişim bilgileri ve mesaj formu. Ankara Gölbaşı ofis adresi, telefon ve e-posta.",
+    "kicker": "İletişim",
+    "title": "İLETİŞİME GEÇ",
+    "lead": "Projeleriniz, iş birlikleri veya teknik sorularınız için ekibimize yazın veya doğrudan arayın; en kısa sürede size dönüş yapalım.",
+    "companyName": "Yapıtek Anka İnşaat",
+    "address": "Kızılcaşar Mah. Bağlar Caddesi No:65, Ankara, GÖLBAŞI 06830",
+    "phoneDisplay": "0 (312) 911 8911",
+    "phoneHref": "tel:+903129118911",
+    "email": "info@yapitekyapi.com",
+    "formFirstName": "İsim",
+    "formLastName": "Soyisim",
+    "formEmail": "E-posta",
+    "formPhone": "Telefon numarası",
+    "formSubject": "Konu",
+    "formMessage": "Mesaj",
+    "formSubmit": "Gönder",
+    "formSending": "Gönderiliyor…",
+    "formSuccess": "Mesajınız alındı. En kısa sürede size dönüş yapacağız.",
+    "formError": "Gönderim sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "formNotConfigured": "E-posta sunucusu henüz yapılandırılmadı. Lütfen telefon veya e-posta ile doğrudan ulaşın.",
+    "mapSectionLabel": "Ofis konumu haritası",
+    "mapIframeTitle": "Yapıtek Anka İnşaat ofis konumu, Gölbaşı Ankara"
+  },
+  "PhotoGallery": {
+    "description": "Fotoğraf Galerisi",
+    "title": "Yapıtek Anka Galeri",
+    "heroAlt": "Yapıtek Anka seçkin proje görüntüsü",
+    "slideAlt": "Galeri görseli {n}",
+    "prev": "Önceki slayt",
+    "next": "Sonraki slayt",
+    "dotsLabel": "Slayt seç",
+    "goToSlide": "{n}. slayta git"
+  },
+  "ProjectShowcase": {
+    "description": "Proje Alanları",
+    "title": "Uzmanlık Alanlarımız",
+    "items": {
+      "0": {
+        "heading": "KONUT PROJELERİ",
+        "line1": "Modern yaşamı, fonksiyonel mimari ve güçlü yatırım değeri ile bir araya getiren konut projeleri geliştiriyoruz.",
+        "line2": "Her yapı, kullanıcı deneyimi ve uzun vadeli değer odağında şekillenir."
+      },
+      "1": {
+        "heading": "TİCARİ VE KARMA KULLANIM YAPILARI",
+        "line1": "Konut, ofis ve ticari alanları entegre ederek sürdürülebilir gelir modeli sunan projeler üretiyoruz.",
+        "line2": "Yaşam ve ticaretin dengeli şekilde buluştuğu yapılar tasarlıyoruz."
+      },
+      "2": {
+        "heading": "KURUMSAL VE İDARİ YAPILAR",
+        "line1": "Kurumsal ihtiyaçlara özel, fonksiyonel ve prestij odaklı yapılar geliştiriyoruz.",
+        "line2": "Verimli kullanım, güçlü mimari ve sürdürülebilir çözümler ön plandadır."
+      },
+      "3": {
+        "heading": "SOSYAL, KÜLTÜREL VE ÖZEL PROJELER",
+        "line1": "Toplumsal yaşamı destekleyen, kamusal kullanım odaklı projeler tasarlıyoruz.",
+        "line2": "Eğitim, kültür ve sosyal etkileşimi güçlendiren yapılar geliştiriyoruz."
+      }
+    }
+  },
+  "ProjectsPage": {
+    "metaTitle": "Projeler | Yapıtek Anka İnşaat",
+    "metaDescription": "Yapıtek Anka’nın konut ve karma kullanım projelerinden seçkin referansları keşfedin.",
+    "heroSectionLabel": "Projeler giriş",
+    "heroImageAlt": "Yapıtek Anka proje ve mimari görünüm",
+    "title": "Projelerimiz",
+    "lead": "Geliştirme ve uygulama süreçlerinde yer aldığımız seçkin projelerden bir seçki.",
+    "intro": "Her proje; lokasyon, mimari kimlik ve yatırım değerini birlikte ele alan bir geliştirme yaklaşımıyla şekillenir. Detayları görmek için bir karta tıklayın.",
+    "cardCta": "İncele",
+    "projectTabsLabel": "Proje kategorileri",
+    "projectCategories": {
+      "all": { "label": "Tümü" },
+      "housing": { "label": "Konut Projeleri" },
+      "commercial": { "label": "Ticari ve Karma Kullanım Yapıları" },
+      "development": { "label": "Proje Geliştirme ve Uygulama" },
+      "institutional": { "label": "Kurumsal ve İdari Yapılar" },
+      "social": { "label": "Sosyal, Kültürel ve Özel Projeler" }
+    },
+    "cards": {
+      "evart-oran": {
+        "title": "Evart Oran",
+        "excerpt": "Konut odaklı geliştirme ve uygulama süreçlerinde referans niteliğinde bir proje."
+      },
+      "evart-1": {
+        "title": "Evart 1",
+        "excerpt": "Dubleks ofis ve ticari alanlarla kompakt, yüksek verimli modern iş yapısı."
+      },
+      "evart-2": {
+        "title": "Evart 2",
+        "excerpt": "Doğrudan ticari kullanıma odaklı, sade ve işlevsel kompakt yapı modeli."
+      },
+      "evart-yalikavak": {
+        "title": "Evart Yalıkavak",
+        "excerpt": "Bölgenin karakterine uyumlu, modern yaşam alanları sunan geliştirme projesi."
+      },
+      "evart-estates-yalikavak": {
+        "title": "Evart Estates Yalıkavak",
+        "excerpt": "Geniş arazi ve düşük yoğunlukla Bodrum’da nadir bir malikane yaşam modeli."
+      },
+      "imza-gokdemir": {
+        "title": "İmza Gökdemir",
+        "excerpt": "İncek’te karma kullanımlı yeni nesil yaşam merkezi; Evart arsa ortaklığı ve ölçekli kule programı."
+      },
+      "may-life-incek": {
+        "title": "May Life İncek",
+        "excerpt": "İncek’te yüksek katlı mimari, zengin sosyal donatı ve ticari programla bütünleşen yeni nesil yaşam merkezi."
+      },
+      "docs-vadi": {
+        "title": "Docs Vadi Ankara",
+        "excerpt": "Şehir merkezinde vadinin ferahlığı; 4.5+1, 200 m² ve sınırlı konutla prestijli yaşam."
+      },
+      "park-royal-residence": {
+        "title": "Park Royal Residence",
+        "excerpt": "Rezidans, AVM ve iç bahçe ile karma yaşam; konut ve ticaretin tek çatı altında buluşması."
+      },
+      "park-royal-venue": {
+        "title": "Park Royal",
+        "excerpt": "9.700 m² çok amaçlı yapı; düğün salonları, ticari alanlar ve etkinlik odaklı program."
+      },
+      "heska": {
+        "title": "Heska",
+        "excerpt": "2.100 m² showroom ve 400 m² ofis ile marka ve ürün deneyimini öne çıkaran kurumsal ticari yapı."
+      },
+      "zirvekent": {
+        "title": "Zirvekent",
+        "excerpt": "350 m² kapalı alan, 148 kişi kapasiteli toplantı ve organizasyon odaklı kamusal yapı."
+      },
+      "vali-erdogan": {
+        "title": "Vali Erdoğan",
+        "excerpt": "340 m² kapalı alan ve 150 m² teras ile sosyal etkinlik ve toplu kullanım odaklı yapı."
+      },
+      "abidin-pasa-kutuphanesi": {
+        "title": "Abidin Paşa Kütüphanesi",
+        "excerpt": "Okuma, öğrenme ve kamusal buluşmayı destekleyen kütüphane ve toplumsal yaşam mekânı."
+      },
+      "amfi-tiyatro-uyanik": {
+        "title": "Amfi Tiyatro – Uyanık",
+        "excerpt": "Açık hava kültür ve sanat alanı; amfi yapı ve açık alanla etkinlik deneyimi."
+      },
+      "kirim-sudak": {
+        "title": "Kırım Sudak",
+        "excerpt": "Kütüphane, çalışma, cafe ve kamusal buluşmayı bir araya getiren çok işlevli yapı."
+      },
+      "sehitlik": {
+        "title": "Şehitlik",
+        "excerpt": "Toplumsal hafızayı yaşatan kamusal mekân; anma ve saygı odaklı yapı."
+      },
+      "sayhan-hukuk": {
+        "title": "Sayhan Hukuk",
+        "excerpt": "Kurumsal kimliği yansıtan modern hukuk ofisi; 540 m², dört katlı profesyonel çalışma alanı."
+      },
+      "incek-louren": {
+        "title": "İncek Louren",
+        "excerpt": "İncek bölgesinde ticari ve karma kullanıma yönelik geliştirme projesi."
+      },
+      "kumas": {
+        "title": "Kümaş",
+        "excerpt": "Sosyal ve kültürel kullanıma yönelik özel proje."
+      }
+    }
+  },
+  "ProjectDetail": {
+    "otherProjectsHeading": "Diğer Projelerimiz",
+    "allProjectsCta": "Tüm projeler",
+    "placeholder": "Proje içeriği yakında eklenecek.",
+    "items": {
+      "evart-oran": {
+        "metaTitle": "Evart Oran | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Evart Oran: Çankaya Oran’da karma kullanım yaşam modeli; konut, ofis ve ticaretin dengeli buluşması.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Evart Oran proje görseli",
+        "heroTitle": "Modern Mimari ve Şehrin Kesişim Noktası",
+        "heroLead": "Bu proje yalnızca bir konut değil; yaşam, çalışma ve ticaretin dengeli bir şekilde buluştuğu bütünsel bir yaşam modelidir.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "evart-1": {
+        "metaTitle": "Evart 1 | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Evart 1: 1.159 m² ticari yapı; 4 dubleks ofis, 3 ticari alan; kompakt ve verimli iş mimarisi.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Evart 1 proje görseli",
+        "heroTitle": "Fonksiyonel İş Yaşamının Yeni Adresi",
+        "heroLead": "Modern ticari yapı, maksimum verim.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "evart-2": {
+        "metaTitle": "Evart 2 | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Evart 2: 1.400 m²; 2 ticari alan ve 1 ofis ile doğrudan ticari kullanıma odaklı minimal yapı.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Evart 2 proje görseli",
+        "heroTitle": "Ticari Kullanımın Sade ve Güçlü Yorumu",
+        "heroLead": "Minimal mimari, maksimum işlev.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "evart-yalikavak": {
+        "metaTitle": "Evart Yalıkavak | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Bodrum Yalıkavak’ta minimal rezidans: contemporary yaşam, home-office esnekliği ve yatırım potansiyeli.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Evart Yalıkavak proje görseli",
+        "heroTitle": "Bodrum’un İlk Minimal Yaşam Deneyimi",
+        "heroLead": "Şehrin enerjisi, Bodrum’un ruhuyla buluşuyor.",
+        "heroLead2": "Evart Yalıkavak, doğaya saygılı mimarisi ile şehirli yaşamı Bodrum’un dinginliğiyle harmanlayan çağdaş bir rezidans projesidir.",
+        "heroLead3": "Burada yalnızca bir konut değil, bir yaşam biçimi satın alırsınız.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "evart-estates-yalikavak": {
+        "metaTitle": "Evart Estates Yalıkavak | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Bodrum Yalıkavak’ta Evart Estates: 48 dönümde 28 malikane, özel havuzlar, helikopter pisti ve üst segment yaşam standardı.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Evart Estates Yalıkavak proje görseli",
+        "heroTitle": "Bodrum’da Sınırlı Sayıda Bir Yaşam Ayrıcalığı",
+        "heroLead": "Her detayıyla seçkin, her anıyla özel.",
+        "heroLead2": "Evart Estates, geniş arazi yapısı ve düşük yoğunluklu yerleşimiyle Bodrum’da nadir bulunan bir yaşam modeli sunar.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "imza-gokdemir": {
+        "metaTitle": "İmza Gökdemir | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "İncek’te İmza Gökdemir: 6 blok, 30 katlı kule, 1+1/2+1 program, karma kullanım ve 1.800 konutluk gelişim; Evart arsa ortaklığı.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "İmza Gökdemir proje görseli",
+        "heroTitle": "Stratejik Ortaklık, Güçlü Yatırım",
+        "heroLead": "İncek’te yükselen yeni nesil yaşam merkezi.",
+        "heroLead2": "Evart’ın arsa ortağı olduğu bu proje, Ankara’nın en hızlı değer kazanan bölgesinde konumlanır.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "may-life-incek": {
+        "metaTitle": "May Life İncek | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "May Life İncek: 38 bağımsız bölüm, ticari alanlar, 106–316 m² aralığı, 2+1–4+1 tipler; havuz, fitness, sauna ve İncek’te yatırım potansiyeli.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "May Life İncek proje görseli",
+        "heroTitle": "Şehrin Işıkları Senin İçin Yanıyor",
+        "heroLead": "İncek’te yükselen yeni nesil yaşam merkezi.",
+        "heroLead2": "May Life İncek, modern şehir yaşamını doğayla dengelerken, güçlü mimari ve sosyal donatılarla yeni bir yaşam standardı sunar.",
+        "heroLead3": "Bu proje sadece bir rezidans değil, geleceğe atılan güçlü bir adımdır.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "docs-vadi": {
+        "metaTitle": "Docs Vadi Ankara | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Docs Vadi Ankara: 4.5+1, 200 m², iki otopark, vadi manzarası; havuz, wellness ve Ümitköy’e dakikalar.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Docs Vadi Ankara proje görseli",
+        "heroTitle": "Şehrin Kalbinde, Doğanın İçinde Bir Yaşam",
+        "heroLead": "Yeni nesil prestijli konut deneyimi.",
+        "heroLead2": "Docs Vadi, modern şehir yaşamını vadinin ferahlığıyla birleştiren özel bir yaşam projesidir.",
+        "heroLead3": "Sınırlı sayıda konutla, seçkin bir yaşam standardı sunar.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "park-royal-residence": {
+        "metaTitle": "Park Royal Residence | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Park Royal Residence: 1.400 m² arsa, 6.000 m² AVM, 3.500 m² iç bahçe; rezidans ve ticaretin bütünleşik modeli.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Park Royal Residence proje görseli",
+        "heroTitle": "Yaşam ve Ticaretin Buluşma Noktası",
+        "heroLead": "Karma yaşam modeli ile şehir içinde bütünleşik yaşam.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "park-royal-venue": {
+        "metaTitle": "Park Royal | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Park Royal çok amaçlı yapı: 9.700 m², 2 düğün salonu, 8 ticari alan; etkinlik ve ticaret bir arada.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Park Royal etkinlik ve ticari yapı görseli",
+        "heroTitle": "Çok Amaçlı Büyük Ölçekli Yapı",
+        "heroLead": "Etkinlik, ticaret ve sosyal yaşamın bir araya geldiği büyük ölçekli program.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "heska": {
+        "metaTitle": "Heska | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Heska: 2.100 m² showroom, 400 m² ofis; marka deneyimi ve kurumsal cephe odaklı ticari yapı.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Heska proje görseli",
+        "heroTitle": "Kurumsal Gücün Mekânsal Yansıması",
+        "heroLead": "Showroom ve yönetim ofisleri ile markanızın fiziksel vitrini.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "zirvekent": {
+        "metaTitle": "Zirvekent | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Zirvekent: 350 m² kapalı alan, 148 kişi kapasite; toplantı, eğitim ve organizasyon için kamusal yapı.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Zirvekent proje görseli",
+        "heroTitle": "Kamusal Kullanım için Modern Yapı",
+        "heroLead": "Toplu kullanım ve organizasyon odaklı çağdaş mekân.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "vali-erdogan": {
+        "metaTitle": "Vali Erdoğan | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Vali Erdoğan: 340 m² kapalı alan, 150 m² teras; sosyal etkinlik ve organizasyonlar için toplanma noktası.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Vali Erdoğan sosyal yapı görseli",
+        "heroTitle": "Sosyal Yaşamın Toplanma Noktası",
+        "heroLead": "Kapalı ve açık alanlarla desteklenen sosyal buluşma mekânı.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "abidin-pasa-kutuphanesi": {
+        "metaTitle": "Abidin Paşa Kütüphanesi | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Abidin Paşa Kütüphanesi: eğitim ve sosyal yaşamı destekleyen kamusal kütüphane yapısı.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Abidin Paşa Kütüphanesi görseli",
+        "heroTitle": "Bilginin ve Toplumsal Yaşamın Buluşma Noktası",
+        "heroLead": "Okuma, öğrenme ve kamusal etkileşim için tasarlanmış mekân.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "amfi-tiyatro-uyanik": {
+        "metaTitle": "Amfi Tiyatro – Uyanık | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Amfi Tiyatro Uyanık: açık hava kültür ve sanat alanı; amfi yapı ve açık alan kullanımı.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Amfi Tiyatro Uyanık görseli",
+        "heroTitle": "Açık Hava Kültür ve Sanat Alanı",
+        "heroLead": "Kültürel etkinlikler için tasarlanmış açık hava deneyimi.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "kirim-sudak": {
+        "metaTitle": "Kırım Sudak | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Kırım Sudak: 285 m² kapalı alan, kütüphane, çalışma ve cafe alanları ile kamusal çok işlevli yapı.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Kırım Sudak proje görseli",
+        "heroTitle": "Sosyal Yaşam ve Kamusal Kullanım İçin Tasarlanmış Yapı",
+        "heroLead": "Kütüphane, çalışma ve sosyal buluşma alanlarını bir araya getiren çok işlevli proje.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "sehitlik": {
+        "metaTitle": "Şehitlik | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Şehitlik: 1.100 m² alan, 184 kişi kapasite; anma, saygı ve toplumsal değer odaklı kamusal yapı.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Şehitlik proje görseli",
+        "heroTitle": "Toplumsal Hafızayı Yaşatan Mekân",
+        "heroLead": "1.100 m² alan ve 184 kişilik kapasiteyle anma ve kamusal kullanıma uygun yapı.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "sayhan-hukuk": {
+        "metaTitle": "Sayhan Hukuk | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Sayhan Hukuk: 540 m², dört katlı modern hukuk ofisi; kurumsal kimliğin mekânsal yansıması.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Sayhan Hukuk ofis görseli",
+        "heroTitle": "Kurumsal Kimliğin Mekânsal Yansıması",
+        "heroLead": "540 m² ve dört katlı yapıda hukuk pratiğine uygun kurumsal ofis programı.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "incek-louren": {
+        "metaTitle": "İncek Louren | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "İncek Louren: İncek’te ticari ve karma kullanım odaklı geliştirme projesi.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "İncek Louren proje görseli",
+        "heroTitle": "İncek Louren",
+        "heroLead": "Ticari ve karma kullanım programıyla İncek’te geliştirilen proje.",
+        "heroCta": "Projeyi Keşfet"
+      },
+      "kumas": {
+        "metaTitle": "Kümaş | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Kümaş: sosyal, kültürel ve özel kullanım odaklı proje.",
+        "heroSectionLabel": "Proje sayfası",
+        "heroImageAlt": "Kümaş proje görseli",
+        "heroTitle": "Kümaş",
+        "heroLead": "Sosyal ve kültürel kullanıma yönelik özel proje.",
+        "heroCta": "Projeyi Keşfet"
+      }
+    }
+  },
+  "ProjectEvartOran": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Alanlar",
+    "stats": [
+      {
+        "value": "23.000 m²",
+        "label": "Proje Alanı",
+        "detail": "Toplam geliştirme alanı"
+      },
+      {
+        "value": "3.500 m²",
+        "label": "Ticari Alan",
+        "detail": "Kurumsal kiracılı mağazalar"
+      },
+      {
+        "value": "172",
+        "label": "Konut",
+        "detail": "Modern yaşam alanları"
+      },
+      {
+        "value": "25",
+        "label": "Mağaza",
+        "detail": "Aktif ticari yapı"
+      },
+      {
+        "value": "3.500 m²",
+        "label": "Otopark",
+        "detail": "Kapalı park alanı"
+      }
+    ],
+    "statsFooterKicker": "Yaşam modeli",
+    "statsFooterTitle": "Karma Kullanım",
+    "statsFooterSubtitle": "Konut + ofis + ticaret",
+    "conceptKicker": "Proje konsepti",
+    "conceptTitle": "Modern Yaşamın Yeni Tanımı",
+    "conceptP1": "Evart Oran, mimari estetik ile fonksiyonelliği bir araya getirerek şehir yaşamına yeni bir perspektif kazandırır. Proje, yalnızca bir yapı değil; kullanıcı deneyimi, yaşam kalitesi ve yatırım değerinin birlikte düşünüldüğü bir yaşam platformudur.",
+    "conceptP2": "Doğa ile çevrili konumu ve şehir merkezine yakınlığı sayesinde hem dinamik hem de dengeli bir yaşam sunar.",
+    "conceptImageAlt": "Evart Oran yaşam ve mimari atmosfer",
+    "archKicker": "Mimari & yaşam alanları",
+    "archTitle": "Işık, Hacim ve Fonksiyon",
+    "archBody1": "Yüksek tavanlar, geniş cam yüzeyler ve gün ışığını maksimum içeri alan planlama yaklaşımı ile tasarlanan Evart Oran, modern yaşamın ihtiyaçlarına cevap verir.",
+    "archBody2": "Açık mutfak konseptleri, esnek plan çözümleri ve kullanıcı odaklı mimari yaklaşım sayesinde her metrekare verimli şekilde değerlendirilir.",
+    "archBullets": [
+      "Yüksek tavanlı yaşam alanları",
+      "Geniş cam yüzeyler",
+      "Fonksiyonel planlama",
+      "Modern ve sade detaylar"
+    ],
+    "archImageAlt": "Evart Oran iç mekân ve cephe",
+    "socialKicker": "Sosyal yaşam & ayrıcalıklar",
+    "socialTitle": "Şehir İçinde Dengeli Yaşam",
+    "socialBody": "Evart Oran’da yaşam yalnızca dairelerle sınırlı değildir. Proje; sosyal alanları, peyzaj düzenlemeleri ve yaşam destekleyici donatıları ile bütünsel bir yaşam deneyimi sunar.",
+    "socialHighlights": [
+      "Peyzaj alanları ve yürüyüş yolları",
+      "Sosyal bahçeler",
+      "Fitness merkezi",
+      "7/24 güvenlik",
+      "Akıllı ev sistemleri",
+      "Elektrikli araç şarj altyapısı"
+    ],
+    "socialImageAlt": "Evart Oran sosyal ve peyzaj alanları",
+    "locationKicker": "Lokasyon & yatırım değeri",
+    "locationTitle": "Prestijli Lokasyon, Güçlü Gelecek",
+    "locationBody1": "Çankaya Oran bölgesinde konumlanan Evart Oran, Ankara’nın en değerli akslarından birinde yer alır. Merkezi konumu sayesinde hem yaşam hem de ticari faaliyetler için güçlü bir adres sunar.",
+    "locationBody2": "Karma kullanım yapısı, projeye sürdürülebilir gelir modeli kazandırırken yatırım açısından uzun vadeli değer üretir.",
+    "locationHighlight": "Yaşam + Gelir + Değer artışı",
+    "locationImageAlt": "Ankara Oran bölgesi ve şehir aksı",
+    "sample1Plus1Kicker": "örnek daire",
+    "sample1Plus1Title": "1+1",
+    "sample1Plus1SlideAlt": "Evart Oran 1+1 örnek daire görseli {n}",
+    "sample2Plus1Kicker": "örnek daire",
+    "sample2Plus1Title": "2+1",
+    "sample2Plus1SlideAlt": "Evart Oran 2+1 örnek daire görseli {n}",
+    "closingTitle": "Bugünün Konforu, Yarının Yatırımı",
+    "closingBody": "Evart Oran, modern mimari, merkezi konum ve yatırım potansiyelini bir araya getirerek geleceğe değer katan bir yaşam sunar."
+  },
+  "ProjectEvartYalikavak": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Alanlar",
+    "modelKicker": "Yaşam modeli",
+    "modelTitle": "Konut mu, Ofis mi? → İkisi birden",
+    "modelBullets": [
+      "Ticari tapu avantajı",
+      "Home-office kullanım",
+      "Yatırım + yaşam esnekliği"
+    ],
+    "modelClosing": "Bu model, projeyi klasik konuttan ayıran en kritik farktır.",
+    "stats": [
+      {
+        "value": "1+1",
+        "label": "Konut Tipi",
+        "detail": "Tüm daireler fonksiyonel plan"
+      },
+      {
+        "value": "40 m²",
+        "label": "Alan",
+        "detail": "Kompakt ama yüksek verim"
+      },
+      {
+        "value": "2 Tipoloji",
+        "label": "Daire",
+        "detail": "Bahçe dubleks & loft"
+      },
+      {
+        "value": "%80+",
+        "label": "Doluluk",
+        "detail": "Yüksek sezon performansı"
+      },
+      {
+        "value": "6–10 Yıl",
+        "label": "ROI",
+        "detail": "Turistik kiralama potansiyeli"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Minimal Yaşam, Maksimum Deneyim",
+    "conceptP1": "Evart Yalıkavak, Bodrum’un ilk contemporary minimal residence yaklaşımıyla tasarlanmıştır.",
+    "conceptP2": "Şehir hayatının dinamizmini, sahil yaşamının sakinliği ile dengeler.",
+    "conceptImageAlt": "Evart Yalıkavak minimal yaşam ve mimari",
+    "archKicker": "Mimari & yaşam",
+    "archTitle": "Işık, hacim ve esneklik",
+    "archBullets": [
+      "Bahçe dubleks → havuza direkt erişim",
+      "Loft daireler → yüksek tavan, galeri boşluğu",
+      "Modüler sistem → birleştirilebilir daireler",
+      "Maksimum gün ışığı kullanımı"
+    ],
+    "archBody": "Her metrekare, işlevsel ve esnek bir yaşam için tasarlanmıştır.",
+    "archImageAlt": "Evart Yalıkavak iç mekân ve loft",
+    "socialKicker": "Sosyal yaşam",
+    "socialTitle": "Yaşamın merkezinde sosyal alanlar",
+    "socialHighlights": [
+      "Ortak havuz (sosyal yaşam merkezi)",
+      "Geniş sosyal bahçe",
+      "Kapalı otopark",
+      "Komşuluk ve sosyal etkileşim alanları"
+    ],
+    "socialBody": "Burada sosyal alanlar bir donatı değil, yaşamın merkezidir.",
+    "socialImageAlt": "Evart Yalıkavak havuz ve peyzaj",
+    "investmentKicker": "Yatırım",
+    "investmentTitle": "Profesyonel yönetim, güçlü getiri",
+    "investmentPoints": [
+      "Profesyonel kiralama yönetimi",
+      "Kısa dönem turistik kiralama",
+      "Akıllı ev sistemi (uzaktan kontrol)",
+      "Yüksek kira getirisi"
+    ],
+    "investmentFormulaLabel": "Değer formülü",
+    "investmentFormula": "Yaşam + Gelir + Akıllı Konfor",
+    "investmentImageAlt": "Evart Yalıkavak yatırım ve yaşam",
+    "closingTitle": "Bodrum’da sadece yaşama, kazanmaya da başla",
+    "closingCta": "Detaylı Bilgi Al"
+  },
+  "ProjectEvartEstates": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "48 Dönüm",
+        "label": "Arazi",
+        "detail": "Geniş geliştirme alanı"
+      },
+      {
+        "value": "28",
+        "label": "Malikane",
+        "detail": "Sınırlı sayıda konut"
+      },
+      {
+        "value": "300 m²",
+        "label": "Kapalı Alan",
+        "detail": "Referans malikane ölçeği"
+      },
+      {
+        "value": "1.800 m²",
+        "label": "Kullanım Alanı",
+        "detail": "Bahçe ve dış mekân dahil"
+      },
+      {
+        "value": "62 m²",
+        "label": "Özel Havuz",
+        "detail": "Her malikane için"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Ayrıcalığın Yeni Tanımı",
+    "conceptP1": "Her yapı, geniş peyzaj içinde konumlanarak maksimum mahremiyet sağlar.",
+    "conceptP2": "Kalabalıktan uzak, seçkin ve izole bir yaşam kurgulanmıştır.",
+    "conceptImageAlt": "Evart Estates peyzaj ve malikane yerleşimi",
+    "archKicker": "Mimari & yaşam",
+    "archTitle": "5+1 malikane konsepti",
+    "archBullets": [
+      "Geniş bahçe alanları",
+      "Sonsuzluk havuzu — ısıtmalı",
+      "Ateş çukuru",
+      "Tam bağımsız yaşam"
+    ],
+    "archBody": "Her malikane kendi dünyasını yaratır.",
+    "archImageAlt": "Evart Estates malikane ve dış mekân",
+    "socialKicker": "Sosyal & donatı",
+    "socialTitle": "Konfor ve hizmet",
+    "socialList": [
+      "Özel sauna (her villa)",
+      "2 araçlık kapalı otopark",
+      "Site içi restoran",
+      "Güvenlik ve kamera sistemleri"
+    ],
+    "socialImageAlt": "Evart Estates yaşam ve sosyal alanlar",
+    "techKicker": "Teknoloji",
+    "techTitle": "Akıllı ve verimli sistemler",
+    "techList": [
+      "VRF iklimlendirme",
+      "Isıtmalı havuz",
+      "Akıllı ev sistemleri"
+    ],
+    "locationKicker": "Lokasyon",
+    "locationTitle": "Doğa ve erişim dengesi",
+    "locationMetrics": [
+      { "label": "Denize", "value": "600 m" },
+      { "label": "Yalıkavak Marina", "value": "6,4 km" },
+      { "label": "Havalimanı", "value": "60 km" }
+    ],
+    "locationBody": "Doğa içinde ama merkeze erişilebilir konum.",
+    "locationImageAlt": "Yalıkavak ve Bodrum kıyısı",
+    "privilegeKicker": "Ayrıcalık",
+    "privilegeTitle": "Helikopter pisti",
+    "privilegeLead": "Zaman, bu projede bir ayrıcalıktır.",
+    "privilegeSub": "Şehirler arası mesafe dakikalara iner.",
+    "investmentKicker": "Yatırım",
+    "investmentTitle": "Değer ve segment",
+    "investmentBullets": [
+      "Düşük arz → yüksek değer",
+      "Üst segment hedef kitle",
+      "Uluslararası yatırım potansiyeli"
+    ],
+    "investmentTagline": "Bu sadece bir ev değil, bir yaşam standardı.",
+    "closingCta": "İletişime Geç"
+  },
+  "ProjectImzaGokdemir": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "6 Blok",
+        "label": "Yapı",
+        "detail": "Programlanmış blok ölçeği"
+      },
+      {
+        "value": "30 Kat",
+        "label": "Kule",
+        "detail": "Yüksek katlı kule mimarisi"
+      },
+      {
+        "value": "1+1 / 2+1",
+        "label": "Daire Tipi",
+        "detail": "Fonksiyonel plan seçenekleri"
+      },
+      {
+        "value": "Karma Kullanım",
+        "label": "Konsept",
+        "detail": "Konut, ticaret ve sosyal program"
+      },
+      {
+        "value": "1.800 Konut",
+        "label": "Toplam Gelişim",
+        "detail": "Kapsamlı yaşam merkezi"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Şehir İçinde Şehir",
+    "conceptBody": "Konut, ticaret ve sosyal yaşamın entegre edildiği kapsamlı bir yaşam merkezi.",
+    "conceptImageAlt": "İmza Gökdemir yaşam merkezi ve şehir içi ölçek",
+    "archKicker": "Mimari",
+    "archTitle": "Ölçek, plan ve peyzaj",
+    "archBullets": [
+      "Modern yüksek katlı bloklar",
+      "Fonksiyonel daire tipleri",
+      "Peyzaj ve sosyal alan entegrasyonu"
+    ],
+    "archImageAlt": "İmza Gökdemir kule ve cephe",
+    "locationKicker": "Lokasyon",
+    "locationTitle": "İncek aksında bağlantılar",
+    "locationBullets": [
+      "Turgut Özal Bulvarı",
+      "Atılım Üniversitesi yakınlığı",
+      "Medikal Park Hastanesi",
+      "Ahlatlıbel Park"
+    ],
+    "locationClosing": "Ulaşım + sosyal yaşam + doğa dengesi.",
+    "locationImageAlt": "Ankara İncek ve çevre ulaşım",
+    "socialKicker": "Sosyal yaşam",
+    "socialTitle": "Günlük ritim",
+    "socialBullets": [
+      "Ticari alanlar",
+      "Yürünebilir çevre",
+      "Günlük ihtiyaçlara erişim"
+    ],
+    "evartKicker": "Evart katkısı",
+    "evartTitle": "Stratejik güç",
+    "evartBullets": [
+      "Marka değeri",
+      "Yatırımcı ağı",
+      "Sermaye gücü",
+      "Doğru konumlandırma"
+    ],
+    "evartClosing": "Bu proje, Evart ile güçlenir.",
+    "investmentKicker": "Yatırım",
+    "investmentTitle": "Talep ve bölgesel değer",
+    "investmentBullets": [
+      "Yüksek talep (1+1 / 2+1)",
+      "Bölgesel değer artışı",
+      "Gelişen İncek aksı"
+    ]
+  },
+  "ProjectMayLifeIncek": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "38",
+        "label": "Bağımsız Bölüm",
+        "detail": "Konut envanteri"
+      },
+      {
+        "value": "10",
+        "label": "Ticari Alan",
+        "detail": "Yerel hizmet ve ticaret"
+      },
+      {
+        "value": "106 – 316 m²",
+        "label": "Daire Aralığı",
+        "detail": "Esnek metrekare bandı"
+      },
+      {
+        "value": "2+1 / 3+1 / 4+1",
+        "label": "Konut Tipleri",
+        "detail": "Aile ve yatırım profilleri"
+      },
+      {
+        "value": "Yüksek Katlı",
+        "label": "Mimari",
+        "detail": "Kule + yatay blok kombinasyonu"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Şehir Senin Yaşam Alanına Gelir",
+    "conceptP1": "May Life İncek, klasik şehir yaşamını tersine çevirir.",
+    "conceptP2": "Burada ihtiyaçlar için merkeze gitmezsiniz; şehir sizin yaşam alanınıza gelir.",
+    "conceptImageAlt": "May Life İncek yaşam merkezi ve şehir entegrasyonu",
+    "archKicker": "Mimari & yaşam",
+    "archTitle": "Ölçek, ışık ve konfor",
+    "archBullets": [
+      "Yüksek katlı kule + yatay blok kombinasyonu",
+      "Geniş salon planları",
+      "Ebeveyn banyolu odalar",
+      "Büyük balkonlar ve manzara",
+      "Doğal ışık odaklı mimari"
+    ],
+    "archBody": "Metrekare burada sadece alan değil, yaşam kalitesidir.",
+    "archImageAlt": "May Life İncek daire ve cephe",
+    "socialKicker": "Sosyal yaşam & donatılar",
+    "socialTitle": "Günlük konfor",
+    "socialAmenities": [
+      "Açık yüzme havuzu",
+      "Fitness merkezi",
+      "Sauna & hamam",
+      "Sinema odası",
+      "PlayStation & hobi alanları",
+      "Çocuk oyun alanları",
+      "7/24 güvenlik",
+      "Elektrikli araç şarj"
+    ],
+    "commercialKicker": "Ticari alanlar",
+    "commercialList": [
+      "Kafe & restoran",
+      "Market",
+      "Eczane",
+      "Günlük hizmet noktaları"
+    ],
+    "socialClosing": "Bu proje, kendi içinde yaşayan bir yaşam merkezidir.",
+    "socialImageAlt": "May Life İncek sosyal alan ve havuz",
+    "locationInvestmentKicker": "Lokasyon & yatırım",
+    "locationInvestmentTitle": "İncek ve değer",
+    "locationIntro": "İncek bölgesi Ankara’nın en hızlı değer kazanan lokasyonlarından biridir.",
+    "locationBullets": [
+      "Eğitim kurumlarına yakınlık",
+      "Ana ulaşım akslarına bağlantı",
+      "Doğa ile entegre planlama"
+    ],
+    "investmentStrengthKicker": "Yatırım gücü",
+    "investmentStrength": [
+      "Yüksek kira potansiyeli",
+      "Güçlü ikinci el değeri",
+      "Marka güvencesi"
+    ],
+    "formulaLabel": "Değer formülü",
+    "formula": "Prestij + Konfor + Yatırım",
+    "locationImageAlt": "Ankara İncek ve çevre"
+  },
+  "ProjectDocsVadi": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "4.5+1",
+        "label": "Konut Tipi",
+        "detail": "Geniş aile planı"
+      },
+      {
+        "value": "200 m²",
+        "label": "Daire Alanı",
+        "detail": "Cömert yaşam ölçeği"
+      },
+      {
+        "value": "2",
+        "label": "Otopark",
+        "detail": "Her daire için"
+      },
+      {
+        "value": "Yüksek Kat",
+        "label": "Manzara",
+        "detail": "Panoramik vadi görünümü"
+      },
+      {
+        "value": "Ümitköy 6 dk",
+        "label": "Lokasyon",
+        "detail": "Ana akslara yakınlık"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Doğa ile Şehir Arasında Denge",
+    "conceptP1": "Docs Vadi, şehir merkezinde yer almasına rağmen doğayla iç içe bir yaşam sunar.",
+    "conceptP2": "Bu proje, şehirden kopmadan doğaya yakın yaşamak isteyenler için tasarlanmıştır.",
+    "conceptImageAlt": "Docs Vadi vadi ve yeşil çevre",
+    "archKicker": "Mimari & yaşam",
+    "archTitle": "Prestij ve konfor",
+    "archBullets": [
+      "4.5+1 geniş aile daireleri",
+      "Yüksek tavanlı yaşam alanları",
+      "Panoramik vadi manzarası",
+      "Geniş salon ve mutfak planları",
+      "Büyük balkon ve açık alanlar"
+    ],
+    "archBody": "Her detay, konfor ve prestij için tasarlanmıştır.",
+    "archImageAlt": "Docs Vadi iç mekân ve salon",
+    "socialKicker": "Sosyal yaşam",
+    "socialTitle": "Aktif yaşam",
+    "socialList": [
+      "Kapalı & açık yüzme havuzları",
+      "Spor ve wellness alanları",
+      "Sauna & hamam",
+      "Yürüyüş yolları",
+      "Çocuk oyun alanları",
+      "Çok amaçlı spor sahası",
+      "Sinema & sosyal alanlar"
+    ],
+    "socialClosing": "Bu proje, sadece bir konut değil aktif bir yaşam sunar.",
+    "socialImageAlt": "Docs Vadi havuz ve sosyal alanlar",
+    "locationKicker": "Lokasyon",
+    "locationTitle": "Merkeze yakın, vadide ferah",
+    "locationAccess": [
+      { "place": "Ümitköy Metro", "time": "~6 dk" },
+      { "place": "Eskişehir Yolu", "time": "~4 dk" },
+      { "place": "Çankaya / Kızılay", "time": "~12 dk" },
+      { "place": "AŞTİ", "time": "~10 dk" }
+    ],
+    "locationClosing": "Şehir merkezine yakın, ama şehirden uzak hissi.",
+    "locationImageAlt": "Ankara şehir merkezi ve ulaşım aksları",
+    "investmentKicker": "Yatırım",
+    "investmentTitle": "Uzun vadeli avantaj",
+    "investmentBullets": [
+      "Geniş metrekare → yüksek talep",
+      "Vadi manzarası → değer artışı",
+      "Sosyal alanlar → kiralama gücü",
+      "Uzun vadeli yatırım avantajı"
+    ]
+  },
+  "ProjectEvart1": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "1.159 m²",
+        "label": "Toplam Alan",
+        "detail": "Kompakt ticari ölçek"
+      },
+      {
+        "value": "4",
+        "label": "Dubleks Ofis",
+        "detail": "Çift katlı iş alanları"
+      },
+      {
+        "value": "3",
+        "label": "Ticari Alan",
+        "detail": "Mağaza ve vitrin potansiyeli"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Kompakt, verimli iş alanları",
+    "conceptP1": "Kompakt, verimli ve modern iş alanları.",
+    "conceptP2": "Evart 1, küçük ölçekli ama yüksek performanslı bir ticari yapı modelidir.",
+    "conceptImageAlt": "Evart 1 ofis ve ticari cephe",
+    "archKicker": "Mimari",
+    "archTitle": "Program ve cephe",
+    "archBullets": [
+      "Dubleks ofis planları",
+      "Esnek kullanım alanları",
+      "Modern cephe dili"
+    ],
+    "archImageAlt": "Evart 1 mimari plan ve dış görünüm",
+    "usageKicker": "Kullanım",
+    "usageTitle": "İşlevsel program",
+    "usageList": ["Ofis", "Showroom", "Ticari işletmeler"]
+  },
+  "ProjectEvart2": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "1.400 m²",
+        "label": "Toplam Alan",
+        "detail": "Tek blok ölçeği"
+      },
+      {
+        "value": "2",
+        "label": "Ticari Alan",
+        "detail": "Doğrudan ticari kullanım"
+      },
+      {
+        "value": "1",
+        "label": "Ofis",
+        "detail": "Entegre iş birimi"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Minimal mimari, maksimum işlev",
+    "conceptP1": "Minimal mimari, maksimum işlev.",
+    "conceptP2": "Evart 2, doğrudan ticari kullanıma odaklanan kompakt bir yapı modelidir.",
+    "conceptImageAlt": "Evart 2 ticari yapı",
+    "archKicker": "Mimari",
+    "archTitle": "Sadelik ve verim",
+    "archBullets": ["Sade ve modern tasarım", "Verimli alan kullanımı"],
+    "archImageAlt": "Evart 2 cephe ve hacim"
+  },
+  "ProjectParkRoyal": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "1.400 m²",
+        "label": "Arsa",
+        "detail": "Geliştirme temeli"
+      },
+      {
+        "value": "6.000 m²",
+        "label": "AVM Alanı",
+        "detail": "Alışveriş ve hizmet"
+      },
+      {
+        "value": "3.500 m²",
+        "label": "İç Bahçe",
+        "detail": "Yeşil odaklı ortak alan"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Karma yaşam",
+    "conceptBody": "Karma yaşam modeli ile şehir içinde bütünleşik yaşam.",
+    "conceptImageAlt": "Park Royal Residence yaşam ve ticaret",
+    "archKicker": "Mimari",
+    "archTitle": "Rezidans ve ticaret",
+    "archBullets": [
+      "Rezidans + ticaret entegrasyonu",
+      "İç bahçe odaklı planlama",
+      "Kompakt yaşam kurgusu"
+    ],
+    "archImageAlt": "Park Royal Residence plan ve hacim",
+    "socialKicker": "Sosyal yaşam",
+    "socialTitle": "Günlük ritim",
+    "socialBullets": [
+      "AVM alanı",
+      "Sosyal açık alanlar",
+      "Günlük yaşam kolaylığı"
+    ],
+    "socialImageAlt": "Park Royal AVM ve sosyal alanlar",
+    "investmentKicker": "Yatırım",
+    "investmentHighlight": "Konut + ticaret birleşimi → çift değer modeli"
+  },
+  "ProjectHeska": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "2.100 m²",
+        "label": "Showroom",
+        "detail": "Geniş ürün sunumu"
+      },
+      {
+        "value": "400 m²",
+        "label": "Ofis",
+        "detail": "Yönetim ve operasyon"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Marka deneyimi",
+    "conceptBody": "Marka ve ürün deneyimini ön plana çıkaran ticari yapı.",
+    "conceptImageAlt": "Heska showroom ve kurumsal alan",
+    "archKicker": "Mimari",
+    "archTitle": "Program ve cephe",
+    "archBullets": [
+      "Geniş showroom alanları",
+      "Yönetim ofisleri",
+      "Kurumsal cephe dili"
+    ],
+    "archImageAlt": "Heska dış cephe ve iç mekân",
+    "usageKicker": "Kullanım",
+    "usageTitle": "İşlevler",
+    "usageList": ["Showroom", "Ofis", "Marka merkezi"]
+  },
+  "ProjectParkRoyalVenue": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "9.700 m²",
+        "label": "Toplam Alan",
+        "detail": "Büyük ölçekli çok amaçlı yapı"
+      },
+      {
+        "value": "2",
+        "label": "Düğün Salonu",
+        "detail": "Etkinlik ve organizasyon"
+      },
+      {
+        "value": "8",
+        "label": "Ticari Alan",
+        "detail": "Perakende ve hizmet birimleri"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Etkinlik ve ticaret",
+    "conceptBody": "Etkinlik, ticaret ve sosyal yaşamın birleştiği yapı.",
+    "conceptImageAlt": "Park Royal etkinlik ve ticari hacim",
+    "archKicker": "Mimari",
+    "archTitle": "Ölçek ve esneklik",
+    "archBullets": [
+      "Büyük hacimli alanlar",
+      "Çok amaçlı kullanım",
+      "Organizasyon altyapısı"
+    ],
+    "archImageAlt": "Park Royal salon ve ticari cephe",
+    "usageKicker": "Kullanım",
+    "usageTitle": "Program",
+    "usageList": ["Etkinlik alanı", "Ticari işletmeler", "Organizasyonlar"]
+  },
+  "ProjectZirvekent": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "350 m²",
+        "label": "Kapalı Alan",
+        "detail": "Toplu kullanım hacmi"
+      },
+      {
+        "value": "148 Kişi",
+        "label": "Kapasite",
+        "detail": "Planlanan oturma ölçeği"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Kamusal mekân",
+    "conceptBody": "Toplu kullanım ve organizasyon odaklı yapı.",
+    "conceptImageAlt": "Zirvekent toplantı ve çok amaçlı salon",
+    "archKicker": "Mimari",
+    "archTitle": "Fonksiyon ve erişim",
+    "archBullets": ["Fonksiyonel planlama", "Kamusal kullanım alanları"],
+    "archImageAlt": "Zirvekent iç mekân planı",
+    "usageKicker": "Kullanım",
+    "usageTitle": "Kullanım alanları",
+    "usageList": ["Toplantı", "Eğitim", "Organizasyon"]
+  },
+  "ProjectValiErdogan": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "340 m²",
+        "label": "Kapalı Alan",
+        "detail": "Etkinlik ve buluşma hacmi"
+      },
+      {
+        "value": "150 m²",
+        "label": "Teras",
+        "detail": "Açık sosyal kullanım"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Sosyal buluşma",
+    "conceptBody": "Sosyal etkinlikler ve toplu kullanım için tasarlanmış yapı.",
+    "conceptImageAlt": "Vali Erdoğan sosyal etkinlik alanı",
+    "archKicker": "Mimari",
+    "archTitle": "İç ve dış denge",
+    "archBullets": [
+      "Açık + kapalı alan dengesi",
+      "Etkinlik odaklı planlama"
+    ],
+    "archImageAlt": "Vali Erdoğan teras ve iç mekân",
+    "usageKicker": "Kullanım",
+    "usageTitle": "Program",
+    "usageList": ["Sosyal etkinlikler", "Organizasyonlar"]
+  },
+  "ProjectAbidinPasaKutuphanesi": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "Kütüphane",
+        "label": "Fonksiyon",
+        "detail": "Okuma ve araştırma odaklı program"
+      },
+      {
+        "value": "Kamusal Alan",
+        "label": "Kullanım",
+        "detail": "Topluma açık erişim"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Bilgi ve topluluk",
+    "conceptBody": "Eğitim ve sosyal yaşamı destekleyen kamusal yapı.",
+    "conceptImageAlt": "Abidin Paşa Kütüphanesi okuma salonu",
+    "archKicker": "Mimari",
+    "archTitle": "Sessizlik ve işlev",
+    "archBullets": [
+      "Sessiz ve fonksiyonel alanlar",
+      "Kullanıcı odaklı planlama"
+    ],
+    "archImageAlt": "Abidin Paşa Kütüphanesi iç mekân"
+  },
+  "ProjectAmfiTiyatroUyanik": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "Amfi Yapı",
+        "label": "Konsept",
+        "detail": "Açık hava performans ve izleyici kurgusu"
+      },
+      {
+        "value": "Açık Alan",
+        "label": "Kullanım",
+        "detail": "Kültür ve sanat etkinlikleri"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Açık hava deneyimi",
+    "conceptBody": "Kültürel etkinlikler için tasarlanmış açık hava deneyimi.",
+    "conceptImageAlt": "Amfi tiyatro ve açık alan"
+  },
+  "ProjectKirimSudak": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "285 m²",
+        "label": "Kapalı Alan",
+        "detail": "Toplam kapalı hacim"
+      },
+      {
+        "value": "85 m²",
+        "label": "Kütüphane",
+        "detail": "Okuma ve araştırma"
+      },
+      {
+        "value": "44 Kişi",
+        "label": "Çalışma Alanı Kapasitesi",
+        "detail": "Bireysel ve ortak çalışma"
+      },
+      {
+        "value": "140 m²",
+        "label": "Cafe / Kıraathane",
+        "detail": "Sosyal buluşma alanı"
+      },
+      {
+        "value": "70 Kişi",
+        "label": "Cafe Alanı Kapasitesi",
+        "detail": "Misafir oturma ölçeği"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Kamusal çok işlevlilik",
+    "conceptBody": "Kırım Sudak, kamusal kullanım odaklı kurgusuyla; okuma, çalışma ve sosyal etkileşim alanlarını tek yapıda bir araya getirir. Kullanıcı deneyimini merkeze alan bu proje, işlevsel planlamasıyla günlük kullanıma uygun, dengeli bir yaşam alanı sunar.",
+    "conceptImageAlt": "Kırım Sudak kütüphane ve ortak alan",
+    "archKicker": "Mimari & kullanım",
+    "archTitle": "Program özet",
+    "archBullets": [
+      "Kütüphane ve sessiz kullanım alanları",
+      "Bireysel ve ortak çalışma bölümleri",
+      "Cafe / kıraathane ile desteklenen sosyal alan kurgusu",
+      "Çok amaçlı, kompakt ve işlevsel yapı düzeni"
+    ],
+    "archImageAlt": "Kırım Sudak cafe ve çalışma alanı",
+    "experienceKicker": "Yaşam deneyimi",
+    "experienceTitle": "Bütüncül kullanım",
+    "experienceBody": "Bu proje yalnızca bir yapı değil; birlikte vakit geçirme, üretme, okuma ve sosyalleşme ihtiyaçlarına cevap veren bütüncül bir kullanım modeli sunar."
+  },
+  "ProjectSehitlik": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "1.100 m²",
+        "label": "Alan",
+        "detail": "Toplam geliştirme alanı"
+      },
+      {
+        "value": "184 Kişi",
+        "label": "Kapasite",
+        "detail": "Toplu kullanım ve tören ölçeği"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Anma ve kamusal değer",
+    "conceptBody": "Anma, saygı ve toplumsal değer odaklı kamusal yapı.",
+    "conceptImageAlt": "Şehitlik anıt ve kamusal alan"
+  },
+  "ProjectSayhanHukuk": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "540 m²",
+        "label": "Alan",
+        "detail": "Toplam ofis ve ortak kullanım"
+      },
+      {
+        "value": "4 Kat",
+        "label": "Yapı",
+        "detail": "Dikey program ve kurumsal düzen"
+      }
+    ],
+    "conceptKicker": "Konsept",
+    "conceptTitle": "Profesyonel çalışma ortamı",
+    "conceptBody": "Modern hukuk ofisi için tasarlanmış profesyonel çalışma alanı.",
+    "conceptImageAlt": "Sayhan Hukuk ofis ve çalışma alanı"
+  },
+  "ProjectIncekLouren": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Sayısal blok",
+    "stats": [
+      {
+        "value": "700 m²",
+        "label": "Kapalı alan",
+        "detail": ""
+      },
+      {
+        "value": "1.800 m²",
+        "label": "Arsa alanı",
+        "detail": ""
+      }
+    ]
+  },
+  "ProjectKumas": {
+    "statsSectionLabel": "Proje verileri",
+    "statsAreasLabel": "Kapsam",
+    "stats": [
+      {
+        "value": "6.200 m²",
+        "label": "Kapalı alan",
+        "detail": "4 katlı toplam"
+      },
+      {
+        "value": "",
+        "label": "Dış cephe mimarisi",
+        "detail": ""
+      },
+      {
+        "value": "",
+        "label": "Elektrik-mekanik işleri",
+        "detail": ""
+      }
+    ]
+  },
+  "Footer": {
+    "getInTouch": "Bize Ulaşın",
+    "getInTouchBody": "Hayalinizdeki projeyi birlikte şekillendirelim. Konut, ticari veya kurumsal yapılarınız için uzman ekibimiz, ihtiyaçlarınıza özel çözümler sunmak üzere sizi dinlemeye hazır.",
+    "cta": "İletişime Geçin",
+    "columns": {
+      "menu": "Menü",
+      "pages": "Sayfalar",
+      "contact": "İletişim",
+      "social": "Sosyal Medya"
+    },
+    "nav": {
+      "home": "Anasayfa",
+      "about": "Hakkımızda",
+      "projects": "Projeler",
+      "contact": "İletişim"
+    },
+    "pages": {
+      "privacy": "Gizlilik Politikası",
+      "kvkk": "KVKK Aydınlatma Metni",
+      "cookies": "Çerez Politikası"
+    },
+    "contactPhone": "0 (312) 911 8911",
+    "contactPhoneHref": "tel:+903129118911",
+    "contactEmail": "info@yapitekyapi.com",
+    "contactAddress": "Kızılcaşar Mah. Bağlar Caddesi No:65, Ankara, GÖLBAŞI 06830",
+    "social": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "copyright": "© {year} Yapıtek Anka İnşaat. Tüm hakları saklıdır.",
+    "scrollToTop": "Sayfanın başına dön"
+  }
+}

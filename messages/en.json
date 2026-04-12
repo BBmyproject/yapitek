@@ -1,0 +1,1386 @@
+{
+  "HeroBanner": {
+    "sectionLabel": "Welcome",
+    "imageAlt": "Modern architecture and city skyline",
+    "title": "Architectural Vision, Built to Last.",
+    "description": "Yapitek Anka Construction brings quality, aesthetics, and engineering together in every project.",
+    "cta": "Get in Touch"
+  },
+  "LocaleSwitcher": {
+    "tr": "TR",
+    "en": "EN"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "headerLocation": "Ankara, TR",
+    "headerPhone": "0 (312) 911 8911",
+    "headerPhoneHref": "tel:+903129118911",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "mobileNavLabel": "Main menu"
+  },
+  "AboutPage": {
+    "heroSectionLabel": "About intro",
+    "heroImageAlt": "Modern architecture and city skyline",
+    "metaTitle": "About Us | Yapitek Anka Construction",
+    "metaDescription": "Learn about Yapitek Anka Construction’s approach, values, and areas of expertise.",
+    "kicker": "Yapitek Anka Construction",
+    "title": "About Us",
+    "lead": "We bring engineering discipline, architectural care, and reliable delivery together under one roof.",
+    "p1": "Across residential, commercial, and mixed-use projects, we manage planning, design, and construction with a holistic mindset. Quality, sustainability, and long-term value guide every decision we make.",
+    "p2": "We communicate transparently with stakeholders, anticipate risks early, and put on-time delivery at the heart of how we work. Our goal is not only to hand over a building, but to create environments where people feel confident to live and work.",
+    "p3": "Our team supports you at every stage—from site execution to project management—with experience and forward-looking solutions. Get in touch when you are ready to bring your next project to life.",
+    "backHome": "Back to home"
+  },
+  "AboutOurStory": {
+    "wideBannerAlt": "Yapitek Anka featured architecture and project view",
+    "kicker": "Our Story",
+    "title": "Our roots and journey",
+    "cardAlt": {
+      "0": "Residential project interior",
+      "1": "Modern building facade",
+      "2": "Living space and architectural detail"
+    },
+    "cardText": {
+      "0": "A strong reference network built through development and partnerships—from flagship projects to complex mixed-use schemes.",
+      "1": "A holistic view that weighs architectural quality, quality of life, and investment value together.",
+      "2": "Transparent, controlled, measurable project management from land analysis through delivery."
+    },
+    "longHeading": "ABOUT US",
+    "longBody": {
+      "0": "Since 2014, Yapitek Anka Construction has operated across construction, real estate development, and investment—positioned as a built-environment brand that treats architectural quality and investment value as one agenda.",
+      "1": "From day one, it has built a broad portfolio spanning residential, commercial, and mixed-use work, while also taking an active role in corporate buildings and social-impact projects.",
+      "2": "Through development, execution, and project partnerships on schemes such as Evart Oran, Evart Yalikavak, Evart Estates Yalikavak, May Life Incek, and Docs Vadi, it has earned a strong network of sector references.",
+      "3": "Yapitek approaches every project not merely as a structure, but through the lens of long-term investment value, quality of life, and sustainability.",
+      "4": "From land analysis to development, from architectural planning to execution and handover, every stage is managed with a transparent, controlled, and measurable system.",
+      "5": "In the projects it develops, site selection, user-centered architecture, and investment potential are evaluated together.",
+      "6": "This approach moves Yapitek beyond the role of a contractor—into the position of a developer that creates lasting value."
+    }
+  },
+  "AboutApproach": {
+    "kicker": "Our approach",
+    "title": "Corporate discipline, clear processes",
+    "subtitle": "Across every project we work with reliable delivery, systematic development, and a clear mission–vision framework.",
+    "c0Title": "CORPORATE APPROACH",
+    "c0Lead": "Yapitek Anka Construction follows these core principles in all of its projects:",
+    "c0Bullets": [
+      "Reliable, robust building delivery",
+      "Modern architecture and technical solutions",
+      "Energy efficiency and environmentally conscious execution",
+      "On-time, complete handover as a standard"
+    ],
+    "c0Body": "It integrates field experience in energy and engineering with operational strength on construction projects, managing financial discipline and technical rigor together.",
+    "c0ImageAlt": "Corporate approach — project and technical execution",
+    "c1Title": "PROJECT DEVELOPMENT MODEL",
+    "c1Lead": "Yapitek’s project methodology is built on a systematic, strategic process:",
+    "c1Bullets": [
+      "Land and context analysis",
+      "Accurate assessment of project potential",
+      "Architectural and technical planning",
+      "Controlled construction and quality oversight",
+      "Post-delivery, sustainable-building mindset"
+    ],
+    "c1Body": "With this model, every project is not only built—it is planned, developed, and shaped to create value.",
+    "c1ImageAlt": "Project development — planning and delivery",
+    "c2Title": "MISSION & VISION",
+    "c2MissionTitle": "MISSION",
+    "c2MissionP1": "To develop projects that raise quality of life, add value to their surroundings, and remain sustainable from an investment perspective—offering aesthetic, functional, and dependable solutions for modern urban living.",
+    "c2MissionP2": "To become a trusted brand in the sector by putting user needs at the center and building durable, high-quality structures.",
+    "c2VisionTitle": "VISION",
+    "c2VisionP1": "To stand out in development and construction through innovative architecture, strong engineering foundations, and a strategic investment outlook—becoming a reference brand nationally and internationally.",
+    "c2VisionP2": "To be a leading construction company that creates sustainable value through projects that anticipate tomorrow’s living standards today.",
+    "c2ImageAlt": "Mission and vision — city and architecture"
+  },
+  "AboutSection": {
+    "label": "Yapitek Anka Construction",
+    "title": "Structures Rising with Confidence",
+    "p1": "Yapitek Anka Construction develops projects by bringing engineering strength, architectural vision, and execution discipline together under one roof.",
+    "p2": "In residential, commercial, and mixed-use projects, we build structures where every detail is meticulously planned and designed to generate long-term value.",
+    "p3": "We approach every project not merely as a structure, but as a part of life itself.",
+    "p4": "Because for us, construction means building not only today, but the future.",
+    "signName": "Ahmet Yilmaz",
+    "signRole": "Chairman of the Board"
+  },
+  "HomeLastProjects": {
+    "kicker": "Our projects",
+    "title": "Recent references we delivered and continue to build",
+    "body": "a current selection from residential, commercial, and civic work. each line is a story—open the projects page for the full portfolio or jump straight into a case study.",
+    "allProjectsCta": "All projects",
+    "inspectCta": "view",
+    "listLabel": "Featured projects list",
+    "previewLabel": "Selected project image: {title}"
+  },
+  "ContactPage": {
+    "metaTitle": "Contact | Yapitek Anka Construction",
+    "metaDescription": "Contact Yapitek Anka Construction: Gölbaşı, Ankara office address, phone, email, and message form.",
+    "kicker": "Contact",
+    "title": "GET IN TOUCH",
+    "lead": "Write to our team about your projects, partnerships, or technical questions—or call us directly. We will get back to you as soon as we can.",
+    "companyName": "Yapitek Anka Construction",
+    "address": "Kızılcaşar Mah. Bağlar Caddesi No:65, Ankara, GÖLBAŞI 06830",
+    "phoneDisplay": "0 (312) 911 8911",
+    "phoneHref": "tel:+903129118911",
+    "email": "info@yapitekyapi.com",
+    "formFirstName": "First name",
+    "formLastName": "Last name",
+    "formEmail": "Email",
+    "formPhone": "Phone number",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "Send",
+    "formSending": "Sending…",
+    "formSuccess": "Your message was received. We will get back to you shortly.",
+    "formError": "Something went wrong while sending. Please try again later.",
+    "formNotConfigured": "Email delivery is not configured yet. Please reach us by phone or email directly.",
+    "mapSectionLabel": "Office location map",
+    "mapIframeTitle": "Yapitek Anka office location, Gölbaşı Ankara"
+  },
+  "PhotoGallery": {
+    "description": "Photo Gallery",
+    "title": "Yapitek Anka Gallery",
+    "heroAlt": "Yapitek Anka featured project visual",
+    "slideAlt": "Gallery image {n}",
+    "prev": "Previous slide",
+    "next": "Next slide",
+    "dotsLabel": "Choose slide",
+    "goToSlide": "Go to slide {n}"
+  },
+  "ProjectShowcase": {
+    "description": "Project Types",
+    "title": "Our Expertise Areas",
+    "items": {
+      "0": {
+        "heading": "RESIDENTIAL PROJECTS",
+        "line1": "We develop residential projects that bring modern living, functional architecture, and strong investment value together.",
+        "line2": "Each structure is shaped around user experience and long-term value."
+      },
+      "1": {
+        "heading": "COMMERCIAL AND MIXED-USE STRUCTURES",
+        "line1": "We produce projects that integrate housing, office, and commercial spaces with a sustainable revenue model.",
+        "line2": "We design structures where life and commerce meet in balance."
+      },
+      "2": {
+        "heading": "CORPORATE AND ADMINISTRATIVE BUILDINGS",
+        "line1": "We develop functional and prestige-oriented structures tailored to corporate needs.",
+        "line2": "Efficient use, strong architecture, and sustainable solutions are at the forefront."
+      },
+      "3": {
+        "heading": "SOCIAL, CULTURAL, AND SPECIAL PROJECTS",
+        "line1": "We design projects that support social life and focus on public use.",
+        "line2": "We develop structures that strengthen education, culture, and social interaction."
+      }
+    }
+  },
+  "ProjectsPage": {
+    "metaTitle": "Projects | Yapitek Anka Construction",
+    "metaDescription": "Explore selected residential and mixed-use developments Yapitek Anka has helped shape.",
+    "heroSectionLabel": "Projects intro",
+    "heroImageAlt": "Yapitek Anka project and architecture",
+    "title": "Our projects",
+    "lead": "A curated look at developments where we played a role in delivery and partnerships.",
+    "intro": "Each project balances location, architectural identity, and long-term investment value. Click a card to open its detail page.",
+    "cardCta": "View project",
+    "projectTabsLabel": "Project categories",
+    "projectCategories": {
+      "all": { "label": "All" },
+      "housing": { "label": "Residential Projects" },
+      "commercial": { "label": "Commercial & Mixed-Use" },
+      "development": { "label": "Development & Delivery" },
+      "institutional": { "label": "Corporate & Public Buildings" },
+      "social": { "label": "Social, Cultural & Special Projects" }
+    },
+    "cards": {
+      "evart-oran": {
+        "title": "Evart Oran",
+        "excerpt": "A benchmark residential development where we supported execution and delivery."
+      },
+      "evart-1": {
+        "title": "Evart 1",
+        "excerpt": "Compact commercial architecture with duplex offices and retail—high performance at efficient scale."
+      },
+      "evart-2": {
+        "title": "Evart 2",
+        "excerpt": "A lean commercial model focused on retail and office use with minimal, purposeful design."
+      },
+      "evart-yalikavak": {
+        "title": "Evart Yalikavak",
+        "excerpt": "A coastal scheme offering contemporary living aligned with its setting."
+      },
+      "evart-estates-yalikavak": {
+        "title": "Evart Estates Yalikavak",
+        "excerpt": "A rare Bodrum estate model: generous land, low density, and a limited collection of mansions."
+      },
+      "imza-gokdemir": {
+        "title": "Imza Gokdemir",
+        "excerpt": "A next-generation mixed-use living hub in Incek, with Evart as land partner and a scaled tower program."
+      },
+      "may-life-incek": {
+        "title": "May Life Incek",
+        "excerpt": "A next-generation Incek hub combining high-rise architecture, rich amenities, and on-site retail."
+      },
+      "docs-vadi": {
+        "title": "Docs Vadi Ankara",
+        "excerpt": "City-center living with valley calm—4.5+1 homes, 200 m², and a limited collection."
+      },
+      "park-royal-residence": {
+        "title": "Park Royal Residence",
+        "excerpt": "Integrated living with residence, mall, and an inner garden—life and commerce in one place."
+      },
+      "park-royal-venue": {
+        "title": "Park Royal",
+        "excerpt": "A 9,700 m² multi-purpose venue—wedding halls, retail units, and event-ready infrastructure."
+      },
+      "heska": {
+        "title": "Heska",
+        "excerpt": "2,100 m² showroom and 400 m² office space built to foreground brand and product experience."
+      },
+      "zirvekent": {
+        "title": "Zirvekent",
+        "excerpt": "350 m² enclosed space for 148 people—meetings, training, and public-oriented programs."
+      },
+      "vali-erdogan": {
+        "title": "Vali Erdogan",
+        "excerpt": "340 m² enclosed space and 150 m² terrace for social gatherings and community events."
+      },
+      "abidin-pasa-kutuphanesi": {
+        "title": "Abidin Pasa Library",
+        "excerpt": "A public library supporting learning, reading, and civic life in the neighborhood."
+      },
+      "amfi-tiyatro-uyanik": {
+        "title": "Amphitheater – Uyanik",
+        "excerpt": "Open-air culture and arts space with amphitheater seating and outdoor gathering."
+      },
+      "kirim-sudak": {
+        "title": "Kirim Sudak",
+        "excerpt": "Library, study zones, and cafe in one civic building for everyday community life."
+      },
+      "sehitlik": {
+        "title": "Martyrs Memorial",
+        "excerpt": "Civic space for collective memory; commemoration, respect, and public dignity."
+      },
+      "sayhan-hukuk": {
+        "title": "Sayhan Law",
+        "excerpt": "Corporate identity in built form: 540 m², four-story professional law office."
+      },
+      "incek-louren": {
+        "title": "İncek Louren",
+        "excerpt": "Commercial and mixed-use development in the İncek area."
+      },
+      "kumas": {
+        "title": "Kümaş",
+        "excerpt": "Special project focused on social and cultural use."
+      }
+    }
+  },
+  "ProjectDetail": {
+    "otherProjectsHeading": "Other projects",
+    "allProjectsCta": "All projects",
+    "placeholder": "Project content will be added soon.",
+    "items": {
+      "evart-oran": {
+        "metaTitle": "Evart Oran | Projects | Yapitek Anka Construction",
+        "metaDescription": "Evart Oran: mixed-use living in Çankaya Oran—residence, office, and retail in balance.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Evart Oran project visual",
+        "heroTitle": "Modern Architecture at the City’s Crossroads",
+        "heroLead": "More than housing alone—this is a holistic living model where life, work, and commerce meet in balance.",
+        "heroCta": "Explore the project"
+      },
+      "evart-1": {
+        "metaTitle": "Evart 1 | Projects | Yapitek Anka Construction",
+        "metaDescription": "Evart 1: 1,159 m² commercial building—four duplex offices and three retail units in a compact, efficient layout.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Evart 1 project visual",
+        "heroTitle": "The New Address for Functional Work Life",
+        "heroLead": "Modern commercial architecture with maximum efficiency.",
+        "heroCta": "Explore the project"
+      },
+      "evart-2": {
+        "metaTitle": "Evart 2 | Projects | Yapitek Anka Construction",
+        "metaDescription": "Evart 2: 1,400 m² with two retail units and one office—a compact model focused on commercial use.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Evart 2 project visual",
+        "heroTitle": "A Clear, Strong Take on Commercial Use",
+        "heroLead": "Minimal architecture, maximum function.",
+        "heroCta": "Explore the project"
+      },
+      "evart-yalikavak": {
+        "metaTitle": "Evart Yalikavak | Projects | Yapitek Anka Construction",
+        "metaDescription": "Minimal residence living in Bodrum Yalikavak: contemporary design, home-office flexibility, and rental upside.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Evart Yalikavak project visual",
+        "heroTitle": "Bodrum’s First Minimal Living Experience",
+        "heroLead": "Urban energy meets the spirit of Bodrum.",
+        "heroLead2": "Evart Yalikavak is a contemporary residence that balances city-minded living with Bodrum’s calm, through architecture that respects nature.",
+        "heroLead3": "Here you invest not only in a home, but in a way of life.",
+        "heroCta": "Explore the project"
+      },
+      "evart-estates-yalikavak": {
+        "metaTitle": "Evart Estates Yalikavak | Projects | Yapitek Anka Construction",
+        "metaDescription": "Evart Estates in Bodrum Yalikavak: 28 mansions on 48 acres, private pools, helipad, and an ultra-prime lifestyle proposition.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Evart Estates Yalikavak project visual",
+        "heroTitle": "A Rare Privilege of Living in Bodrum",
+        "heroLead": "Refined in every detail, special in every moment.",
+        "heroLead2": "With expansive land and a low-density layout, Evart Estates offers a living model rarely found in Bodrum.",
+        "heroCta": "Explore the project"
+      },
+      "imza-gokdemir": {
+        "metaTitle": "Imza Gokdemir | Projects | Yapitek Anka Construction",
+        "metaDescription": "Imza Gokdemir in Incek: six blocks, a 30-storey tower, 1+1/2+1 homes, mixed use, and a 1,800-unit master plan—with Evart as land partner.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Imza Gokdemir project visual",
+        "heroTitle": "Strategic Partnership, Strong Investment",
+        "heroLead": "A next-generation living hub rising in Incek.",
+        "heroLead2": "With Evart as land partner, the scheme sits in one of Ankara’s fastest-appreciating corridors.",
+        "heroCta": "Explore the project"
+      },
+      "may-life-incek": {
+        "metaTitle": "May Life Incek | Projects | Yapitek Anka Construction",
+        "metaDescription": "May Life Incek: 38 homes, 10 retail units, 106–316 m² range, 2+1 to 4+1 types; pool, fitness, sauna, and strong Incek investment upside.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "May Life Incek project visual",
+        "heroTitle": "The City Lights Up for You",
+        "heroLead": "A next-generation living hub rising in Incek.",
+        "heroLead2": "May Life Incek balances urban living with nature, setting a new standard through architecture and social amenities.",
+        "heroLead3": "More than a residence—this is a decisive step toward the future.",
+        "heroCta": "Explore the project"
+      },
+      "docs-vadi": {
+        "metaTitle": "Docs Vadi Ankara | Projects | Yapitek Anka Construction",
+        "metaDescription": "Docs Vadi Ankara: 4.5+1, 200 m², two parking spaces per home, valley views; pools, wellness, minutes to Ümitköy.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Docs Vadi Ankara project visual",
+        "heroTitle": "City Heart, Valley Calm—A Life Between Both",
+        "heroLead": "A new-generation prestige residential experience.",
+        "heroLead2": "Docs Vadi blends modern urban living with the openness of the valley in a distinctive residential concept.",
+        "heroLead3": "A selective living standard with a limited number of homes.",
+        "heroCta": "Explore the project"
+      },
+      "park-royal-residence": {
+        "metaTitle": "Park Royal Residence | Projects | Yapitek Anka Construction",
+        "metaDescription": "Park Royal Residence: 1,400 m² land, 6,000 m² mall, 3,500 m² inner garden—integrated residential and retail living.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Park Royal Residence project visual",
+        "heroTitle": "Where Living and Commerce Meet",
+        "heroLead": "An integrated mixed-use model for urban life.",
+        "heroCta": "Explore the project"
+      },
+      "park-royal-venue": {
+        "metaTitle": "Park Royal | Projects | Yapitek Anka Construction",
+        "metaDescription": "Park Royal multi-purpose building: 9,700 m², two wedding halls, eight retail units—events and commerce together.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Park Royal events and commercial building visual",
+        "heroTitle": "A Large-Scale, Multi-Purpose Building",
+        "heroLead": "Events, retail, and social life brought together at scale.",
+        "heroCta": "Explore the project"
+      },
+      "heska": {
+        "metaTitle": "Heska | Projects | Yapitek Anka Construction",
+        "metaDescription": "Heska: 2,100 m² showroom and 400 m² office—commercial architecture centered on brand experience.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Heska project visual",
+        "heroTitle": "Where Corporate Strength Meets Space",
+        "heroLead": "Showroom and management offices as your brand’s physical showcase.",
+        "heroCta": "Explore the project"
+      },
+      "zirvekent": {
+        "metaTitle": "Zirvekent | Projects | Yapitek Anka Construction",
+        "metaDescription": "Zirvekent: 350 m² enclosed area, 148-person capacity—meetings, training, and public programs.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Zirvekent project visual",
+        "heroTitle": "A Modern Building for Public Use",
+        "heroLead": "Designed around collective use and organized gatherings.",
+        "heroCta": "Explore the project"
+      },
+      "vali-erdogan": {
+        "metaTitle": "Vali Erdogan | Projects | Yapitek Anka Construction",
+        "metaDescription": "Vali Erdogan: 340 m² indoor and 150 m² terrace—social events and community gatherings.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Vali Erdogan social venue visual",
+        "heroTitle": "Where Social Life Comes Together",
+        "heroLead": "Indoor and outdoor spaces shaped for shared experiences.",
+        "heroCta": "Explore the project"
+      },
+      "abidin-pasa-kutuphanesi": {
+        "metaTitle": "Abidin Pasa Library | Projects | Yapitek Anka Construction",
+        "metaDescription": "Abidin Pasa Library: a civic building supporting education, reading, and social life.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Abidin Pasa Library project visual",
+        "heroTitle": "Where Knowledge Meets Community Life",
+        "heroLead": "Designed for reading, learning, and public interaction.",
+        "heroCta": "Explore the project"
+      },
+      "amfi-tiyatro-uyanik": {
+        "metaTitle": "Amphitheater Uyanik | Projects | Yapitek Anka Construction",
+        "metaDescription": "Amphitheater Uyanik: open-air arts and culture venue with amphitheater form and outdoor use.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Amphitheater Uyanik visual",
+        "heroTitle": "Open-Air Culture and Arts Space",
+        "heroLead": "An outdoor setting shaped for cultural programming.",
+        "heroCta": "Explore the project"
+      },
+      "kirim-sudak": {
+        "metaTitle": "Kirim Sudak | Projects | Yapitek Anka Construction",
+        "metaDescription": "Kirim Sudak: 285 m² enclosed area with library, study space, and cafe in a civic hybrid building.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Kirim Sudak project visual",
+        "heroTitle": "Designed for Social Life and Public Use",
+        "heroLead": "A multi-functional project combining library, study, and social gathering spaces.",
+        "heroCta": "Explore the project"
+      },
+      "sehitlik": {
+        "metaTitle": "Martyrs Memorial | Projects | Yapitek Anka Construction",
+        "metaDescription": "Martyrs memorial: 1,100 m² site, 184-person capacity; civic architecture focused on remembrance and respect.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Martyrs memorial project visual",
+        "heroTitle": "A Place That Sustains Collective Memory",
+        "heroLead": "1,100 m² and 184-person capacity shaped for commemoration and public use.",
+        "heroCta": "Explore the project"
+      },
+      "sayhan-hukuk": {
+        "metaTitle": "Sayhan Law | Projects | Yapitek Anka Construction",
+        "metaDescription": "Sayhan Law: 540 m², four-story modern law office; spatial expression of corporate identity.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Sayhan Law office visual",
+        "heroTitle": "Corporate Identity in Built Form",
+        "heroLead": "540 m² across four floors with an office program tailored to legal practice.",
+        "heroCta": "Explore the project"
+      },
+      "incek-louren": {
+        "metaTitle": "İncek Louren | Projects | Yapitek Anka Construction",
+        "metaDescription": "İncek Louren: commercial and mixed-use development in İncek.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "İncek Louren project visual",
+        "heroTitle": "İncek Louren",
+        "heroLead": "A commercial and mixed-use program developed in İncek.",
+        "heroCta": "Explore the project"
+      },
+      "kumas": {
+        "metaTitle": "Kümaş | Projects | Yapitek Anka Construction",
+        "metaDescription": "Kümaş: social, cultural, and special-use project.",
+        "heroSectionLabel": "Project page",
+        "heroImageAlt": "Kümaş project visual",
+        "heroTitle": "Kümaş",
+        "heroLead": "A special project focused on social and cultural use.",
+        "heroCta": "Explore the project"
+      }
+    }
+  },
+  "ProjectEvartOran": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Program areas",
+    "stats": [
+      {
+        "value": "23,000 m²",
+        "label": "Project area",
+        "detail": "Total development footprint"
+      },
+      {
+        "value": "3,500 m²",
+        "label": "Retail area",
+        "detail": "Corporate-grade leasable retail"
+      },
+      {
+        "value": "172",
+        "label": "Residences",
+        "detail": "Contemporary homes"
+      },
+      {
+        "value": "25",
+        "label": "Retail units",
+        "detail": "Active commercial frontage"
+      },
+      {
+        "value": "3,500 m²",
+        "label": "Parking",
+        "detail": "Covered parking area"
+      }
+    ],
+    "statsFooterKicker": "Living model",
+    "statsFooterTitle": "Mixed use",
+    "statsFooterSubtitle": "Residential + office + retail",
+    "conceptKicker": "Project concept",
+    "conceptTitle": "A New Definition of Modern Living",
+    "conceptP1": "Evart Oran brings architectural aesthetics and functionality together, adding a fresh perspective to urban life. It is not only a building but a living platform shaped around user experience, quality of life, and investment value together.",
+    "conceptP2": "Surrounded by greenery yet close to the city center, it offers a life that feels both dynamic and balanced.",
+    "conceptImageAlt": "Evart Oran lifestyle and architecture",
+    "archKicker": "Architecture & living spaces",
+    "archTitle": "Light, Volume, and Function",
+    "archBody1": "With high ceilings, generous glazing, and planning that maximizes daylight, Evart Oran responds to the expectations of contemporary living.",
+    "archBody2": "Open kitchens, flexible layouts, and a user-centered approach ensure every square meter is used with purpose.",
+    "archBullets": [
+      "High-ceiling living spaces",
+      "Expansive glass surfaces",
+      "Functional planning",
+      "Modern, refined detailing"
+    ],
+    "archImageAlt": "Evart Oran interior and facade",
+    "socialKicker": "Social life & amenities",
+    "socialTitle": "Balanced Living in the City",
+    "socialBody": "Life at Evart Oran is not limited to apartments alone. Social spaces, landscape design, and supportive amenities deliver a holistic experience.",
+    "socialHighlights": [
+      "Landscaped areas and walking paths",
+      "Social gardens",
+      "Fitness center",
+      "24/7 security",
+      "Smart home systems",
+      "EV charging infrastructure"
+    ],
+    "socialImageAlt": "Evart Oran social and landscape areas",
+    "locationKicker": "Location & investment value",
+    "locationTitle": "Prime Address, Strong Outlook",
+    "locationBody1": "Located in Çankaya Oran, Evart Oran sits on one of Ankara’s most valuable axes. Its central position supports both living and business activity.",
+    "locationBody2": "The mixed-use structure supports a sustainable revenue model while creating long-term value for investors.",
+    "locationHighlight": "Lifestyle + income + appreciation",
+    "locationImageAlt": "Ankara Oran district and city context",
+    "sample1Plus1Kicker": "sample apartment",
+    "sample1Plus1Title": "1+1",
+    "sample1Plus1SlideAlt": "Evart Oran 1+1 sample apartment image {n}",
+    "sample2Plus1Kicker": "sample apartment",
+    "sample2Plus1Title": "2+1",
+    "sample2Plus1SlideAlt": "Evart Oran 2+1 sample apartment image {n}",
+    "closingTitle": "Today’s Comfort, Tomorrow’s Investment",
+    "closingBody": "Evart Oran combines contemporary architecture, a central location, and investment potential in a future-ready living proposition."
+  },
+  "ProjectEvartYalikavak": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "modelKicker": "Living model",
+    "modelTitle": "Home or office? → Both",
+    "modelBullets": [
+      "Commercial title deed advantages",
+      "Home-office use",
+      "Investment + lifestyle flexibility"
+    ],
+    "modelClosing": "This is the defining difference from a classic residential-only product.",
+    "stats": [
+      {
+        "value": "1+1",
+        "label": "Unit type",
+        "detail": "Functional layouts throughout"
+      },
+      {
+        "value": "40 m²",
+        "label": "Area",
+        "detail": "Compact yet highly efficient"
+      },
+      {
+        "value": "2 typologies",
+        "label": "Homes",
+        "detail": "Garden duplex & loft"
+      },
+      {
+        "value": "80%+",
+        "label": "Occupancy",
+        "detail": "Strong high-season performance"
+      },
+      {
+        "value": "6–10 yrs",
+        "label": "ROI horizon",
+        "detail": "Short-term rental potential"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Minimal Living, Maximum Experience",
+    "conceptP1": "Evart Yalikavak is designed as Bodrum’s first contemporary minimal residence.",
+    "conceptP2": "It balances the pace of city life with the ease of coastal living.",
+    "conceptImageAlt": "Evart Yalikavak minimal architecture",
+    "archKicker": "Architecture & living",
+    "archTitle": "Light, volume, and flexibility",
+    "archBullets": [
+      "Garden duplex → direct pool access",
+      "Loft homes → high ceilings, gallery void",
+      "Modular system → combinable units",
+      "Maximum use of daylight"
+    ],
+    "archBody": "Every square meter is planned for functional, adaptable living.",
+    "archImageAlt": "Evart Yalikavak interior and loft",
+    "socialKicker": "Social life",
+    "socialTitle": "Social space at the heart of living",
+    "socialHighlights": [
+      "Shared pool (social hub)",
+      "Generous communal gardens",
+      "Covered parking",
+      "Neighbourhood and interaction zones"
+    ],
+    "socialBody": "Here, social amenities are not an add-on—they are the center of daily life.",
+    "socialImageAlt": "Evart Yalikavak pool and landscape",
+    "investmentKicker": "Investment",
+    "investmentTitle": "Professional operations, strong yield",
+    "investmentPoints": [
+      "Professional rental management",
+      "Short-term holiday letting",
+      "Smart home (remote control)",
+      "Strong rental performance"
+    ],
+    "investmentFormulaLabel": "Value formula",
+    "investmentFormula": "Lifestyle + Income + Smart comfort",
+    "investmentImageAlt": "Evart Yalikavak investment lifestyle",
+    "closingTitle": "In Bodrum, live well—and earn with confidence",
+    "closingCta": "Request details"
+  },
+  "ProjectEvartEstates": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "48 donum",
+        "label": "Land",
+        "detail": "Large parcel (~4.8 ha)"
+      },
+      {
+        "value": "28",
+        "label": "Mansions",
+        "detail": "A limited collection"
+      },
+      {
+        "value": "300 m²",
+        "label": "Enclosed area",
+        "detail": "Reference villa scale"
+      },
+      {
+        "value": "1,800 m²",
+        "label": "Total footprint",
+        "detail": "Including gardens and outdoor living"
+      },
+      {
+        "value": "62 m²",
+        "label": "Private pool",
+        "detail": "Per residence"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "A New Definition of Privilege",
+    "conceptP1": "Each home is set within generous landscaping to maximize privacy.",
+    "conceptP2": "The plan is curated for a selective, secluded life—away from the crowd.",
+    "conceptImageAlt": "Evart Estates landscaping and villa placement",
+    "archKicker": "Architecture & living",
+    "archTitle": "5+1 mansion concept",
+    "archBullets": [
+      "Generous garden areas",
+      "Infinity pool — heated",
+      "Fire pit",
+      "Fully independent living"
+    ],
+    "archBody": "Every mansion creates its own world.",
+    "archImageAlt": "Evart Estates villa and outdoor living",
+    "socialKicker": "Amenities",
+    "socialTitle": "Comfort and service",
+    "socialList": [
+      "Private sauna (each villa)",
+      "Two-car enclosed parking",
+      "On-site restaurant",
+      "Security and CCTV systems"
+    ],
+    "socialImageAlt": "Evart Estates lifestyle and amenity spaces",
+    "techKicker": "Technology",
+    "techTitle": "Smart, efficient systems",
+    "techList": [
+      "VRF climate control",
+      "Heated pool",
+      "Smart home systems"
+    ],
+    "locationKicker": "Location",
+    "locationTitle": "Nature with reach",
+    "locationMetrics": [
+      { "label": "To the sea", "value": "600 m" },
+      { "label": "Yalikavak Marina", "value": "6.4 km" },
+      { "label": "Airport", "value": "60 km" }
+    ],
+    "locationBody": "Immersed in nature, yet connected to the essentials.",
+    "locationImageAlt": "Yalikavak and the Bodrum coastline",
+    "privilegeKicker": "Privilege",
+    "privilegeTitle": "Helipad",
+    "privilegeLead": "Here, time itself is a privilege.",
+    "privilegeSub": "Inter-city distance collapses into minutes.",
+    "investmentKicker": "Investment",
+    "investmentTitle": "Value and audience",
+    "investmentBullets": [
+      "Low supply → strong value",
+      "Ultra-prime target segment",
+      "International investment potential"
+    ],
+    "investmentTagline": "This is not only a home—it is a standard of living.",
+    "closingCta": "Get in touch"
+  },
+  "ProjectImzaGokdemir": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "6 blocks",
+        "label": "Buildings",
+        "detail": "Structured block scale"
+      },
+      {
+        "value": "30 floors",
+        "label": "Tower",
+        "detail": "High-rise tower architecture"
+      },
+      {
+        "value": "1+1 / 2+1",
+        "label": "Unit mix",
+        "detail": "Functional layout options"
+      },
+      {
+        "value": "Mixed use",
+        "label": "Concept",
+        "detail": "Residential, retail, and social program"
+      },
+      {
+        "value": "1,800 homes",
+        "label": "Total development",
+        "detail": "Comprehensive living district"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "A City Within the City",
+    "conceptBody": "An integrated living center combining housing, commerce, and social life.",
+    "conceptImageAlt": "Imza Gokdemir mixed-use district scale",
+    "archKicker": "Architecture",
+    "archTitle": "Scale, plans, and landscape",
+    "archBullets": [
+      "Modern high-rise blocks",
+      "Functional apartment types",
+      "Integrated landscaping and social zones"
+    ],
+    "archImageAlt": "Imza Gokdemir tower and facade",
+    "locationKicker": "Location",
+    "locationTitle": "Connected Incek corridor",
+    "locationBullets": [
+      "Turgut Ozal Boulevard",
+      "Close to Atilim University",
+      "Medikal Park Hospital",
+      "Ahlatlibel Park"
+    ],
+    "locationClosing": "Mobility, everyday life, and green balance.",
+    "locationImageAlt": "Incek, Ankara and surrounding access",
+    "socialKicker": "Social life",
+    "socialTitle": "Daily rhythm",
+    "socialBullets": [
+      "Retail frontage",
+      "Walkable surroundings",
+      "Access to daily needs"
+    ],
+    "evartKicker": "Evart’s role",
+    "evartTitle": "Strategic strength",
+    "evartBullets": [
+      "Brand equity",
+      "Investor network",
+      "Capital strength",
+      "Sharp positioning"
+    ],
+    "evartClosing": "This project grows stronger with Evart.",
+    "investmentKicker": "Investment",
+    "investmentTitle": "Demand and regional upside",
+    "investmentBullets": [
+      "Strong demand (1+1 / 2+1)",
+      "Regional value appreciation",
+      "The evolving Incek axis"
+    ]
+  },
+  "ProjectMayLifeIncek": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "38",
+        "label": "Residential units",
+        "detail": "Home inventory"
+      },
+      {
+        "value": "10",
+        "label": "Retail units",
+        "detail": "Local services and commerce"
+      },
+      {
+        "value": "106 – 316 m²",
+        "label": "Size range",
+        "detail": "Flexible footprint band"
+      },
+      {
+        "value": "2+1 / 3+1 / 4+1",
+        "label": "Unit types",
+        "detail": "Family and investor profiles"
+      },
+      {
+        "value": "High-rise",
+        "label": "Architecture",
+        "detail": "Tower + horizontal block mix"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "The City Comes to Your Living Space",
+    "conceptP1": "May Life Incek flips the script on classic urban living.",
+    "conceptP2": "You do not chase the center for needs—the city arrives within your everyday radius.",
+    "conceptImageAlt": "May Life Incek mixed-use living hub",
+    "archKicker": "Architecture & living",
+    "archTitle": "Scale, light, and comfort",
+    "archBullets": [
+      "High-rise tower + horizontal blocks",
+      "Generous living room layouts",
+      "Master suites with en-suite baths",
+      "Large balconies and views",
+      "Daylight-first architecture"
+    ],
+    "archBody": "Here, square meters are not just area—they are quality of life.",
+    "archImageAlt": "May Life Incek homes and facade",
+    "socialKicker": "Amenities",
+    "socialTitle": "Everyday comfort",
+    "socialAmenities": [
+      "Outdoor swimming pool",
+      "Fitness center",
+      "Sauna & Turkish bath",
+      "Cinema room",
+      "PlayStation & hobby spaces",
+      "Children’s play areas",
+      "24/7 security",
+      "EV charging"
+    ],
+    "commercialKicker": "Retail frontage",
+    "commercialList": [
+      "Café & restaurant",
+      "Market",
+      "Pharmacy",
+      "Daily service points"
+    ],
+    "socialClosing": "This is a living center that truly works on its own.",
+    "socialImageAlt": "May Life Incek pool and social spaces",
+    "locationInvestmentKicker": "Location & investment",
+    "locationInvestmentTitle": "Incek and long-term value",
+    "locationIntro": "Incek is among Ankara’s fastest-appreciating corridors.",
+    "locationBullets": [
+      "Proximity to schools and universities",
+      "Access to main mobility axes",
+      "Planning integrated with green context"
+    ],
+    "investmentStrengthKicker": "Investment strength",
+    "investmentStrength": [
+      "Strong rental potential",
+      "Solid resale fundamentals",
+      "Brand-backed confidence"
+    ],
+    "formulaLabel": "Value formula",
+    "formula": "Prestige + Comfort + Investment",
+    "locationImageAlt": "Incek, Ankara and surroundings"
+  },
+  "ProjectDocsVadi": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "4.5+1",
+        "label": "Unit type",
+        "detail": "Large family layout"
+      },
+      {
+        "value": "200 m²",
+        "label": "Home size",
+        "detail": "Generous living scale"
+      },
+      {
+        "value": "2",
+        "label": "Parking",
+        "detail": "Per residence"
+      },
+      {
+        "value": "High floor",
+        "label": "Views",
+        "detail": "Panoramic valley outlook"
+      },
+      {
+        "value": "Ümitköy 6 min",
+        "label": "Location",
+        "detail": "Close to key corridors"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Balance Between City and Nature",
+    "conceptP1": "Docs Vadi sits in the city center yet delivers a life intertwined with greenery.",
+    "conceptP2": "It is designed for those who want nature close by—without leaving the city behind.",
+    "conceptImageAlt": "Docs Vadi valley and green setting",
+    "archKicker": "Architecture & living",
+    "archTitle": "Prestige and comfort",
+    "archBullets": [
+      "4.5+1 large family residences",
+      "High-ceiling living spaces",
+      "Panoramic valley views",
+      "Generous living room and kitchen plans",
+      "Large balconies and outdoor areas"
+    ],
+    "archBody": "Every detail is shaped for comfort and prestige.",
+    "archImageAlt": "Docs Vadi interior and living room",
+    "socialKicker": "Social life",
+    "socialTitle": "An active lifestyle",
+    "socialList": [
+      "Indoor & outdoor swimming pools",
+      "Sports and wellness zones",
+      "Sauna & Turkish bath",
+      "Walking paths",
+      "Children’s play areas",
+      "Multi-purpose sports court",
+      "Cinema & social lounges"
+    ],
+    "socialClosing": "More than a home—this project supports an active everyday life.",
+    "socialImageAlt": "Docs Vadi pool and amenity spaces",
+    "locationKicker": "Location",
+    "locationTitle": "Near the center, calm like the valley",
+    "locationAccess": [
+      { "place": "Ümitköy Metro", "time": "~6 min" },
+      { "place": "Eskişehir Road", "time": "~4 min" },
+      { "place": "Çankaya / Kızılay", "time": "~12 min" },
+      { "place": "AŞTİ bus terminal", "time": "~10 min" }
+    ],
+    "locationClosing": "Close to the city center—with the feeling of distance from the rush.",
+    "locationImageAlt": "Ankara city center and mobility links",
+    "investmentKicker": "Investment",
+    "investmentTitle": "Long-term upside",
+    "investmentBullets": [
+      "Large footprint → strong demand",
+      "Valley views → value appreciation",
+      "Rich amenities → rental strength",
+      "Long-term investment advantage"
+    ]
+  },
+  "ProjectEvart1": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "1,159 m²",
+        "label": "Total area",
+        "detail": "Compact commercial scale"
+      },
+      {
+        "value": "4",
+        "label": "Duplex offices",
+        "detail": "Two-level work spaces"
+      },
+      {
+        "value": "3",
+        "label": "Retail units",
+        "detail": "Shopfront potential"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Compact, efficient workspaces",
+    "conceptP1": "Compact, efficient, and contemporary business spaces.",
+    "conceptP2": "Evart 1 is a small-footprint, high-performance commercial building model.",
+    "conceptImageAlt": "Evart 1 office and retail facade",
+    "archKicker": "Architecture",
+    "archTitle": "Program and facade",
+    "archBullets": [
+      "Duplex office layouts",
+      "Flexible usable areas",
+      "Modern facade language"
+    ],
+    "archImageAlt": "Evart 1 architecture and exterior",
+    "usageKicker": "Uses",
+    "usageTitle": "Functional program",
+    "usageList": ["Office", "Showroom", "Retail operations"]
+  },
+  "ProjectEvart2": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "1,400 m²",
+        "label": "Total area",
+        "detail": "Single-block scale"
+      },
+      {
+        "value": "2",
+        "label": "Retail units",
+        "detail": "Direct commercial use"
+      },
+      {
+        "value": "1",
+        "label": "Office",
+        "detail": "Integrated work unit"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Minimal form, maximum function",
+    "conceptP1": "Minimal architecture, maximum function.",
+    "conceptP2": "Evart 2 is a compact model focused squarely on commercial use.",
+    "conceptImageAlt": "Evart 2 commercial building",
+    "archKicker": "Architecture",
+    "archTitle": "Simplicity and efficiency",
+    "archBullets": ["Clean, modern design", "Efficient use of space"],
+    "archImageAlt": "Evart 2 facade and volume"
+  },
+  "ProjectParkRoyal": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "1,400 m²",
+        "label": "Land",
+        "detail": "Development base"
+      },
+      {
+        "value": "6,000 m²",
+        "label": "Mall area",
+        "detail": "Retail and services"
+      },
+      {
+        "value": "3,500 m²",
+        "label": "Inner garden",
+        "detail": "Green-focused communal space"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Mixed-use living",
+    "conceptBody": "An integrated mixed-use model for life within the city.",
+    "conceptImageAlt": "Park Royal Residence living and retail",
+    "archKicker": "Architecture",
+    "archTitle": "Residence and retail",
+    "archBullets": [
+      "Integrated residence + retail",
+      "Inner-garden-led planning",
+      "Compact living concept"
+    ],
+    "archImageAlt": "Park Royal Residence massing and plan",
+    "socialKicker": "Social life",
+    "socialTitle": "Everyday rhythm",
+    "socialBullets": [
+      "Mall zone",
+      "Outdoor social spaces",
+      "Convenience for daily needs"
+    ],
+    "socialImageAlt": "Park Royal mall and social areas",
+    "investmentKicker": "Investment",
+    "investmentHighlight": "Residential + retail combined → a dual-value model"
+  },
+  "ProjectHeska": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "2,100 m²",
+        "label": "Showroom",
+        "detail": "Generous product display"
+      },
+      {
+        "value": "400 m²",
+        "label": "Office",
+        "detail": "Management and operations"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Brand experience",
+    "conceptBody": "A commercial building that puts brand and product experience first.",
+    "conceptImageAlt": "Heska showroom and corporate space",
+    "archKicker": "Architecture",
+    "archTitle": "Program and facade",
+    "archBullets": [
+      "Large showroom zones",
+      "Management offices",
+      "Corporate facade language"
+    ],
+    "archImageAlt": "Heska exterior and interior",
+    "usageKicker": "Uses",
+    "usageTitle": "Functions",
+    "usageList": ["Showroom", "Office", "Brand hub"]
+  },
+  "ProjectParkRoyalVenue": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "9,700 m²",
+        "label": "Total area",
+        "detail": "Large multi-purpose footprint"
+      },
+      {
+        "value": "2",
+        "label": "Wedding halls",
+        "detail": "Events and celebrations"
+      },
+      {
+        "value": "8",
+        "label": "Retail units",
+        "detail": "Shops and services"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Events and commerce",
+    "conceptBody": "A building where events, retail, and social life come together.",
+    "conceptImageAlt": "Park Royal event and retail volumes",
+    "archKicker": "Architecture",
+    "archTitle": "Scale and flexibility",
+    "archBullets": [
+      "Large-volume spaces",
+      "Multi-purpose use",
+      "Event infrastructure"
+    ],
+    "archImageAlt": "Park Royal hall and retail facade",
+    "usageKicker": "Uses",
+    "usageTitle": "Program",
+    "usageList": ["Event space", "Retail operations", "Organizations"]
+  },
+  "ProjectZirvekent": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "350 m²",
+        "label": "Enclosed area",
+        "detail": "Collective-use volume"
+      },
+      {
+        "value": "148 people",
+        "label": "Capacity",
+        "detail": "Planned seating scale"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Public space",
+    "conceptBody": "Focused on collective use and organized programs.",
+    "conceptImageAlt": "Zirvekent meeting and multipurpose hall",
+    "archKicker": "Architecture",
+    "archTitle": "Function and access",
+    "archBullets": ["Functional planning", "Public-use zones"],
+    "archImageAlt": "Zirvekent interior layout",
+    "usageKicker": "Uses",
+    "usageTitle": "Applications",
+    "usageList": ["Meetings", "Training", "Events"]
+  },
+  "ProjectValiErdogan": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "340 m²",
+        "label": "Enclosed area",
+        "detail": "Event and gathering volume"
+      },
+      {
+        "value": "150 m²",
+        "label": "Terrace",
+        "detail": "Outdoor social use"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Social gathering",
+    "conceptBody": "Designed for social events and collective use.",
+    "conceptImageAlt": "Vali Erdogan social event space",
+    "archKicker": "Architecture",
+    "archTitle": "Indoor–outdoor balance",
+    "archBullets": [
+      "Balanced open and enclosed space",
+      "Event-led planning"
+    ],
+    "archImageAlt": "Vali Erdogan terrace and interior",
+    "usageKicker": "Uses",
+    "usageTitle": "Program",
+    "usageList": ["Social events", "Organizations"]
+  },
+  "ProjectAbidinPasaKutuphanesi": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "Library",
+        "label": "Function",
+        "detail": "Reading and research program"
+      },
+      {
+        "value": "Public space",
+        "label": "Use",
+        "detail": "Open civic access"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Knowledge and community",
+    "conceptBody": "A civic structure supporting education and social life.",
+    "conceptImageAlt": "Abidin Pasa Library reading hall",
+    "archKicker": "Architecture",
+    "archTitle": "Quiet and function",
+    "archBullets": [
+      "Quiet, functional zones",
+      "User-centered planning"
+    ],
+    "archImageAlt": "Abidin Pasa Library interior"
+  },
+  "ProjectAmfiTiyatroUyanik": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "Amphitheater",
+        "label": "Concept",
+        "detail": "Open-air performance and audience layout"
+      },
+      {
+        "value": "Open space",
+        "label": "Use",
+        "detail": "Culture and arts events"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Outdoor experience",
+    "conceptBody": "An open-air experience designed for cultural events.",
+    "conceptImageAlt": "Amphitheater and outdoor plaza"
+  },
+  "ProjectKirimSudak": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "285 m²",
+        "label": "Enclosed area",
+        "detail": "Total indoor volume"
+      },
+      {
+        "value": "85 m²",
+        "label": "Library",
+        "detail": "Reading and research"
+      },
+      {
+        "value": "44 people",
+        "label": "Study area capacity",
+        "detail": "Individual and shared work"
+      },
+      {
+        "value": "140 m²",
+        "label": "Cafe / teahouse",
+        "detail": "Social gathering zone"
+      },
+      {
+        "value": "70 people",
+        "label": "Cafe capacity",
+        "detail": "Guest seating scale"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Civic hybrid program",
+    "conceptBody": "Kirim Sudak brings reading, study, and social interaction together in one civic-focused building. User experience drives the plan, offering a balanced, everyday place shaped by functional layout.",
+    "conceptImageAlt": "Kirim Sudak library and commons",
+    "archKicker": "Architecture & use",
+    "archTitle": "Program outline",
+    "archBullets": [
+      "Library and quiet-use zones",
+      "Individual and shared study areas",
+      "Social space supported by a cafe / teahouse",
+      "Compact, multi-purpose, functional planning"
+    ],
+    "archImageAlt": "Kirim Sudak cafe and study space",
+    "experienceKicker": "Experience",
+    "experienceTitle": "Holistic use",
+    "experienceBody": "More than a building—a model that answers the need to spend time together, create, read, and socialize."
+  },
+  "ProjectSehitlik": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "1,100 m²",
+        "label": "Area",
+        "detail": "Total development footprint"
+      },
+      {
+        "value": "184 people",
+        "label": "Capacity",
+        "detail": "Scale for gatherings and ceremonies"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Remembrance and civic value",
+    "conceptBody": "A civic building focused on remembrance, respect, and shared social values.",
+    "conceptImageAlt": "Memorial and civic plaza"
+  },
+  "ProjectSayhanHukuk": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "540 m²",
+        "label": "Area",
+        "detail": "Total office and shared space"
+      },
+      {
+        "value": "4 floors",
+        "label": "Building",
+        "detail": "Vertical program and corporate layout"
+      }
+    ],
+    "conceptKicker": "Concept",
+    "conceptTitle": "Professional workplace",
+    "conceptBody": "A professional workspace designed for a modern law firm.",
+    "conceptImageAlt": "Sayhan Law office and work areas"
+  },
+  "ProjectIncekLouren": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Key figures",
+    "stats": [
+      {
+        "value": "700 m²",
+        "label": "Closed area",
+        "detail": ""
+      },
+      {
+        "value": "1,800 m²",
+        "label": "Land area",
+        "detail": ""
+      }
+    ]
+  },
+  "ProjectKumas": {
+    "statsSectionLabel": "Project facts",
+    "statsAreasLabel": "Scope",
+    "stats": [
+      {
+        "value": "6,200 m²",
+        "label": "Closed area",
+        "detail": "Four floors total"
+      },
+      {
+        "value": "",
+        "label": "Exterior facade architecture",
+        "detail": ""
+      },
+      {
+        "value": "",
+        "label": "Electrical and mechanical works",
+        "detail": ""
+      }
+    ]
+  },
+  "Footer": {
+    "getInTouch": "Get in Touch",
+    "getInTouchBody": "Let’s shape your next project together. Whether residential, commercial, or corporate, our team is ready to listen and deliver solutions tailored to your goals.",
+    "cta": "Get in Touch",
+    "columns": {
+      "menu": "Menu",
+      "pages": "Pages",
+      "contact": "Contact",
+      "social": "Social media"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "pages": {
+      "privacy": "Privacy Policy",
+      "kvkk": "Personal Data Notice (KVKK)",
+      "cookies": "Cookie Policy"
+    },
+    "contactPhone": "0 (312) 911 8911",
+    "contactPhoneHref": "tel:+903129118911",
+    "contactEmail": "info@yapitekyapi.com",
+    "contactAddress": "Kızılcaşar Mah. Bağlar Caddesi No:65, Ankara, Gölbaşı 06830",
+    "social": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "copyright": "© {year} Yapitek Anka Construction. All rights reserved.",
+    "scrollToTop": "Back to top"
+  }
+}
