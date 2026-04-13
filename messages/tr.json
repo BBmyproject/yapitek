@@ -101,7 +101,7 @@
     "p2": "Konut, ticari ve karma kullanım projelerinde; her detayın titizlikle planlandığı, uzun vadeli değer üreten yapılar inşa ediyoruz.",
     "p3": "Her projeye yalnızca bir yapı olarak değil, yaşamın bir parçası olarak yaklaşırız.",
     "p4": "Çünkü bizim için inşaat; sadece bugünü değil, geleceği inşa etmektir.",
-    "signName": "Ahmet Yılmaz",
+    "signName": "Murat Atmaca",
     "signRole": "Yönetim Kurulu Başkanı"
   },
   "HomeLastProjects": {
@@ -323,9 +323,9 @@
         "metaDescription": "Bodrum Yalıkavak’ta Evart Estates: 48 dönümde 28 malikane, özel havuzlar, helikopter pisti ve üst segment yaşam standardı.",
         "heroSectionLabel": "Proje sayfası",
         "heroImageAlt": "Evart Estates Yalıkavak proje görseli",
-        "heroTitle": "Bodrum’da Sınırlı Sayıda Bir Yaşam Ayrıcalığı",
-        "heroLead": "Her detayıyla seçkin, her anıyla özel.",
-        "heroLead2": "Evart Estates, geniş arazi yapısı ve düşük yoğunluklu yerleşimiyle Bodrum’da nadir bulunan bir yaşam modeli sunar.",
+        "heroTitle": "EVART ESTATES YALIKAVAK",
+        "heroLead": "Bodrum’da benzersiz malikane yaşamı",
+        "heroLead2": "Sınırlı sayıda geliştirilen bu proje, yalnızca bir konut değil; mahremiyet, prestij ve yaşam kalitesini aynı çerçevede sunan özel bir deneyimdir.",
         "heroCta": "Projeyi Keşfet"
       },
       "imza-gokdemir": {
@@ -564,7 +564,7 @@
         "detail": "Tüm daireler fonksiyonel plan"
       },
       {
-        "value": "40 m²",
+        "value": "Brüt 40 m²",
         "label": "Alan",
         "detail": "Kompakt ama yüksek verim"
       },
@@ -624,87 +624,134 @@
     "closingCta": "Detaylı Bilgi Al"
   },
   "ProjectEvartEstates": {
-    "statsSectionLabel": "Proje verileri",
-    "statsAreasLabel": "Sayısal blok",
-    "stats": [
+    "sections": [
       {
-        "value": "48 Dönüm",
-        "label": "Arazi",
-        "detail": "Geniş geliştirme alanı"
+        "kicker": "Kapak",
+        "title": "EVART ESTATES YALIKAVAK",
+        "subtitle": "Bodrum’da benzersiz malikane yaşamı",
+        "body": "Sınırlı sayıda, ayrıcalıklı bir yaşam deneyimi.",
+        "body2": "Sınırlı sayıda geliştirilen bu proje, yalnızca bir konut değil; mahremiyet, prestij ve yaşam kalitesini aynı çerçevede sunan özel bir deneyimdir.",
+        "imageAlt": "Evart Estates Yalıkavak kapak görseli"
       },
       {
-        "value": "28",
-        "label": "Malikane",
-        "detail": "Sınırlı sayıda konut"
+        "kicker": "Konsept",
+        "title": "Ayrıcalığın Yeniden Tanımlandığı Bir Yaşam",
+        "body": "Evart Estates Yalıkavak, Bodrum’da standart konut projelerinin ötesine geçen, malikane ölçeğinde tasarlanmış bir yaşam kurgusudur.",
+        "body2": "Bu proje, yoğunluk yerine ferahlığı; kalabalık yerine seçilmişliği; geçici kullanım yerine kalıcı bir yaşamı merkezine alır.",
+        "imageAlt": "Evart Estates konsept yerleşimi"
       },
       {
-        "value": "300 m²",
-        "label": "Kapalı Alan",
-        "detail": "Referans malikane ölçeği"
+        "kicker": "Konsept Derinleşme",
+        "title": "Sınırlı Sayıda, Kontrollü Bir Yaşam Kurgusu",
+        "subtitle": "Yalnızca 28 Malikane",
+        "body": "Sadece 28 malikaneden oluşan bu yapı, daha fazla alan, daha fazla mahremiyet ve seçkin bir yaşam deneyimi sunar.",
+        "imageAlt": "Evart Estates düşük yoğunluklu malikane düzeni"
       },
       {
-        "value": "1.800 m²",
-        "label": "Kullanım Alanı",
-        "detail": "Bahçe ve dış mekân dahil"
+        "kicker": "Lokasyon",
+        "title": "Yalıkavak’ın Seçkin Noktasında",
+        "body": "Doğayla iç içe, erişilebilir bir yaşam sunar.",
+        "metrics": [
+          { "label": "Denize", "value": "600 metre" },
+          { "label": "Yalıkavak Marina", "value": "8.4 km" },
+          { "label": "Turgutreis Marina", "value": "9.7 km" },
+          { "label": "Milas-Bodrum Havalimanı", "value": "60 km" }
+        ],
+        "imageAlt": "Evart Estates lokasyon ve çevre erişimi"
       },
       {
-        "value": "62 m²",
-        "label": "Özel Havuz",
-        "detail": "Her malikane için"
+        "kicker": "Proje Genel Bilgi",
+        "title": "Düşük Yoğunluk, Yüksek Yaşam Standardı",
+        "body": "48 dönüm arazi üzerinde yalnızca 28 malikane ile tasarlanan proje, ferah ve geniş bir yaşam kurgusu sunar.",
+        "imageAlt": "Evart Estates genel proje yerleşimi"
+      },
+      {
+        "kicker": "Malikane Yapısı",
+        "title": "Her Yapıda Bağımsızlık, Her Detayda Mahremiyet",
+        "body": "Maksimum mahremiyet için planlanmıştır.",
+        "bullets": [
+          "5+1 malikane konsepti",
+          "~300 m² kapalı alan",
+          "~1.800 m² kullanım alanı"
+        ],
+        "imageAlt": "Evart Estates malikane planı ve hacmi"
+      },
+      {
+        "kicker": "Yaşam Deneyimi",
+        "title": "Size Ait Bir Dünya",
+        "body": "Kişisel ve izole bir yaşam deneyimi sunar.",
+        "bullets": [
+          "62 m² özel havuz",
+          "Sonsuzluk havuzu konsepti",
+          "Ateş çukuru",
+          "Geniş peyzaj alanları"
+        ],
+        "imageAlt": "Evart Estates özel havuz ve peyzaj"
+      },
+      {
+        "kicker": "Konfor & Teknoloji",
+        "title": "Modern Teknoloji ile Üst Düzey Konfor",
+        "body": "Her yapıda konfor, güvenlik ve teknoloji birlikte kurgulanır.",
+        "bullets": [
+          "VRF sistem",
+          "Isıtmalı havuz",
+          "Akıllı ev altyapısı",
+          "7/24 güvenlik sistemleri"
+        ],
+        "imageAlt": "Evart Estates akıllı yaşam teknolojileri"
+      },
+      {
+        "kicker": "Sosyal Alanlar",
+        "title": "Yaşamı Tamamlayan Detaylar",
+        "body": "Günlük yaşamı destekleyen seçkin sosyal donatılar sunulur.",
+        "bullets": [
+          "Site içi restoran",
+          "Özel sauna",
+          "2 araçlık kapalı otopark"
+        ],
+        "imageAlt": "Evart Estates sosyal alanlar"
+      },
+      {
+        "kicker": "Malzeme Kalitesi",
+        "title": "Detaylarda Saklı Ayrıcalık",
+        "body": "İç mekanda kullanılan her malzeme, premium yaşam standardını güçlendirir.",
+        "bullets": [
+          "Miele ankastre mutfak",
+          "Grohe armatürler",
+          "Mermer zeminler",
+          "Lamine parke"
+        ],
+        "imageAlt": "Evart Estates malzeme ve iç mekan kalitesi"
+      },
+      {
+        "kicker": "Konumsal Avantaj",
+        "title": "Her Yapı, Manzaraya Konumlanır",
+        "body": "Tüm malikaneler deniz manzarasına yönlendirilmiştir.",
+        "body2": "Her yapı kendi başına değer üretir.",
+        "imageAlt": "Evart Estates deniz manzarasına yönlenen yapılar"
+      },
+      {
+        "kicker": "Hedef Yaşam",
+        "title": "Bir Sezon Değil, Bir Yaşam Biçimi",
+        "body": "Yılın her döneminde yaşanabilir.",
+        "body2": "Seçkin bir yaşam standardı sunar.",
+        "imageAlt": "Evart Estates dört mevsim yaşam"
+      },
+      {
+        "kicker": "Fiyatlandırma",
+        "title": "Bir Mülk Değil, Bir Yaşam Seçimi",
+        "subtitle": "2.500.000 £ – 3.000.000 £",
+        "body": "Yaşam kalitesi odaklı bir tercihtir.",
+        "imageAlt": "Evart Estates fiyatlandırma ve değer"
+      },
+      {
+        "kicker": "Kapanış",
+        "title": "Sınırlı Sayıda. Kalıcı Değer.",
+        "body": "Evart Estates Yalıkavak, Bodrum’da ayrıcalıklı bir yaşam sunar.",
+        "body2": "Bu, bir konut değil; seçilmiş bir yaşam biçimidir.",
+        "imageAlt": "Evart Estates kapanış görseli"
       }
     ],
-    "conceptKicker": "Konsept",
-    "conceptTitle": "Ayrıcalığın Yeni Tanımı",
-    "conceptP1": "Her yapı, geniş peyzaj içinde konumlanarak maksimum mahremiyet sağlar.",
-    "conceptP2": "Kalabalıktan uzak, seçkin ve izole bir yaşam kurgulanmıştır.",
-    "conceptImageAlt": "Evart Estates peyzaj ve malikane yerleşimi",
-    "archKicker": "Mimari & yaşam",
-    "archTitle": "5+1 malikane konsepti",
-    "archBullets": [
-      "Geniş bahçe alanları",
-      "Sonsuzluk havuzu — ısıtmalı",
-      "Ateş çukuru",
-      "Tam bağımsız yaşam"
-    ],
-    "archBody": "Her malikane kendi dünyasını yaratır.",
-    "archImageAlt": "Evart Estates malikane ve dış mekân",
-    "socialKicker": "Sosyal & donatı",
-    "socialTitle": "Konfor ve hizmet",
-    "socialList": [
-      "Özel sauna (her villa)",
-      "2 araçlık kapalı otopark",
-      "Site içi restoran",
-      "Güvenlik ve kamera sistemleri"
-    ],
-    "socialImageAlt": "Evart Estates yaşam ve sosyal alanlar",
-    "techKicker": "Teknoloji",
-    "techTitle": "Akıllı ve verimli sistemler",
-    "techList": [
-      "VRF iklimlendirme",
-      "Isıtmalı havuz",
-      "Akıllı ev sistemleri"
-    ],
-    "locationKicker": "Lokasyon",
-    "locationTitle": "Doğa ve erişim dengesi",
-    "locationMetrics": [
-      { "label": "Denize", "value": "600 m" },
-      { "label": "Yalıkavak Marina", "value": "6,4 km" },
-      { "label": "Havalimanı", "value": "60 km" }
-    ],
-    "locationBody": "Doğa içinde ama merkeze erişilebilir konum.",
-    "locationImageAlt": "Yalıkavak ve Bodrum kıyısı",
-    "privilegeKicker": "Ayrıcalık",
-    "privilegeTitle": "Helikopter pisti",
-    "privilegeLead": "Zaman, bu projede bir ayrıcalıktır.",
-    "privilegeSub": "Şehirler arası mesafe dakikalara iner.",
-    "investmentKicker": "Yatırım",
-    "investmentTitle": "Değer ve segment",
-    "investmentBullets": [
-      "Düşük arz → yüksek değer",
-      "Üst segment hedef kitle",
-      "Uluslararası yatırım potansiyeli"
-    ],
-    "investmentTagline": "Bu sadece bir ev değil, bir yaşam standardı.",
     "closingCta": "İletişime Geç"
   },
   "ProjectImzaGokdemir": {

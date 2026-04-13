@@ -49,7 +49,7 @@ export function SiteFooter() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative z-10 w-full bg-[#f9f6f3] text-[#1f3a40]">
+    <footer className="relative z-10 w-full bg-[#f9f6f3] text-[#1f3a40] overflow-hidden">
       <section
         id="iletisim"
         className="relative flex h-[600px] w-full items-center justify-center overflow-hidden"
@@ -82,12 +82,12 @@ export function SiteFooter() {
           </p>
           <Link
               href="/contact"
-              className="group mt-10 inline-flex cursor-pointer items-center justify-center bg-[#f9f6f3] px-5 py-1 text-lg font-medium text-[#1f3a40] transition-colors duration-300 ease-out hover:bg-white hover:shadow-md"
+              className="group mt-10 inline-flex cursor-pointer items-center justify-center rounded-full border border-[#d9cdb8] bg-linear-to-r from-[#fcf9f6] to-[#f1ebe4] px-7 py-2.5 text-lg font-medium text-[#1f3a40] shadow-[0_10px_24px_rgba(0,0,0,0.14)] transition-all duration-300 ease-out hover:-translate-y-0.5 hover:from-white hover:to-[#f5efe9] hover:shadow-[0_14px_28px_rgba(0,0,0,0.18)]"
             >
               <ShiftHoverText
                 selfGroup={false}
                 variant="comfortable"
-                lineClassName="whitespace-nowrap text-base md:text-lg font-medium text-[#1f3a40]"
+                lineClassName="whitespace-nowrap text-base md:text-lg font-medium text-current"
               >
                 {t("cta")}
               </ShiftHoverText>
@@ -95,7 +95,25 @@ export function SiteFooter() {
         </div>
       </section>
 
-      <div className="relative bg-[#f9f6f3] px-6 pt-25 pb-14 lg:px-10">
+      <div className="relative overflow-x-clip bg-[#f9f6f3] px-6 pt-25 pb-14 lg:px-10">
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-0 hidden h-[220px] xl:block">
+          <img
+            src="/bg-logo-left.png"
+            alt=""
+            aria-hidden="true"
+            className="footer-logo-swing absolute -bottom-8 left-0 h-[180px] w-[180px] object-contain opacity-80"
+            loading="lazy"
+            decoding="async"
+          />
+          <img
+            src="/bg-logo-right.png"
+            alt=""
+            aria-hidden="true"
+            className="footer-logo-swing absolute -bottom-8 right-0 h-[180px] w-[180px] object-contain opacity-80"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
         <button
           type="button"
           onClick={() => {
@@ -115,6 +133,8 @@ export function SiteFooter() {
                   width={48}
                   height={48}
                   className="h-10 w-10 object-contain"
+                  loading="lazy"
+                  decoding="async"
                 />
               </span>
               <span
@@ -127,7 +147,7 @@ export function SiteFooter() {
           </span>
         </button>
 
-        <div className="mx-auto grid max-w-[1440px] gap-12 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="relative z-10 mx-auto grid max-w-[1440px] gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <h3 className="mb-6 text-xs font-semibold text-[#fbbe64]">
               {t("columns.menu")}
@@ -207,10 +227,25 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mx-auto mt-14 max-w-[1440px] border-t border-[#d1dfe0] pt-8 text-center text-xs text-[#1f3a40] md:text-sm">
+        <div className="relative z-10 mx-auto mt-14 max-w-[1440px] border-t border-[#d1dfe0] pt-8 text-center text-xs text-[#1f3a40] md:text-sm">
           {t("copyright", { year })}
         </div>
       </div>
+      <style jsx>{`
+        .footer-logo-swing {
+          transform-origin: center;
+          animation: footerLogoSwing 3.2s ease-in-out infinite alternate;
+        }
+
+        @keyframes footerLogoSwing {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(6deg);
+          }
+        }
+      `}</style>
     </footer>
   );
 }

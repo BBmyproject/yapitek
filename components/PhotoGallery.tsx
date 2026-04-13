@@ -22,11 +22,11 @@ const SLIDE_SPECS = [
 
 /** Evart Oran + Evart Yalıkavak (public/images) */
 const SLIDE_SRC = [
+  "/images/evart-estates.jpeg",
+  "/images/evart-yalikava-6.jpeg",
   "/images/evart-oran.jpg",
-  "/images/evart-yalikavak.jpg",
-  "/images/evart-oran-3.jpg",
-  "/images/evart-yalikavak-2.jpg",
-  "/images/evart-oran-5.jpg",
+  "/images/docs-vadi.webp",
+  "/images/imza-gokdemir.jpeg",
   "/images/evart-yalikavak-5.jpeg",
 ] as const;
 

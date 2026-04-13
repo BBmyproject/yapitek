@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 const PROJECT_IMAGES = [
@@ -60,6 +59,8 @@ export default function ProjectShowcase() {
                     width={1536}
                     height={1024}
                     className="h-full w-full object-cover"
+                    loading="lazy"
+                    decoding="async"
                   />
                 )}
               </div>
@@ -72,6 +73,8 @@ export default function ProjectShowcase() {
                     width={1536}
                     height={1024}
                     className="h-full w-full object-cover"
+                    loading="lazy"
+                    decoding="async"
                   />
                 ) : (
                   <div className="flex h-full items-center justify-center text-center px-8 md:px-16 lg:px-24 bg-[#ecf2f2]">

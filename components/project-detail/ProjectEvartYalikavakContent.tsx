@@ -192,17 +192,15 @@ export async function ProjectEvartYalikavakContent() {
               <h2 className="mt-3 font-serif text-3xl tracking-tight md:text-4xl">
                 {t("socialTitle")}
               </h2>
-              <ul className="mx-auto mt-8 max-w-3xl space-y-3 text-sm leading-relaxed text-[#1f3a40]/88 md:text-base">
+              <ul className="mt-8 space-y-3 text-sm leading-relaxed text-[#1f3a40]/88 md:text-base">
                 {socialHighlights.map((item) => (
-                  <li key={item} className="flex gap-2">
-                    <span className="text-[#0f677d]" aria-hidden>
-                      ·
-                    </span>
+                  <li key={item} className="flex gap-2 items-center">
+                    <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#0f677d]" />
                     <span>{item}</span>
                   </li>
                 ))}
               </ul>
-              <p className="mx-auto mt-10 max-w-3xl text-center text-sm font-medium leading-relaxed text-[#1f3a40] md:text-lg">
+              <p className="mx-auto italic mt-10 max-w-3xl text-center text-sm font-medium leading-relaxed text-[#1f3a40] md:text-lg">
                 {t("socialBody")}
               </p>
             </div>
@@ -222,8 +220,8 @@ export async function ProjectEvartYalikavakContent() {
               </h2>
               <ul className="mt-8 space-y-3 text-sm leading-relaxed text-[#1f3a40]/90 md:text-base">
                 {investmentPoints.map((line) => (
-                  <li key={line} className="flex gap-2">
-                    <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-[#0f677d]" />
+                  <li key={line} className="flex gap-2 items-center">
+                    <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#0f677d]" />
                     <span>{line}</span>
                   </li>
                 ))}
@@ -257,7 +255,7 @@ export async function ProjectEvartYalikavakContent() {
             </h2>
             <Link
               href="/contact"
-              className="mt-10 inline-flex cursor-pointer items-center justify-center bg-[#1f3a40] px-6 py-2.5 text-base font-medium text-[#f9f6f3] transition-colors duration-300 ease-out hover:bg-[#0f677d]"
+              className="mt-10 inline-flex cursor-pointer items-center justify-center rounded-full border border-[#1f3a40]/40 bg-linear-to-r from-[#1f3a40] to-[#0f677d] px-7 py-2.5 text-base font-medium text-[#f9f6f3] shadow-[0_10px_24px_rgba(15,103,125,0.32)] transition-all duration-300 ease-out hover:-translate-y-0.5 hover:from-[#0f677d] hover:to-[#0a4f62] hover:shadow-[0_14px_30px_rgba(15,103,125,0.4)]"
             >
               {t("closingCta")}
             </Link>

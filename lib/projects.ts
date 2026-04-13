@@ -23,8 +23,14 @@ export const PROJECT_SLUGS = [
 
 export type ProjectSlug = (typeof PROJECT_SLUGS)[number];
 
-/** Anasayfa: galeri ile vitrin arası ilk 5 proje */
-export const HOME_FEATURED_PROJECT_SLUGS = PROJECT_SLUGS.slice(0, 5);
+/** Anasayfa: galeri ile vitrin arası 5 proje (sıra sabit) */
+export const HOME_FEATURED_PROJECT_SLUGS = [
+  "evart-oran",
+  "evart-yalikavak",
+  "evart-estates-yalikavak",
+  "evart-1",
+  "evart-2",
+] as const satisfies readonly ProjectSlug[];
 
 export function isProjectSlug(s: string): s is ProjectSlug {
   return (PROJECT_SLUGS as readonly string[]).includes(s);
@@ -38,7 +44,7 @@ export const PROJECT_COVERS: Record<ProjectSlug, string> = {
   "evart-2": "/images/evart2.jpg",
   "evart-yalikavak": "/images/evart-yalikavak.jpg",
   "evart-estates-yalikavak":
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+    "/images/evart-estates.jpeg",
   "imza-gokdemir": "/images/imza-gokdemir.jpeg",
   "may-life-incek": "/images/may-life-incek.jpg",
   "docs-vadi": "/images/docs-vadi.webp",

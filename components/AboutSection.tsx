@@ -11,24 +11,24 @@ type AboutSectionProps = {
 
 const ABOUT_SLIDES = [
   {
-    src: "https://framerusercontent.com/images/3VNXPpVkizFJKPQ3CrMJ9Ls3tw.jpg",
-    alt: "Project 1",
+    src: "/images/about-section.jpg",
+    alt: "About Section 1",
   },
   {
-    src: "https://framerusercontent.com/images/Dn0aeqcSssEaJexeSx1DQJ79D4.jpg",
-    alt: "Project 2",
+    src: "/images/about-section-2.jpg",
+    alt: "About Section 2",
   },
   {
-    src: "https://framerusercontent.com/images/e7E43lK9CPIyUiaG0mmm0hRv6Ho.jpg",
-    alt: "Project 3",
+    src: "/images/about-section-3.jpg",
+    alt: "About Section 3",
   },
   {
-    src: "https://framerusercontent.com/images/d1olpSfckQw9cdHuzTv1SWG08K4.jpg",
-    alt: "Project 4",
+    src: "/images/about-section-4.jpg",
+    alt: "About Section 4",
   },
   {
-    src: "https://framerusercontent.com/images/qOgg6Of7z35lwIr58TBDuRvd6LE.jpg",
-    alt: "Project 5",
+    src: "/images/about-section-5.jpg",
+    alt: "About Section 5",
   },
 ] as const;
 
@@ -142,52 +142,81 @@ const AboutSection = ({
   }, [updateParallax]);
 
   return (
-    <section
-      ref={containerRef}
-      className="relative mx-auto w-full max-w-[1440px] xl:min-h-[3000px] xl:overflow-x-clip"
-    >
-        <div className="max-xl:static max-xl:block max-xl:h-auto xl:sticky xl:top-0 xl:z-10 xl:flex xl:h-screen xl:w-full xl:items-center xl:justify-center">
-          <div className="relative z-10 mx-auto w-full max-w-[600px] min-w-0 px-6 text-center text-[#1f3a40] max-xl:pb-4 max-xl:pt-12 xl:py-20">
-            <div className="mb-8 flex justify-center">
-              <div className="relative h-16 w-16">
-                <img
-                  src="/logo-dark-2.png"
-                  alt="Logo"
-                  className="h-full w-full object-contain"
-                />
-              </div>
+    <>
+      <section
+        ref={containerRef}
+        className="relative w-full xl:min-h-[3000px] xl:overflow-x-clip"
+      >
+        <div className="relative max-xl:static max-xl:block max-xl:h-auto xl:sticky xl:top-0 xl:z-10 xl:flex xl:h-screen xl:w-full xl:items-center xl:justify-center">
+          <div className="pointer-events-none absolute inset-0 hidden overflow-hidden xl:block">
+            <div className="relative left-1/2 h-screen w-screen -translate-x-1/2">
+              <img
+                src="/bg-logo-left.png"
+                alt=""
+                aria-hidden="true"
+                className="about-logo-swing absolute left-0 top-0 h-full w-full object-contain opacity-80"
+                style={{
+                  aspectRatio: "auto 803 / 674",
+                  maxWidth: "451px",
+                  maxHeight: "373px",
+                }}
+              />
+              <img
+                src="/bg-logo-right.png"
+                alt=""
+                aria-hidden="true"
+                className="about-logo-swing absolute -bottom-[20px] right-0 h-full w-full object-contain opacity-80"
+                style={{
+                  aspectRatio: "auto 803 / 674",
+                  maxWidth: "451px",
+                  maxHeight: "373px",
+                }}
+              />
             </div>
-
-            {showHeading ? (
-              <>
-                <p className="mb-4 text-sm uppercase tracking-widest text-[#1f3a40]/70">
-                  {t("label")}
-                </p>
-
-                <h2 className="mb-8 font-serif text-4xl text-[#1f3a40] md:text-6xl">
-                  {t("title")}
-                </h2>
-              </>
-            ) : null}
-
-            <div className="mx-auto max-w-2xl space-y-6 text-sm font-medium leading-relaxed text-[#1f3a40]">
-              <p>{t("p1")}</p>
-              <p>{t("p2")}</p>
-              <p>{t("p3")}</p>
-              <p>{t("p4")}</p>
-            </div>
-
-            {showSignature ? (
-              <div className="mt-12">
-                <img
-                  src="https://framerusercontent.com/images/0hH5uI9JcqjX0lPnZmDd4wZyyY.png"
-                  alt="Signature"
-                  className="mx-auto mb-2 h-8"
-                />
-                <p className="font-medium">{t("signName")}</p>
-                <p className="text-sm opacity-60">{t("signRole")}</p>
+          </div>
+          <div className="mx-auto w-full max-w-[1440px]">
+            <div className="relative z-10 mx-auto w-full max-w-[600px] min-w-0 px-6 text-center text-[#1f3a40] max-xl:pb-4 max-xl:pt-12 xl:py-20">
+              <div className="mb-8 flex justify-center">
+                <div className="relative h-16 w-16">
+                  <img
+                    src="/logo-dark-2.png"
+                    alt="Logo"
+                    className="h-full w-full object-contain"
+                  />
+                </div>
               </div>
-            ) : null}
+
+              {showHeading ? (
+                <>
+                  <p className="mb-4 text-sm uppercase tracking-widest text-[#1f3a40]/70">
+                    {t("label")}
+                  </p>
+
+                  <h2 className="mb-8 font-serif text-4xl text-[#1f3a40] md:text-6xl">
+                    {t("title")}
+                  </h2>
+                </>
+              ) : null}
+
+              <div className="mx-auto max-w-2xl space-y-6 text-sm font-medium leading-relaxed text-[#1f3a40]">
+                <p>{t("p1")}</p>
+                <p>{t("p2")}</p>
+                <p>{t("p3")}</p>
+                <p>{t("p4")}</p>
+              </div>
+
+              {showSignature ? (
+                <div className="mt-12">
+                  <img
+                    src="https://framerusercontent.com/images/0hH5uI9JcqjX0lPnZmDd4wZyyY.png"
+                    alt="Signature"
+                    className="mx-auto mb-2 h-8"
+                  />
+                  <p className="font-medium">{t("signName")}</p>
+                  <p className="text-sm opacity-60">{t("signRole")}</p>
+                </div>
+              ) : null}
+            </div>
           </div>
         </div>
 
@@ -218,7 +247,7 @@ const AboutSection = ({
                   right: pos.right,
                   position: "absolute",
                 }}
-                className="h-[240px] w-[200px] overflow-hidden xl:h-[360px] xl:w-[300px]"
+                className="h-[240px] w-[200px] overflow-hidden xl:h-[360px] xl:w-[300px] z-10"
               >
                 <div
                   ref={(el) => {
@@ -237,7 +266,23 @@ const AboutSection = ({
             );
           })}
         </div>
-    </section>
+      </section>
+      <style jsx>{`
+        .about-logo-swing {
+          transform-origin: center;
+          animation: aboutLogoSwing 2s ease-in infinite alternate;
+        }
+
+        @keyframes aboutLogoSwing {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(6deg);
+          }
+        }
+      `}</style>
+    </>
   );
 };
 

@@ -147,6 +147,7 @@ export function HomeLastProjects() {
                     : "z-0 opacity-0 pointer-events-none"
                 }`}
                 sizes="(max-width: 1024px) 100vw, 60vw"
+                loading="lazy"
                 decoding="async"
               />
             ))}
