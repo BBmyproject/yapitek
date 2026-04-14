@@ -45,8 +45,8 @@ export function HomeEntryLoader() {
 
   return (
     <div
-      className={`pointer-events-none fixed inset-0 z-100 flex items-center justify-center bg-white transition-[clip-path,opacity] duration-450 ease-out ${
-        closing ? "[clip-path:inset(0_0_100%_0)] opacity-0" : "[clip-path:inset(0_0_0_0)] opacity-100"
+      className={`pointer-events-none fixed inset-0 z-100 flex origin-bottom items-center justify-center bg-white will-change-transform transition-[transform,opacity] duration-450 ease-out ${
+        closing ? "scale-y-0 opacity-0" : "scale-y-100 opacity-100"
       }`}
       aria-hidden
     >
@@ -55,8 +55,8 @@ export function HomeEntryLoader() {
           <img
             src="/logo-dark-2.png"
             alt=""
-            className={`h-10 w-auto object-contain transition-transform duration-500 ease-out ${
-              logoVisible ? "translate-y-0 " : "translate-y-12"
+            className={`h-10 w-auto object-contain transition-all duration-500 ease-out ${
+              logoVisible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
             }`}
             loading="eager"
             decoding="async"
@@ -64,8 +64,10 @@ export function HomeEntryLoader() {
         </div>
         <div className="relative h-[2px] w-full overflow-hidden bg-[#d1dfe0]">
           <span
-            className={`absolute inset-y-0 left-0 w-full bg-[#1f3a40] transition-transform ${
-              reversing ? "origin-right duration-220 ease-in" : "origin-left duration-100 ease-linear"
+            className={`absolute inset-y-0 left-0 w-full bg-[#1f3a40] will-change-transform ${
+              reversing
+                ? "origin-right transition-transform duration-220 ease-in"
+                : "origin-left [transition:none]"
             }`}
             style={{ transform: `scaleX(${progress / 100})` }}
           />
