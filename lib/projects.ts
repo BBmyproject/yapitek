@@ -23,13 +23,14 @@ export const PROJECT_SLUGS = [
 
 export type ProjectSlug = (typeof PROJECT_SLUGS)[number];
 
-/** Anasayfa: galeri ile vitrin arası 5 proje (sıra sabit) */
+/** Anasayfa: galeri ile vitrin arası 6 proje (sıra sabit) */
 export const HOME_FEATURED_PROJECT_SLUGS = [
   "evart-oran",
   "evart-yalikavak",
   "evart-estates-yalikavak",
-  "evart-1",
-  "evart-2",
+  "imza-gokdemir",
+  "docs-vadi",
+  "may-life-incek",
 ] as const satisfies readonly ProjectSlug[];
 
 export function isProjectSlug(s: string): s is ProjectSlug {

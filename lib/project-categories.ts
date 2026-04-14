@@ -46,9 +46,22 @@ export const PROJECT_SLUGS_BY_CATEGORY: Record<
   ],
 };
 
-/** Kategori sırasıyla birleşik liste (Tümü sekmesi) */
-export const ALL_PROJECT_SLUGS_IN_TAB_ORDER: readonly ProjectSlug[] =
-  PROJECT_CATEGORY_IDS.flatMap((id) => [...PROJECT_SLUGS_BY_CATEGORY[id]]);
+const PRIORITY_PROJECT_ORDER: readonly ProjectSlug[] = [
+  "evart-oran",
+  "evart-yalikavak",
+  "evart-estates-yalikavak",
+  "imza-gokdemir",
+  "docs-vadi",
+  "may-life-incek",
+];
+
+/** Tümü sekmesi: kritik sıra önce, kalan projeler ardından */
+export const ALL_PROJECT_SLUGS_IN_TAB_ORDER: readonly ProjectSlug[] = [
+  ...PRIORITY_PROJECT_ORDER,
+  ...PROJECT_CATEGORY_IDS.flatMap((id) => [...PROJECT_SLUGS_BY_CATEGORY[id]]).filter(
+    (slug) => !PRIORITY_PROJECT_ORDER.includes(slug),
+  ),
+];
 
 export const DEFAULT_PROJECT_TAB: ProjectTabId = "all";
 

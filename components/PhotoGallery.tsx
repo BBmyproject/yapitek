@@ -27,7 +27,7 @@ const SLIDE_SRC = [
   "/images/evart-oran.jpg",
   "/images/docs-vadi.webp",
   "/images/imza-gokdemir.jpeg",
-  "/images/evart-yalikavak-5.jpeg",
+  "/images/may-life-incek.jpg",
 ] as const;
 
 function slideWidthClass(w: 600 | 400) {

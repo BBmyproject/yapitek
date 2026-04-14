@@ -14,7 +14,7 @@ export function AboutPageHero() {
     >
       <HeroBackdropLayer>
         <img
-          src="/images/evart-yalikavak.jpg"
+          src="/images/about-hero-banner.png"
           alt={t("heroImageAlt")}
           width={1440}
           height={800}

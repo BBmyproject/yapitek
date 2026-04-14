@@ -5,7 +5,7 @@ import { HeroFadeUpContent } from "@/components/HeroFadeUpContent";
 import { useTranslations } from "next-intl";
 
 const PROJECTS_HERO_IMAGE =
-  "/images/evart-oran-3.jpg";
+  "/images/evart-estates.jpeg";
 
 export function ProjectsIndexHero() {
   const t = useTranslations("ProjectsPage");

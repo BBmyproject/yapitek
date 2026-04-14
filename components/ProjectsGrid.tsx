@@ -12,7 +12,7 @@ import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 
 function fadeUpClass(visible: boolean) {
-  return `max-w-[1400px] mx-auto overflow-hidden transition-all duration-700 ease-out ${
+  return `overflow-hidden transition-all duration-700 ease-out ${
     visible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
   }`;
 }
@@ -50,7 +50,7 @@ function ProjectCard({ slug, index }: { slug: ProjectSlug; index: number }) {
     <div ref={ref} className={fadeUpClass(visible)}>
       <Link
         href={{ pathname: "/projects/[slug]", params: { slug } }}
-        className="group grid grid-cols-1 overflow-hidden bg-white shadow-sm transition-shadow duration-300 hover:shadow-md md:grid-cols-2 md:min-h-[min(22rem,52vw)]"
+        className="group grid grid-cols-1 overflow-hidden duration-300 hover:shadow-md md:grid-cols-2 md:min-h-[min(22rem,52vw)]"
       >
         <div
           className={`relative w-full overflow-hidden bg-[#d1dfdf]/50 md:h-full ${
@@ -70,7 +70,7 @@ function ProjectCard({ slug, index }: { slug: ProjectSlug; index: number }) {
           />
         </div>
         <div
-          className={`flex min-h-0 flex-col justify-center bg-[#f9f6f3] px-6 py-8 md:px-10 md:py-12 ${
+          className={`flex min-h-0 flex-col justify-center px-6 py-8 md:px-10 md:py-12 ${
             swap ? "md:order-1" : "md:order-2"
           }`}
         >
@@ -110,13 +110,13 @@ export function ProjectsGrid() {
   };
 
   return (
-    <div className="max-w-[1400px] mx-auto">
-      <div
+    <div className="mx-auto max-w-[1400px]">
+        <div
         ref={tabListRef}
         role="tablist"
         aria-label={t("projectTabsLabel")}
         className="-mx-1 mb-10 flex snap-x snap-proximity flex-nowrap gap-2 overflow-x-auto overflow-y-hidden scroll-pl-1 scroll-pr-4 pb-1 [scrollbar-width:thin] touch-pan-x motion-reduce:scroll-auto md:mb-12 md:snap-none md:flex-wrap md:gap-3 md:scroll-pr-0 md:overflow-visible md:pb-0 md:touch-auto"
-      >
+        >
         {PROJECT_TAB_IDS.map((id, index) => {
           const selected = tab === id;
           return (
@@ -140,19 +140,19 @@ export function ProjectsGrid() {
             </button>
           );
         })}
-      </div>
-
-      <div
-        id={`projects-panel-${tab}`}
-        role="tabpanel"
-        aria-labelledby={`project-tab-${tab}`}
-      >
-        <div className="flex flex-col gap-10 md:gap-20">
-          {slugs.map((slug, index) => (
-            <ProjectCard key={`${tab}-${slug}`} slug={slug} index={index} />
-          ))}
         </div>
-      </div>
+
+        <div
+          id={`projects-panel-${tab}`}
+          role="tabpanel"
+          aria-labelledby={`project-tab-${tab}`}
+        >
+          <div className="flex flex-col gap-10 md:gap-20">
+            {slugs.map((slug, index) => (
+              <ProjectCard key={`${tab}-${slug}`} slug={slug} index={index} />
+            ))}
+          </div>
+        </div>
     </div>
   );
 }

@@ -26,16 +26,49 @@ export default async function ProjectsPage({ params }: Props) {
     <>
       <ProjectsIndexHero />
       <div className="h-dvh shrink-0" aria-hidden />
-      <div className="relative z-10 bg-[#f9f6f3] px-6 pb-20 pt-12 text-[#1f3a40] lg:px-10 lg:pt-16">
-        <div>
-          <p className="mx-auto max-w-2xl text-center text-sm leading-relaxed text-[#1f3a40]/78 md:text-base">
-            {t("intro")}
-          </p>
-          <div className="mt-14">
-            <ProjectsGrid />
+      <section className="relative overflow-x-clip bg-[#f9f6f3] text-[#1f3a40]">
+          <div className="sticky top-0 z-0 h-screen overflow-hidden">
+            <div className="relative left-1/2 h-screen w-screen -translate-x-1/2">
+              <img
+                src="/bg-logo-left.gif"
+                alt=""
+                aria-hidden="true"
+                className="absolute left-0 top-0 h-full w-full object-contain opacity-60"
+                style={{
+                  aspectRatio: "auto 803 / 674",
+                  maxWidth: "451px",
+                  maxHeight: "373px",
+                  transform: "rotate(45deg)",
+                  filter: "blur(5px)",
+                }}
+              />
+              <img
+                src="/bg-logo-right.gif"
+                alt=""
+                aria-hidden="true"
+                className="absolute -bottom-[20px] right-0 h-full w-full object-contain opacity-60"
+                style={{
+                  aspectRatio: "auto 803 / 674",
+                  maxWidth: "451px",
+                  maxHeight: "373px",
+                  transform: "rotate(275deg)",
+                  filter: "blur(5px)",
+                }}
+              />
+            </div>
+          </div>
+
+        <div className="relative z-10 px-6 pb-20 pt-12 lg:px-10 lg:pt-16 xl:-mt-[100vh]">
+          <div>
+            <p className="mx-auto max-w-2xl text-center text-sm leading-relaxed text-[#1f3a40]/78 md:text-base">
+              {t("intro")}
+            </p>
+            <div className="mt-14">
+              <ProjectsGrid />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

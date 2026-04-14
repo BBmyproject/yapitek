@@ -127,7 +127,6 @@ export function SiteHeader() {
     "linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 50.02%, rgba(0, 0, 0, 0) 100%)";
 
   const closeMenu = useCallback(() => setMobileMenuOpen(false), []);
-
   useEffect(() => {
     queueMicrotask(() => {
       setPortalReady(true);
@@ -250,7 +249,9 @@ export function SiteHeader() {
                 <Link
                   key={item.key}
                   href={item.href}
-                  onClick={closeMenu}
+                  onClick={() => {
+                    closeMenu();
+                  }}
                   className={`text-center font-serif py-4 text-xl font-medium motion-safe:transition-[opacity,transform] motion-safe:duration-500 motion-safe:ease-out ${
                     mobileMenuOpen
                       ? "translate-y-0 opacity-100"
@@ -472,7 +473,9 @@ export function SiteHeader() {
             href="/"
             className="pointer-events-auto inline-flex items-center"
             aria-label="Yapıtek Anka"
-            onClick={() => setMobileMenuOpen(false)}
+            onClick={() => {
+              setMobileMenuOpen(false);
+            }}
           >
             <img
               src={showLightBar ? "/logo-dark.png" : "/logo.png"}

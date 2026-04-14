@@ -2,7 +2,7 @@
 
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { IoArrowUpOutline } from "react-icons/io5";
 import { ShiftHoverText } from "./ui/ShiftHoverText";
@@ -22,13 +22,33 @@ const SOCIAL_LINKS = [
 ] as const;
 
 const PEXELS_VIDEO =
-  "https://videos.pexels.com/video-files/4932586/4932586-uhd_2732_1440_30fps.mp4";
+  "/images/contact-me.mp4";
 
 export function SiteFooter() {
   const t = useTranslations("Footer");
+  const ctaSectionRef = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
 
   useEffect(() => {
+    const section = ctaSectionRef.current;
+    if (!section) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        setShouldLoadVideo(true);
+        observer.disconnect();
+      },
+      { rootMargin: "250px 0px" },
+    );
+
+    observer.observe(section);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!shouldLoadVideo) return;
     const video = videoRef.current;
     if (!video) return;
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -44,13 +64,14 @@ export function SiteFooter() {
     apply();
     mq.addEventListener("change", apply);
     return () => mq.removeEventListener("change", apply);
-  }, []);
+  }, [shouldLoadVideo]);
 
   const year = new Date().getFullYear();
 
   return (
     <footer className="relative z-10 w-full bg-[#f9f6f3] text-[#1f3a40] overflow-hidden">
       <section
+        ref={ctaSectionRef}
         id="iletisim"
         className="relative flex h-[600px] w-full items-center justify-center overflow-hidden"
         aria-labelledby="footer-cta-heading"
@@ -59,12 +80,15 @@ export function SiteFooter() {
           ref={videoRef}
           className="absolute inset-0 h-full w-full object-cover"
           autoPlay
+          preload="none"
           muted
           loop
           playsInline
           aria-hidden
         >
-          <source src={PEXELS_VIDEO} type="video/mp4" />
+          {shouldLoadVideo ? (
+            <source src={PEXELS_VIDEO} type="video/mp4" />
+          ) : null}
         </video>
         <div
           className="absolute inset-0 bg-[#0003]"
@@ -98,20 +122,27 @@ export function SiteFooter() {
       <div className="relative overflow-x-clip bg-[#f9f6f3] px-6 pt-25 pb-14 lg:px-10">
         <div className="pointer-events-none absolute inset-x-0 bottom-0 z-0 hidden h-[220px] xl:block">
           <img
-            src="/bg-logo-left.png"
+            src="/bg-logo-left.gif"
             alt=""
             aria-hidden="true"
-            className="footer-logo-swing absolute -bottom-8 left-0 h-[180px] w-[180px] object-contain opacity-80"
+            className="absolute -bottom-8 left-0 h-[180px] w-[180px] object-contain opacity-80"
             loading="lazy"
             decoding="async"
+            style={{
+              filter: "blur(5px)",
+            }}
           />
           <img
-            src="/bg-logo-right.png"
+            src="/bg-logo-right.gif"
             alt=""
             aria-hidden="true"
-            className="footer-logo-swing absolute -bottom-8 right-0 h-[180px] w-[180px] object-contain opacity-80"
+            className="absolute -bottom-8 right-0 h-[180px] w-[180px] object-contain opacity-80"
             loading="lazy"
             decoding="async"
+            style={{
+              filter: "blur(5px)",
+              transform: "scaleX(-1)",
+            }}
           />
         </div>
         <button

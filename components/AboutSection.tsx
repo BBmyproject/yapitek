@@ -151,25 +151,29 @@ const AboutSection = ({
           <div className="pointer-events-none absolute inset-0 hidden overflow-hidden xl:block">
             <div className="relative left-1/2 h-screen w-screen -translate-x-1/2">
               <img
-                src="/bg-logo-left.png"
+                src="/bg-logo-left.gif"
                 alt=""
                 aria-hidden="true"
-                className="about-logo-swing absolute left-0 top-0 h-full w-full object-contain opacity-80"
+                className="absolute left-0 top-0 h-full w-full object-contain opacity-60"
                 style={{
                   aspectRatio: "auto 803 / 674",
                   maxWidth: "451px",
                   maxHeight: "373px",
+                  transform: "rotate(45deg)",
+                  filter: "blur(5px)",
                 }}
               />
               <img
-                src="/bg-logo-right.png"
+                src="/bg-logo-right.gif"
                 alt=""
                 aria-hidden="true"
-                className="about-logo-swing absolute -bottom-[20px] right-0 h-full w-full object-contain opacity-80"
+                className="absolute -bottom-[20px] right-0 h-full w-full object-contain opacity-60"
                 style={{
                   aspectRatio: "auto 803 / 674",
                   maxWidth: "451px",
                   maxHeight: "373px",
+                  transform: "rotate(275deg)",
+                  filter: "blur(5px)",
                 }}
               />
             </div>
