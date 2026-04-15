@@ -4,17 +4,45 @@ import { HeroBackdropLayer } from "@/components/HeroBackdropLayer";
 import { HeroFadeUpContent } from "@/components/HeroFadeUpContent";
 import { Link } from "@/i18n/navigation";
 import { ShiftHoverText } from "@/components/ui/ShiftHoverText";
+import useEmblaCarousel from "embla-carousel-react";
 import { useTranslations } from "next-intl";
-import { useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export const HERO_BANNER_IMAGE =
   "/images/hero-banner-poster.png";
 export const HERO_BANNER_VIDEO =
   "/images/hero-banner.mp4";
+const HERO_BANNER_EXTRA_IMAGES = [
+  "/images/hero-banner-2.png",
+  "/images/hero-banner-3.png",
+] as const;
 
 export function HeroBanner() {
   const t = useTranslations("HeroBanner");
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [selected, setSelected] = useState(0);
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    loop: true,
+    align: "start",
+    skipSnaps: false,
+    dragFree: false,
+  });
+
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return;
+    setSelected(emblaApi.selectedScrollSnap());
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    emblaApi.on("reInit", onSelect);
+    emblaApi.on("select", onSelect);
+    queueMicrotask(onSelect);
+    return () => {
+      emblaApi.off("reInit", onSelect);
+      emblaApi.off("select", onSelect);
+    };
+  }, [emblaApi, onSelect]);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -22,7 +50,7 @@ export function HeroBanner() {
 
     const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
     const apply = () => {
-      if (mq.matches) {
+      if (mq.matches || selected !== 0) {
         video.pause();
         video.removeAttribute("autoplay");
         return;
@@ -34,7 +62,19 @@ export function HeroBanner() {
     apply();
     mq.addEventListener("change", apply);
     return () => mq.removeEventListener("change", apply);
-  }, []);
+  }, [selected]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const intervalId = window.setInterval(() => {
+      emblaApi.scrollNext();
+    }, 6000);
+
+    return () => window.clearInterval(intervalId);
+  }, [emblaApi]);
+
+  const dotCount = emblaApi?.scrollSnapList().length ?? 3;
 
   return (
     <section
@@ -42,19 +82,36 @@ export function HeroBanner() {
       className="pointer-events-none fixed inset-0 z-0 h-dvh min-h-dvh w-full overflow-hidden"
     >
       <HeroBackdropLayer>
-        <video
-          ref={videoRef}
-          className="h-full w-full object-cover"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          poster={HERO_BANNER_IMAGE}
-          aria-label={t("imageAlt")}
-        >
-          <source src={HERO_BANNER_VIDEO} type="video/mp4" />
-        </video>
+        <div className="h-full w-full overflow-hidden" ref={emblaRef}>
+          <div className="flex h-full touch-pan-y">
+            <div className="h-full min-w-0 flex-[0_0_100%]">
+              <video
+                ref={videoRef}
+                className="h-full w-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                poster={HERO_BANNER_IMAGE}
+                aria-label={t("imageAlt")}
+              >
+                <source src={HERO_BANNER_VIDEO} type="video/mp4" />
+              </video>
+            </div>
+            {HERO_BANNER_EXTRA_IMAGES.map((src, idx) => (
+              <div key={src} className="h-full min-w-0 flex-[0_0_100%]">
+                <img
+                  src={src}
+                  alt={`${t("imageAlt")} ${idx + 2}`}
+                  loading="lazy"
+                  decoding="async"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
         <div
           className="absolute inset-0 bg-linear-to-b from-black/55 via-black/45 to-black/60"
           aria-hidden
@@ -84,6 +141,28 @@ export function HeroBanner() {
             </Link>
           </div>
         </HeroFadeUpContent>
+      </div>
+
+      <div
+        className="pointer-events-auto absolute bottom-5 left-1/2 z-20 flex flex-wrap items-center justify-center gap-2 px-4 -translate-x-1/2"
+        role="tablist"
+        aria-label="Hero slides"
+      >
+        {Array.from({ length: dotCount }, (_, i) => (
+          <button
+            key={i}
+            type="button"
+            role="tab"
+            aria-selected={selected === i}
+            aria-label={`Go to slide ${i + 1}`}
+            onClick={() => emblaApi?.scrollTo(i)}
+            className={`h-2 rounded-full transition-all duration-200 cursor-pointer active:scale-75 ${
+              selected === i
+                ? "w-8 bg-[#f9f6f3]"
+                : "w-2 bg-[#f9f6f3]/30 hover:bg-[#f9f6f3]/50"
+            }`}
+          />
+        ))}
       </div>
     </section>
   );

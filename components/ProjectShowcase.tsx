@@ -3,10 +3,10 @@
 import { useTranslations } from "next-intl";
 
 const PROJECT_IMAGES = [
-  "https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1536&h=1024&q=80",
+  "/images/evart-oran.jpg",
   "https://images.unsplash.com/photo-1481026469463-66327c86e544?auto=format&fit=crop&w=1536&h=1024&q=80",
-  "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1536&h=1024&q=80",
-  "https://framerusercontent.com/images/wLvb9zl34UgI60PBvNo6L3h1d8k.png?scale-down-to=512&width=1536&height=1024",
+  "/images/kurumsal.png",
+  "/images/services.png",
 ] as const;
 
 const ROW_LAYOUT = ["image-left", "text-left", "image-left", "text-left"] as const;

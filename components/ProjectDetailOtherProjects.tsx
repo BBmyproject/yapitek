@@ -1,5 +1,4 @@
 import { Link } from "@/i18n/navigation";
-import { pickTwoOtherSlugs } from "@/lib/pick-other-project-slugs";
 import { PROJECT_COVERS, type ProjectSlug } from "@/lib/projects";
 import { getTranslations } from "next-intl/server";
 
@@ -7,6 +6,12 @@ type Props = {
   locale: string;
   currentSlug: ProjectSlug;
 };
+
+const FIXED_OTHER_PROJECT_SLUGS = [
+  "evart-yalikavak",
+  "evart-estates-yalikavak",
+  "docs-vadi",
+] as const satisfies readonly ProjectSlug[];
 
 async function OtherProjectCard({
   locale,
@@ -64,10 +69,9 @@ async function OtherProjectCard({
 
 export async function ProjectDetailOtherProjects({
   locale,
-  currentSlug,
+  currentSlug: _currentSlug,
 }: Props) {
   const t = await getTranslations({ locale, namespace: "ProjectDetail" });
-  const [a, b] = pickTwoOtherSlugs(currentSlug);
 
   return (
     <section
@@ -89,9 +93,10 @@ export async function ProjectDetailOtherProjects({
             {t("allProjectsCta")}
           </Link>
         </div>
-        <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-          <OtherProjectCard locale={locale} slug={a} />
-          <OtherProjectCard locale={locale} slug={b} />
+        <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 md:gap-x-8 md:gap-y-10">
+          {FIXED_OTHER_PROJECT_SLUGS.map((slug) => (
+            <OtherProjectCard key={slug} locale={locale} slug={slug} />
+          ))}
         </div>
       </div>
     </section>

@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 const CARD_IMAGES = [
   "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80",
   "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80",
+  "/images/docs-vadi.webp",
 ] as const;
 
 const STAGGER_MS = 200;

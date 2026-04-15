@@ -1,11 +1,11 @@
 import { getTranslations } from "next-intl/server";
 
 const WIDE_BANNER_SRC =
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2400&q=80";
+  "/images/evart-estates.jpeg";
 
 const CARD_SRC = [
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+  "/images/evart-yalikavak.jpg",
+  "/images/evart-estates-8.jpeg",
   "/images/evart-oran.jpg",
 ] as const;
 
@@ -14,12 +14,12 @@ export async function AboutOurStorySection() {
 
   return (
     <div className="w-full bg-[#f9f6f3] text-[#1f3a40]">
-      <div className="relative aspect-[1.8/1] w-full overflow-hidden mt-15 lg:mt-0">
+      <div className="relative aspect-[2/1] w-full overflow-hidden mt-15 lg:mt-0 my-5">
         <img
           src={WIDE_BANNER_SRC}
           alt={t("wideBannerAlt")}
           width={2160}
-          height={1200}
+          height={1080}
           className="absolute inset-0 h-full w-full object-cover"
           sizes="100vw"
         />
