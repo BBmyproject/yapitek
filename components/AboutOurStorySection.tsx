@@ -6,7 +6,7 @@ const WIDE_BANNER_SRC =
 const CARD_SRC = [
   "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
   "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1600585154529-577f47c87627?auto=format&fit=crop&w=800&q=80",
+  "/images/evart-oran.jpg",
 ] as const;
 
 export async function AboutOurStorySection() {
