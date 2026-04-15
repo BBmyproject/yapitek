@@ -38,7 +38,6 @@ export default async function ProjectsPage({ params }: Props) {
                   aspectRatio: "auto 803 / 674",
                   maxWidth: "451px",
                   maxHeight: "373px",
-                  transform: "rotate(45deg)",
                   filter: "blur(5px)",
                 }}
               />
@@ -51,7 +50,7 @@ export default async function ProjectsPage({ params }: Props) {
                   aspectRatio: "auto 803 / 674",
                   maxWidth: "451px",
                   maxHeight: "373px",
-                  transform: "rotate(275deg)",
+                  transform: "scaleX(-1)",
                   filter: "blur(5px)",
                 }}
               />
