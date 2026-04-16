@@ -43,7 +43,7 @@ export const PROJECT_COVERS: Record<ProjectSlug, string> = {
     "/images/evart-oran.jpg",
   "evart-1": "/images/evart1.jpg",
   "evart-2": "/images/evart2.jpg",
-  "evart-yalikavak": "/images/evart-yalikavak.jpg",
+  "evart-yalikavak": "/images/evart-yalikavak-3.jpg",
   "evart-estates-yalikavak":
     "/images/evart-estates.jpeg",
   "imza-gokdemir": "/images/imza-gokdemir.jpeg",
