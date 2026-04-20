@@ -30,12 +30,12 @@ export function HomeLastProjects() {
       <div className="mx-auto max-w-[1400px] px-6 pb-8 pt-4 lg:px-10 lg:pb-20 lg:pt-16">
         <div className="flex flex-col gap-10 md:flex-row md:items-end md:justify-between md:gap-12">
           <div className="max-w-2xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#0f677d]">
+            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#0f677d]">
               {t("kicker")}
             </p>
             <h2
               id="home-last-projects-heading"
-              className="mt-3 font-serif text-3xl font-medium uppercase tracking-[0.08em] text-[#1f3a40] md:text-4xl lg:text-4xl lg:leading-tight"
+              className="mt-3 font-serif text-2xl font-medium uppercase tracking-[0.08em] text-[#1f3a40] md:text-4xl lg:text-4xl lg:leading-tight"
             >
               {t("title")}
             </h2>
@@ -109,6 +109,18 @@ export function HomeLastProjects() {
                         >
                           {t("inspectCta")}
                         </Link>
+                        <div className="relative mt-4 min-h-[220px] overflow-hidden bg-[#d1dfe0]/40 lg:hidden">
+                          <img
+                            src={PROJECT_COVERS[slug]}
+                            alt={tPage(`cards.${slug}.title`)}
+                            width={1600}
+                            height={1067}
+                            className="absolute inset-0 h-full w-full object-cover"
+                            sizes="100vw"
+                            loading="lazy"
+                            decoding="async"
+                          />
+                        </div>
                       </div>
                     ) : null}
                     {isSelected ? (
@@ -125,7 +137,7 @@ export function HomeLastProjects() {
           </div>
 
           <div
-            className="relative min-h-[240px] overflow-hidden bg-[#d1dfe0]/40 lg:min-h-[min(70vh,520px)]"
+            className="relative hidden min-h-[240px] overflow-hidden bg-[#d1dfe0]/40 lg:block lg:min-h-[min(70vh,520px)]"
             aria-live="polite"
             aria-label={t("previewLabel", {
               title: tPage(`cards.${selected}.title`),

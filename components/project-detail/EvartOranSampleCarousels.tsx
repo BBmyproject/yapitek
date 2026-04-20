@@ -1,6 +1,7 @@
 "use client";
 
 import {
+  EVART_ORAN_LOFT_IMAGES,
   EVART_ORAN_1PLUS1_IMAGES,
   EVART_ORAN_2PLUS1_IMAGES,
 } from "@/lib/evart-oran-sample-units-media";
@@ -216,6 +217,8 @@ function UnitCarousel({
 }
 
 export function EvartOranSampleCarousels() {
+  const t = useTranslations("ProjectEvartOran");
+
   return (
     <div className="border-t border-[#d1dfe0] bg-[#f9f6f3] px-6 py-12 lg:px-10 lg:py-16">
       <div className="mx-auto max-w-[1200px]">
@@ -233,6 +236,43 @@ export function EvartOranSampleCarousels() {
           slideAltKey="sample2Plus1SlideAlt"
           images={EVART_ORAN_2PLUS1_IMAGES}
         />
+        <section
+          className="w-full pb-2 pt-10 text-[#1f3a40] lg:pt-14"
+          aria-labelledby="evart-oran-sample-loft-heading"
+        >
+          <p className="px-4 text-center tracking-tight text-[#0f677d]">
+            {t("sampleLoftKicker")}
+          </p>
+          <h2
+            id="evart-oran-sample-loft-heading"
+            className="px-4 pb-8 pt-6 text-center font-serif text-3xl tracking-tight text-[#1f3a40] md:text-5xl"
+          >
+            {t("sampleLoftTitle")}
+          </h2>
+          <div className="grid grid-cols-1 gap-5 md:flex md:gap-5">
+            {EVART_ORAN_LOFT_IMAGES.map((src, index) => (
+              <div
+                key={src}
+                className={`relative overflow-hidden bg-[#d1dfdf]/40 ${
+                  index === 2
+                    ? "aspect-4/3 md:w-[20%] md:aspect-3/4"
+                    : "aspect-4/3 md:w-[40%]"
+                }`}
+              >
+                <img
+                  src={src}
+                  alt={t("sampleLoftImageAlt", { n: index + 1 })}
+                  width={1200}
+                  height={900}
+                  className="h-full w-full object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            ))}
+          </div>
+        </section>
         <div
           className="mx-auto mt-12 flex w-full max-w-[1440px] items-center gap-0 px-0 pt-8"
           aria-hidden

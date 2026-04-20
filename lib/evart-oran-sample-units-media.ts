@@ -30,3 +30,9 @@ export const EVART_ORAN_2PLUS1_IMAGES = [
   "/images/evart-oran-iki-15.jpg",
   "/images/evart-oran-iki-16.jpg",
 ] as const;
+
+export const EVART_ORAN_LOFT_IMAGES = [
+  "/images/evart-oran-dubleks.png",
+  "/images/evart-oran-dubleks-2.png",
+  "/images/evart-oran-dubleks-3.png",
+] as const;

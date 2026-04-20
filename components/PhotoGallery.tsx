@@ -100,7 +100,7 @@ export default function PhotoGallery() {
 
   return (
     <section
-      className="w-full text-[#1f3a40] pt-8 lg:pt-15"
+      className="w-full text-[#1f3a40] pt-8 lg:pt-15 hidden"
       aria-labelledby="photo-gallery-heading"
     >
       <p className="px-4 text-center tracking-tight text-[#0f677d]">

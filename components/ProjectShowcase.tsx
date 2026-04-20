@@ -34,12 +34,12 @@ export default function ProjectShowcase() {
           return (
             <article
               key={index}
-              className="sticky top-0 grid h-[800px] w-full grid-cols-1 md:grid-cols-2"
+              className="grid w-full grid-cols-1 md:sticky md:top-0 md:h-[600px] md:grid-cols-2"
               style={{ zIndex: (index + 1) * 5 }}
             >
               <div className={textFirst ? "order-1" : "order-2 md:order-1"}>
                 {textFirst ? (
-                  <div className="flex h-full items-center justify-center text-center px-8 md:px-16 lg:px-24 bg-[#ecf2f2]">
+                  <div className="flex h-full items-center justify-center text-center px-8 py-8 md:px-16 lg:px-24 bg-[#ecf2f2]">
                     <div className="max-w-[300px] space-y-4">
                       <h3 className="font-serif text-2xl font-medium tracking-tight md:text-3xl">
                         {t(`items.${index}.heading`)}
@@ -77,7 +77,7 @@ export default function ProjectShowcase() {
                     decoding="async"
                   />
                 ) : (
-                  <div className="flex h-full items-center justify-center text-center px-8 md:px-16 lg:px-24 bg-[#ecf2f2]">
+                  <div className="flex h-full items-center justify-center text-center px-8 py-8 md:px-16 lg:px-24 bg-[#ecf2f2]">
                     <div className="max-w-[300px] space-y-4">
                       <h3 className="font-serif text-2xl font-medium tracking-tight md:text-3xl">
                         {t(`items.${index}.heading`)}

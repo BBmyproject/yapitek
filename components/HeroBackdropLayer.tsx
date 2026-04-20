@@ -44,7 +44,7 @@ export function HeroBackdropLayer({ children }: HeroBackdropLayerProps) {
   return (
     <div
       ref={ref}
-      className="absolute inset-0 origin-center"
+      className="relative md:absolute inset-0 origin-center"
       style={{ opacity: 0.5, transform: "scale(1.02)" }}
     >
       {children}

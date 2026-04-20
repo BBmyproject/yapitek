@@ -16,6 +16,11 @@ const HERO_BANNER_EXTRA_IMAGES = [
   "/images/hero-banner-2.png",
   "/images/hero-banner-3.png",
 ] as const;
+const HERO_BANNER_MOBILE_PROJECT_LINKS = [
+  { label: "Evart Estates", slug: "evart-estates-yalikavak" },
+  { label: "Evart Oran", slug: "evart-oran" },
+  { label: "Evart Yalikavak", slug: "evart-yalikavak" },
+] as const;
 
 export function HeroBanner() {
   const t = useTranslations("HeroBanner");
@@ -75,6 +80,10 @@ export function HeroBanner() {
   }, [emblaApi]);
 
   const dotCount = emblaApi?.scrollSnapList().length ?? 3;
+  const selectedProject =
+    HERO_BANNER_MOBILE_PROJECT_LINKS[
+      selected % HERO_BANNER_MOBILE_PROJECT_LINKS.length
+    ];
 
   return (
     <section
@@ -84,7 +93,7 @@ export function HeroBanner() {
       <HeroBackdropLayer>
         <div className="h-full w-full overflow-hidden" ref={emblaRef}>
           <div className="flex h-full touch-pan-y">
-            <div className="h-full min-w-0 flex-[0_0_100%]">
+            <div className="min-h-[300px] md:min-h-auto md:h-full min-w-0 flex-[0_0_100%]">
               <video
                 ref={videoRef}
                 className="h-full w-full object-cover"
@@ -100,7 +109,7 @@ export function HeroBanner() {
               </video>
             </div>
             {HERO_BANNER_EXTRA_IMAGES.map((src, idx) => (
-              <div key={src} className="h-full min-w-0 flex-[0_0_100%]">
+              <div key={src} className="min-h-[300px] md:min-h-auto md:h-full min-w-0 flex-[0_0_100%]">
                 <img
                   src={src}
                   alt={`${t("imageAlt")} ${idx + 2}`}
@@ -118,7 +127,7 @@ export function HeroBanner() {
         />
       </HeroBackdropLayer>
 
-      <div className="pointer-events-auto relative z-10 flex h-full flex-col items-center justify-center px-6 text-center text-white">
+      <div className="pointer-events-auto relative z-10 hidden h-full flex-col items-center justify-center px-6 text-center text-white md:flex">
         <HeroFadeUpContent>
           <div className="flex max-w-4xl flex-col items-center pb-12 pt-[clamp(5rem,12vh,7rem)]">
             <h1 className="font-serif text-[clamp(1.75rem,4.5vw,3.75rem)] font-medium leading-tight tracking-tight md:leading-snug">
@@ -141,6 +150,18 @@ export function HeroBanner() {
             </Link>
           </div>
         </HeroFadeUpContent>
+      </div>
+
+      <div className="pointer-events-none absolute bottom-16 right-4 z-20 md:hidden">
+        <Link
+          href={{
+            pathname: "/projects/[slug]",
+            params: { slug: selectedProject.slug },
+          }}
+          className="pointer-events-auto inline-flex items-center rounded-full border border-white/35 bg-white/45 px-3 py-1.5 text-xs font-medium tracking-wide text-white backdrop-blur-sm transition-colors hover:bg-black/60"
+        >
+          {selectedProject.label}
+        </Link>
       </div>
 
       <div

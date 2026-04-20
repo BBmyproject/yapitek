@@ -223,7 +223,7 @@ const AboutSection = ({
           </div>
         </div>
 
-        <div className="w-full px-6 pb-6 lg:pb-16 xl:hidden">
+        <div className="w-full px-6 pb-6 lg:pb-16 hidden">
           <AboutBelowXlCarousel />
         </div>
 
