@@ -11,7 +11,7 @@ export default function Home() {
       <HomeEntryLoader />
       <HeroBanner />
       {/* Sabit hero için akışta yer tutar: kaydırınca sonraki bölümler üstte gelir */}
-      <div className="h-dvh shrink-0" aria-hidden />
+      <div className="h-dvh hidden md:block shrink-0" aria-hidden />
       <main
         id="content"
         className="relative z-10 text-foreground bg-[#f9f6f3]"

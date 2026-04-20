@@ -28,8 +28,8 @@ export function ShiftHoverText({
   variant = "default",
 }: ShiftHoverTextProps) {
   const isComfortable = variant === "comfortable";
-  const lineH = isComfortable ? "h-10" : "h-6";
-  const clipH = isComfortable ? "h-10" : "h-6";
+  const lineH = isComfortable ? "h-4 md:h-10" : "h-6";
+  const clipH = isComfortable ? "h-4 md:h-10" : "h-6";
   const translate = isComfortable
     ? "group-hover:-translate-y-16"
     : "group-hover:-translate-y-12";

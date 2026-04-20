@@ -25,9 +25,9 @@ export default async function ProjectsPage({ params }: Props) {
   return (
     <>
       <ProjectsIndexHero />
-      <div className="h-dvh shrink-0" aria-hidden />
+      <div className="h-dvh hidden md:block shrink-0" aria-hidden />
       <section className="relative overflow-x-clip bg-[#f9f6f3] text-[#1f3a40]">
-          <div className="sticky top-0 z-0 h-screen overflow-hidden">
+          <div className="sticky hidden md:block top-0 z-0 h-screen overflow-hidden">
             <div className="relative left-1/2 h-screen w-screen -translate-x-1/2">
               <img
                 src="/bg-logo-left.gif"

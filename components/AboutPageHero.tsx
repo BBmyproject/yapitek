@@ -10,7 +10,7 @@ export function AboutPageHero() {
   return (
     <section
       aria-label={t("heroSectionLabel")}
-      className="pointer-events-none fixed inset-0 z-0 h-dvh min-h-dvh w-full overflow-hidden"
+      className="pointer-events-none relative md:fixed inset-0 z-0 md:h-dvh md:min-h-dvh w-full overflow-hidden"
     >
       <HeroBackdropLayer>
         <img

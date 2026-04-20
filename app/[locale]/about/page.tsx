@@ -26,7 +26,7 @@ export default async function AboutPage({ params }: Props) {
   return (
     <>
       <AboutPageHero />
-      <div className="h-dvh shrink-0" aria-hidden />
+      <div className="h-dvh hidden md:block shrink-0" aria-hidden />
       <div className="relative z-10 bg-[#f9f6f3]">
         <AboutSection showHeading={false} showSignature={false} />
         <AboutOurStorySection />
