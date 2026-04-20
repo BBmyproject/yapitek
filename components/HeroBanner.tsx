@@ -91,7 +91,10 @@ export function HeroBanner() {
       className="pointer-events-none relative md:fixed inset-0 z-0 md:h-dvh md:min-h-dvh w-full overflow-hidden"
     >
       <HeroBackdropLayer>
-        <div className="h-full w-full overflow-hidden" ref={emblaRef}>
+        <div
+          className="pointer-events-auto h-full w-full overflow-hidden md:pointer-events-none"
+          ref={emblaRef}
+        >
           <div className="flex h-full touch-pan-y">
             <div className="min-h-[300px] md:min-h-auto md:h-full min-w-0 flex-[0_0_100%]">
               <video

@@ -64,7 +64,7 @@ export default async function ProjectDetailPage({ params }: Props) {
   return (
     <>
       <ProjectDetailHero slug={slug} />
-      <div className="h-dvh shrink-0" aria-hidden />
+      <div className="h-dvh hidden md:block shrink-0" aria-hidden />
       {slug === "evart-oran" ? (
         <ProjectEvartOranContent />
       ) : slug === "evart-1" ? (

@@ -27,7 +27,7 @@ export function HomeLastProjects() {
       className="w-full bg-[#f9f6f3] text-[#1f3a40]"
       aria-labelledby="home-last-projects-heading"
     >
-      <div className="mx-auto max-w-[1400px] px-6 pb-8 pt-4 lg:px-10 lg:pb-20 lg:pt-16">
+      <div className="mx-auto max-w-[1400px] px-6 pb-8 pt-12 lg:px-10 lg:pb-20 lg:pt-16">
         <div className="flex flex-col gap-10 md:flex-row md:items-end md:justify-between md:gap-12">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#0f677d]">

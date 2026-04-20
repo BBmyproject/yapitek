@@ -54,7 +54,7 @@ export function ProjectDetailHero({ slug }: ProjectDetailHeroProps) {
   return (
     <section
       aria-label={t(`items.${slug}.heroSectionLabel`)}
-      className="pointer-events-none fixed inset-0 z-0 h-dvh min-h-dvh w-full overflow-hidden"
+      className="pointer-events-none relative md:fixed inset-0 z-0 md:h-dvh md:min-h-dvh w-full overflow-hidden"
     >
       <HeroBackdropLayer>
         <img
@@ -73,25 +73,25 @@ export function ProjectDetailHero({ slug }: ProjectDetailHeroProps) {
 
       <div className="pointer-events-auto relative z-10 flex h-full flex-col items-center justify-center px-6 text-center text-white">
         <HeroFadeUpContent>
-          <div className="flex max-w-4xl flex-col items-center pb-12 pt-[clamp(5rem,12vh,7rem)]">
-            <h1 className="font-serif text-[clamp(1.75rem,4.5vw,4.75rem)] font-medium leading-tight">
+          <div className="flex max-w-4xl flex-col items-center pb-8 md:pb-12 pt-8 md:pt-[clamp(5rem,12vh,7rem)]">
+            <h1 className="font-serif text-[clamp(1.75rem,4.5vw,4.75rem)] font-medium leading-tight text-[#1f3a40] md:text-white">
               {t(`items.${slug}.heroTitle`)}
             </h1>
-            <p className="mt-6 max-w-2xl text-base font-serif text-white md:text-xl">
+            <p className="mt-6 max-w-2xl text-base font-serif text-[#1f3a40] md:text-white md:text-xl">
               {t(`items.${slug}.heroLead`)}
             </p>
             {HERO_TRIPLE_PARAGRAPH_SLUGS.has(slug) ? (
               <>
-                <p className="mt-5 max-w-2xl text-base font-serif leading-relaxed text-white/92 md:text-lg md:leading-relaxed">
+                <p className="mt-5 max-w-2xl text-base font-serif leading-relaxed text-[#1f3a40] md:text-white/92 md:text-lg md:leading-relaxed">
                   {t(`items.${slug}.heroLead2` as never)}
                 </p>
-                <p className="mt-5 max-w-2xl text-base font-serif leading-relaxed text-white/92 md:text-lg md:leading-relaxed">
+                <p className="mt-5 max-w-2xl text-base font-serif leading-relaxed text-[#1f3a40] md:text-white/92 md:text-lg md:leading-relaxed">
                   {t(`items.${slug}.heroLead3` as never)}
                 </p>
               </>
             ) : null}
             {HERO_EXTRA_SINGLE_SLUGS.has(slug) ? (
-              <p className="mt-5 max-w-2xl text-base font-serif leading-relaxed text-white/92 md:text-lg md:leading-relaxed">
+              <p className="mt-5 max-w-2xl text-base font-serif leading-relaxed text-[#1f3a40] md:text-white/92 md:text-lg md:leading-relaxed">
                 {t(`items.${slug}.heroLead2` as never)}
               </p>
             ) : null}

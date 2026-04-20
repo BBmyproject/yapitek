@@ -30,7 +30,7 @@ export function ProjectsIndexHero() {
         />
       </HeroBackdropLayer>
 
-      <div className="pointer-events-auto relative z-10 flex h-full flex-col items-center justify-center px-6 text-center text-white">
+      <div className="pointer-events-auto absolute top-0 md:relative z-10 flex h-full flex-col items-center justify-center px-6 text-center text-white">
         <HeroFadeUpContent>
           <div className="flex max-w-4xl flex-col items-center pb-12 pt-[clamp(5rem,12vh,7rem)]">
             <h1 className="font-serif text-[clamp(1.75rem,4.5vw,3.25rem)] font-medium leading-tight tracking-tight md:leading-snug">
