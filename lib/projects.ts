@@ -3,7 +3,7 @@ export const PROJECT_SLUGS = [
   "evart-1",
   "evart-2",
   "evart-yalikavak",
-  "evart-estates-yalikavak",
+  "evart-mansion-yalikavak",
   "imza-gokdemir",
   "may-life-incek",
   "docs-vadi",
@@ -27,7 +27,7 @@ export type ProjectSlug = (typeof PROJECT_SLUGS)[number];
 export const HOME_FEATURED_PROJECT_SLUGS = [
   "evart-oran",
   "evart-yalikavak",
-  "evart-estates-yalikavak",
+  "evart-mansion-yalikavak",
   "imza-gokdemir",
   "docs-vadi",
   "may-life-incek",
@@ -44,7 +44,7 @@ export const PROJECT_COVERS: Record<ProjectSlug, string> = {
   "evart-1": "/images/evart1.jpg",
   "evart-2": "/images/evart2.jpg",
   "evart-yalikavak": "/images/evart-yalikavak-3.jpg",
-  "evart-estates-yalikavak":
+  "evart-mansion-yalikavak":
     "/images/evart-estates.jpeg",
   "imza-gokdemir": "/images/imza-gokdemir.jpeg",
   "may-life-incek": "/images/may-life-incek.jpg",

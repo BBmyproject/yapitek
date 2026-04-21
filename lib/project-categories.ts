@@ -26,7 +26,7 @@ export const PROJECT_SLUGS_BY_CATEGORY: Record<
   housing: [
     "evart-oran",
     "evart-yalikavak",
-    "evart-estates-yalikavak",
+    "evart-mansion-yalikavak",
     "may-life-incek",
     "park-royal-residence",
     "docs-vadi",
@@ -49,7 +49,7 @@ export const PROJECT_SLUGS_BY_CATEGORY: Record<
 const PRIORITY_PROJECT_ORDER: readonly ProjectSlug[] = [
   "evart-oran",
   "evart-yalikavak",
-  "evart-estates-yalikavak",
+  "evart-mansion-yalikavak",
   "imza-gokdemir",
   "docs-vadi",
   "may-life-incek",

@@ -53,7 +53,7 @@
     "longBody": {
       "0": "Since 2014, Yapitek Anka Construction has operated across construction, real estate development, and investment—positioned as a built-environment brand that treats architectural quality and investment value as one agenda.",
       "1": "From day one, it has built a broad portfolio spanning residential, commercial, and mixed-use work, while also taking an active role in corporate buildings and social-impact projects.",
-      "2": "Through development, execution, and project partnerships on schemes such as Evart Oran, Evart Yalikavak, Evart Estates Yalikavak, May Life Incek, and Docs Vadi, it has earned a strong network of sector references.",
+      "2": "Through development, execution, and project partnerships on schemes such as Evart Oran, Evart Yalikavak, Evart Mansion Yalikavak, May Life Incek, and Docs Vadi, it has earned a strong network of sector references.",
       "3": "Yapitek approaches every project not merely as a structure, but through the lens of long-term investment value, quality of life, and sustainability.",
       "4": "From land analysis to development, from architectural planning to execution and handover, every stage is managed with a transparent, controlled, and measurable system.",
       "5": "In the projects it develops, site selection, user-centered architecture, and investment potential are evaluated together.",
@@ -101,7 +101,7 @@
     "p2": "In residential, commercial, and mixed-use projects, we build structures where every detail is meticulously planned and designed to generate long-term value.",
     "p3": "We approach every project not merely as a structure, but as a part of life itself.",
     "p4": "Because for us, construction means building not only today, but the future.",
-    "signName": "Ahmet Yilmaz",
+    "signName": "Mustafa Atmaca",
     "signRole": "Chairman of the Board"
   },
   "HomeLastProjects": {
@@ -209,8 +209,8 @@
         "title": "Evart Yalikavak",
         "excerpt": "A coastal scheme offering contemporary living aligned with its setting."
       },
-      "evart-estates-yalikavak": {
-        "title": "Evart Estates Yalikavak",
+      "evart-mansion-yalikavak": {
+        "title": "Evart Mansion Yalikavak",
         "excerpt": "A rare Bodrum estate model: generous land, low density, and a limited collection of mansions."
       },
       "imza-gokdemir": {
@@ -318,12 +318,12 @@
         "heroLead3": "Here you invest not only in a home, but in a way of life.",
         "heroCta": "Explore the project"
       },
-      "evart-estates-yalikavak": {
-        "metaTitle": "Evart Estates Yalikavak | Projects | Yapitek Anka Construction",
-        "metaDescription": "Evart Estates in Bodrum Yalikavak: 28 mansions on 48 acres, private pools, helipad, and an ultra-prime lifestyle proposition.",
+      "evart-mansion-yalikavak": {
+        "metaTitle": "Evart Mansion Yalikavak | Projects | Yapitek Anka Construction",
+        "metaDescription": "Evart Mansion in Bodrum Yalikavak: 28 mansions on 48 acres, private pools, helipad, and an ultra-prime lifestyle proposition.",
         "heroSectionLabel": "Project page",
-        "heroImageAlt": "Evart Estates Yalikavak project visual",
-        "heroTitle": "EVART ESTATES YALIKAVAK",
+        "heroImageAlt": "Evart Mansion Yalikavak project visual",
+        "heroTitle": "EVART MANSION YALIKAVAK",
         "heroLead": "A distinctive mansion lifestyle in Bodrum",
         "heroLead2": "This limited collection is not just a residence; it is a refined living experience where privacy, prestige, and quality of life converge.",
         "heroCta": "Explore the project"
@@ -630,25 +630,25 @@
     "sections": [
       {
         "kicker": "Cover",
-        "title": "EVART ESTATES YALIKAVAK",
+        "title": "EVART MANSION YALIKAVAK",
         "subtitle": "A distinctive mansion lifestyle in Bodrum",
         "body": "A limited collection offering an exclusive living experience.",
         "body2": "This limited collection is not just a residence; it is a refined living experience where privacy, prestige, and quality of life converge.",
-        "imageAlt": "Evart Estates Yalikavak cover visual"
+        "imageAlt": "Evart Mansion Yalikavak cover visual"
       },
       {
         "kicker": "Concept",
         "title": "A New Definition of Privileged Living",
-        "body": "Evart Estates Yalikavak redefines residential living in Bodrum with a mansion-scale concept beyond conventional developments.",
+        "body": "Evart Mansion Yalikavak redefines residential living in Bodrum with a mansion-scale concept beyond conventional developments.",
         "body2": "It prioritizes space over density, exclusivity over crowds, and permanence over temporary living.",
-        "imageAlt": "Evart Estates concept planning"
+        "imageAlt": "Evart Mansion concept planning"
       },
       {
         "kicker": "Concept Deep Dive",
         "title": "A Limited and Controlled Living Concept",
         "subtitle": "Only 28 Mansions",
         "body": "Comprising just 28 residences, the project offers expansive space, enhanced privacy, and a truly refined living experience.",
-        "imageAlt": "Evart Estates low-density mansion layout"
+        "imageAlt": "Evart Mansion low-density mansion layout"
       },
       {
         "kicker": "Location",
@@ -660,13 +660,13 @@
           { "label": "Turgutreis Marina", "value": "9.7 km" },
           { "label": "Milas-Bodrum Airport", "value": "60 km" }
         ],
-        "imageAlt": "Evart Estates location and access"
+        "imageAlt": "Evart Mansion location and access"
       },
       {
         "kicker": "Project Overview",
         "title": "Low Density, Elevated Living Standards",
         "body": "Developed on 48 acres with only 28 residences, the project offers a spacious and open living environment.",
-        "imageAlt": "Evart Estates masterplan overview"
+        "imageAlt": "Evart Mansion masterplan overview"
       },
       {
         "kicker": "Mansion Structure",
@@ -677,7 +677,7 @@
           "~300 sqm indoor space",
           "~1,800 sqm total usage area"
         ],
-        "imageAlt": "Evart Estates mansion plan and scale"
+        "imageAlt": "Evart Mansion mansion plan and scale"
       },
       {
         "kicker": "Living Experience",
@@ -689,7 +689,7 @@
           "Fire pit",
           "Expansive landscaped gardens"
         ],
-        "imageAlt": "Evart Estates private pool and landscape"
+        "imageAlt": "Evart Mansion private pool and landscape"
       },
       {
         "kicker": "Comfort & Technology",
@@ -701,7 +701,7 @@
           "Smart home infrastructure",
           "24/7 security systems"
         ],
-        "imageAlt": "Evart Estates smart technology systems"
+        "imageAlt": "Evart Mansion smart technology systems"
       },
       {
         "kicker": "Social Areas",
@@ -712,7 +712,7 @@
           "Private sauna in each residence",
           "Indoor parking for 2 vehicles"
         ],
-        "imageAlt": "Evart Estates social amenities"
+        "imageAlt": "Evart Mansion social amenities"
       },
       {
         "kicker": "Material Quality",
@@ -724,35 +724,35 @@
           "Marble flooring",
           "Laminated parquet"
         ],
-        "imageAlt": "Evart Estates interior material quality"
+        "imageAlt": "Evart Mansion interior material quality"
       },
       {
         "kicker": "Positional Advantage",
         "title": "Every Residence Oriented to the View",
         "body": "All residences are positioned to maximize sea views.",
         "body2": "Each unit holds intrinsic value.",
-        "imageAlt": "Evart Estates sea-view orientation"
+        "imageAlt": "Evart Mansion sea-view orientation"
       },
       {
         "kicker": "Target Lifestyle",
         "title": "Not a Season, but a Lifestyle",
         "body": "Designed for year-round living.",
         "body2": "A refined standard for a global audience.",
-        "imageAlt": "Evart Estates four-season lifestyle"
+        "imageAlt": "Evart Mansion four-season lifestyle"
       },
       {
         "kicker": "Pricing",
         "title": "More Than Property, A Lifestyle Choice",
         "subtitle": "£2,500,000 – £3,000,000",
         "body": "A decision driven by quality of life.",
-        "imageAlt": "Evart Estates pricing and value"
+        "imageAlt": "Evart Mansion pricing and value"
       },
       {
         "kicker": "Closing",
         "title": "Limited Collection. Enduring Value.",
-        "body": "Evart Estates Yalikavak offers a truly distinctive lifestyle in Bodrum.",
+        "body": "Evart Mansion Yalikavak offers a truly distinctive lifestyle in Bodrum.",
         "body2": "This is not just a residence, it is a way of living.",
-        "imageAlt": "Evart Estates closing visual"
+        "imageAlt": "Evart Mansion closing visual"
       }
     ],
     "closingCta": "Get in touch"

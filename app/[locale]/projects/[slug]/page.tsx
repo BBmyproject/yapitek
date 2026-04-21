@@ -73,7 +73,7 @@ export default async function ProjectDetailPage({ params }: Props) {
         <ProjectEvart2Content />
       ) : slug === "evart-yalikavak" ? (
         <ProjectEvartYalikavakContent />
-      ) : slug === "evart-estates-yalikavak" ? (
+      ) : slug === "evart-mansion-yalikavak" ? (
         <ProjectEvartEstatesYalikavakContent />
       ) : slug === "imza-gokdemir" ? (
         <ProjectImzaGokdemirContent />

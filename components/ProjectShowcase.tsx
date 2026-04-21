@@ -1,24 +1,44 @@
 "use client";
 
 import { Link } from "@/i18n/navigation";
-import { PROJECT_SLUGS_BY_CATEGORY } from "@/lib/project-categories";
-import { PROJECT_COVERS } from "@/lib/projects";
+import { PROJECT_COVERS, type ProjectSlug } from "@/lib/projects";
 import useEmblaCarousel from "embla-carousel-react";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
-const PROJECT_IMAGES = [
-  "/images/evart-oran.jpg",
-  "https://images.unsplash.com/photo-1481026469463-66327c86e544?auto=format&fit=crop&w=1536&h=1024&q=80",
-  "/images/kurumsal.png",
-  "/images/services.png",
-] as const;
-
 const ROW_LAYOUT = ["image-left", "text-left", "image-left", "text-left"] as const;
 
-function HousingProjectsCarousel() {
+const SHOWCASE_PROJECT_GROUPS: readonly (readonly ProjectSlug[])[] = [
+  [
+    "evart-oran",
+    "evart-yalikavak",
+    "evart-mansion-yalikavak",
+    "may-life-incek",
+    "park-royal-residence",
+    "docs-vadi",
+  ],
+  ["heska", "incek-louren", "park-royal-venue"],
+  ["zirvekent", "vali-erdogan"],
+  [
+    "abidin-pasa-kutuphanesi",
+    "amfi-tiyatro-uyanik",
+    "kirim-sudak",
+    "sehitlik",
+    "sayhan-hukuk",
+    "kumas",
+  ],
+] as const;
+
+const SHOWCASE_AUTOPLAY_MS = [2000, 4000, 5500, 6500] as const;
+
+function ShowcaseProjectsCarousel({
+  slugs,
+  autoplayMs,
+}: {
+  slugs: readonly ProjectSlug[];
+  autoplayMs: number;
+}) {
   const tProjects = useTranslations("ProjectsPage");
-  const housingSlugs = PROJECT_SLUGS_BY_CATEGORY.housing;
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
     loop: true,
@@ -57,7 +77,7 @@ function HousingProjectsCarousel() {
       stopAutoplay();
       autoplayId = window.setInterval(() => {
         emblaApi.scrollNext();
-      }, 3500);
+      }, autoplayMs);
     };
 
     const pauseAndResume = () => {
@@ -74,12 +94,12 @@ function HousingProjectsCarousel() {
       if (resumeId !== null) window.clearTimeout(resumeId);
       emblaApi.off("pointerDown", pauseAndResume);
     };
-  }, [emblaApi]);
+  }, [autoplayMs, emblaApi]);
 
   return (
     <div className="relative h-full w-full overflow-hidden bg-[#d1dfdf]/40" ref={emblaRef}>
       <div className="flex h-full touch-pan-y">
-        {housingSlugs.map((slug) => (
+        {slugs.map((slug) => (
           <Link
             key={slug}
             href={{ pathname: "/projects/[slug]", params: { slug } }}
@@ -99,7 +119,7 @@ function HousingProjectsCarousel() {
       </div>
       <div className="pointer-events-none absolute bottom-4 right-4 z-10 bg-black/45 px-3 py-2 backdrop-blur-sm">
         <p className="font-serif text-sm tracking-wide text-white md:text-base">
-          {tProjects(`cards.${housingSlugs[selectedIndex]}.title`)}
+          {tProjects(`cards.${slugs[selectedIndex]}.title`)}
         </p>
       </div>
     </div>
@@ -147,31 +167,19 @@ export default function ProjectShowcase() {
                       </p>
                     </div>
                   </div>
-                ) : index === 0 ? (
-                  <HousingProjectsCarousel />
                 ) : (
-                  <img
-                    src={PROJECT_IMAGES[index]}
-                    alt={t(`items.${index}.heading`)}
-                    width={1536}
-                    height={1024}
-                    className="h-full w-full object-cover"
-                    loading="lazy"
-                    decoding="async"
+                  <ShowcaseProjectsCarousel
+                    slugs={SHOWCASE_PROJECT_GROUPS[index]}
+                    autoplayMs={SHOWCASE_AUTOPLAY_MS[index]}
                   />
                 )}
               </div>
 
               <div className={textFirst ? "order-2 md:h-[600px]" : "order-1 md:order-2 md:h-[600px]"}>
                 {textFirst ? (
-                  <img
-                    src={PROJECT_IMAGES[index]}
-                    alt={t(`items.${index}.heading`)}
-                    width={1536}
-                    height={1024}
-                    className="h-full w-full object-cover"
-                    loading="lazy"
-                    decoding="async"
+                  <ShowcaseProjectsCarousel
+                    slugs={SHOWCASE_PROJECT_GROUPS[index]}
+                    autoplayMs={SHOWCASE_AUTOPLAY_MS[index]}
                   />
                 ) : (
                   <div className="flex h-full items-center justify-center text-center px-8 py-8 md:px-16 lg:px-24 bg-[#ecf2f2]">

@@ -9,7 +9,7 @@ type Props = {
 
 const FIXED_OTHER_PROJECT_SLUGS = [
   "evart-yalikavak",
-  "evart-estates-yalikavak",
+  "evart-mansion-yalikavak",
   "docs-vadi",
 ] as const satisfies readonly ProjectSlug[];
 

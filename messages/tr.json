@@ -53,7 +53,7 @@
     "longBody": {
       "0": "Yapıtek Anka İnşaat, 2014 yılından bu yana; inşaat, gayrimenkul geliştirme ve yatırım alanlarında faaliyet gösteren, projelerinde mimari kaliteyi ve yatırım değerini birlikte ele alan bir yapı markasıdır.",
       "1": "Kurulduğu günden itibaren; konut, ticari ve karma kullanım projelerinin yanı sıra, kurumsal yapılar ve sosyal projelerde de aktif rol alarak geniş bir portföy oluşturmuştur.",
-      "2": "Evart Oran, Evart Yalıkavak, Evart Estates Yalıkavak, May Life İncek ve Docs Vadi gibi projelerde geliştirme, uygulama ve proje ortaklığı süreçlerinde yer alarak sektörde güçlü bir referans ağı oluşturmuştur.",
+      "2": "Evart Oran, Evart Yalıkavak, Evart Mansion Yalıkavak, May Life İncek ve Docs Vadi gibi projelerde geliştirme, uygulama ve proje ortaklığı süreçlerinde yer alarak sektörde güçlü bir referans ağı oluşturmuştur.",
       "3": "Yapıtek, her projeyi yalnızca bir yapı olarak değil; uzun vadeli yatırım değeri, yaşam kalitesi ve sürdürülebilirlik perspektifiyle ele alır.",
       "4": "Arsa analizinden proje geliştirmeye, mimari planlamadan uygulama ve teslim süreçlerine kadar tüm aşamalar; şeffaf, kontrollü ve ölçülebilir bir sistemle yönetilir.",
       "5": "Geliştirdiği projelerde; doğru lokasyon seçimi, kullanıcı odaklı mimari yaklaşım ve yatırım potansiyeli birlikte değerlendirilir.",
@@ -105,7 +105,7 @@
     "signRole": "Yönetim Kurulu Başkanı"
   },
   "HomeLastProjects": {
-    "kicker": "Projelerimiz",
+    "kicker": "Devam Eden Projeler",
     "title": "Son dönemde tamamlanan ve süren referanslarımız",
     "body": "Konut, ticari ve kamusal ölçekte yürüttüğümüz projelerden güncel bir seçki. her satır bir hikâye; detaylar için projeler sayfasına geçebilir veya doğrudan inceleyebilirsiniz.",
     "allProjectsCta": "Tüm projeler",
@@ -209,8 +209,8 @@
         "title": "Evart Yalıkavak",
         "excerpt": "Bölgenin karakterine uyumlu, modern yaşam alanları sunan geliştirme projesi."
       },
-      "evart-estates-yalikavak": {
-        "title": "Evart Estates Yalıkavak",
+      "evart-mansion-yalikavak": {
+        "title": "Evart Mansion Yalıkavak",
         "excerpt": "Geniş arazi ve düşük yoğunlukla Bodrum’da nadir bir malikane yaşam modeli."
       },
       "imza-gokdemir": {
@@ -318,12 +318,12 @@
         "heroLead3": "Burada yalnızca bir konut değil, bir yaşam biçimi satın alırsınız.",
         "heroCta": "Projeyi Keşfet"
       },
-      "evart-estates-yalikavak": {
-        "metaTitle": "Evart Estates Yalıkavak | Projeler | Yapıtek Anka İnşaat",
-        "metaDescription": "Bodrum Yalıkavak’ta Evart Estates: 48 dönümde 28 malikane, özel havuzlar, helikopter pisti ve üst segment yaşam standardı.",
+      "evart-mansion-yalikavak": {
+        "metaTitle": "Evart Mansion Yalıkavak | Projeler | Yapıtek Anka İnşaat",
+        "metaDescription": "Bodrum Yalıkavak’ta Evart Mansion: 48 dönümde 28 malikane, özel havuzlar, helikopter pisti ve üst segment yaşam standardı.",
         "heroSectionLabel": "Proje sayfası",
-        "heroImageAlt": "Evart Estates Yalıkavak proje görseli",
-        "heroTitle": "EVART ESTATES YALIKAVAK",
+        "heroImageAlt": "Evart Mansion Yalıkavak proje görseli",
+        "heroTitle": "EVART MANSION YALIKAVAK",
         "heroLead": "Bodrum’da benzersiz malikane yaşamı",
         "heroLead2": "Sınırlı sayıda geliştirilen bu proje, yalnızca bir konut değil; mahremiyet, prestij ve yaşam kalitesini aynı çerçevede sunan özel bir deneyimdir.",
         "heroCta": "Projeyi Keşfet"
@@ -630,25 +630,25 @@
     "sections": [
       {
         "kicker": "Kapak",
-        "title": "EVART ESTATES YALIKAVAK",
+        "title": "EVART MANSION YALIKAVAK",
         "subtitle": "Bodrum’da benzersiz malikane yaşamı",
         "body": "Sınırlı sayıda, ayrıcalıklı bir yaşam deneyimi.",
         "body2": "Sınırlı sayıda geliştirilen bu proje, yalnızca bir konut değil; mahremiyet, prestij ve yaşam kalitesini aynı çerçevede sunan özel bir deneyimdir.",
-        "imageAlt": "Evart Estates Yalıkavak kapak görseli"
+        "imageAlt": "Evart Mansion Yalıkavak kapak görseli"
       },
       {
         "kicker": "Konsept",
         "title": "Ayrıcalığın Yeniden Tanımlandığı Bir Yaşam",
-        "body": "Evart Estates Yalıkavak, Bodrum’da standart konut projelerinin ötesine geçen, malikane ölçeğinde tasarlanmış bir yaşam kurgusudur.",
+        "body": "Evart Mansion Yalıkavak, Bodrum’da standart konut projelerinin ötesine geçen, malikane ölçeğinde tasarlanmış bir yaşam kurgusudur.",
         "body2": "Bu proje, yoğunluk yerine ferahlığı; kalabalık yerine seçilmişliği; geçici kullanım yerine kalıcı bir yaşamı merkezine alır.",
-        "imageAlt": "Evart Estates konsept yerleşimi"
+        "imageAlt": "Evart Mansion konsept yerleşimi"
       },
       {
         "kicker": "Konsept Derinleşme",
         "title": "Sınırlı Sayıda, Kontrollü Bir Yaşam Kurgusu",
         "subtitle": "Yalnızca 28 Malikane",
         "body": "Sadece 28 malikaneden oluşan bu yapı, daha fazla alan, daha fazla mahremiyet ve seçkin bir yaşam deneyimi sunar.",
-        "imageAlt": "Evart Estates düşük yoğunluklu malikane düzeni"
+        "imageAlt": "Evart Mansion düşük yoğunluklu malikane düzeni"
       },
       {
         "kicker": "Lokasyon",
@@ -660,13 +660,13 @@
           { "label": "Turgutreis Marina", "value": "9.7 km" },
           { "label": "Milas-Bodrum Havalimanı", "value": "60 km" }
         ],
-        "imageAlt": "Evart Estates lokasyon ve çevre erişimi"
+        "imageAlt": "Evart Mansion lokasyon ve çevre erişimi"
       },
       {
         "kicker": "Proje Genel Bilgi",
         "title": "Düşük Yoğunluk, Yüksek Yaşam Standardı",
         "body": "48 dönüm arazi üzerinde yalnızca 28 malikane ile tasarlanan proje, ferah ve geniş bir yaşam kurgusu sunar.",
-        "imageAlt": "Evart Estates genel proje yerleşimi"
+        "imageAlt": "Evart Mansion genel proje yerleşimi"
       },
       {
         "kicker": "Malikane Yapısı",
@@ -677,7 +677,7 @@
           "~300 m² kapalı alan",
           "~1.800 m² kullanım alanı"
         ],
-        "imageAlt": "Evart Estates malikane planı ve hacmi"
+        "imageAlt": "Evart Mansion malikane planı ve hacmi"
       },
       {
         "kicker": "Yaşam Deneyimi",
@@ -689,7 +689,7 @@
           "Ateş çukuru",
           "Geniş peyzaj alanları"
         ],
-        "imageAlt": "Evart Estates özel havuz ve peyzaj"
+        "imageAlt": "Evart Mansion özel havuz ve peyzaj"
       },
       {
         "kicker": "Konfor & Teknoloji",
@@ -701,7 +701,7 @@
           "Akıllı ev altyapısı",
           "7/24 güvenlik sistemleri"
         ],
-        "imageAlt": "Evart Estates akıllı yaşam teknolojileri"
+        "imageAlt": "Evart Mansion akıllı yaşam teknolojileri"
       },
       {
         "kicker": "Sosyal Alanlar",
@@ -712,7 +712,7 @@
           "Özel sauna",
           "2 araçlık kapalı otopark"
         ],
-        "imageAlt": "Evart Estates sosyal alanlar"
+        "imageAlt": "Evart Mansion sosyal alanlar"
       },
       {
         "kicker": "Malzeme Kalitesi",
@@ -724,35 +724,35 @@
           "Mermer zeminler",
           "Lamine parke"
         ],
-        "imageAlt": "Evart Estates malzeme ve iç mekan kalitesi"
+        "imageAlt": "Evart Mansion malzeme ve iç mekan kalitesi"
       },
       {
         "kicker": "Konumsal Avantaj",
         "title": "Her Yapı, Manzaraya Konumlanır",
         "body": "Tüm malikaneler deniz manzarasına yönlendirilmiştir.",
         "body2": "Her yapı kendi başına değer üretir.",
-        "imageAlt": "Evart Estates deniz manzarasına yönlenen yapılar"
+        "imageAlt": "Evart Mansion deniz manzarasına yönlenen yapılar"
       },
       {
         "kicker": "Hedef Yaşam",
         "title": "Bir Sezon Değil, Bir Yaşam Biçimi",
         "body": "Yılın her döneminde yaşanabilir.",
         "body2": "Seçkin bir yaşam standardı sunar.",
-        "imageAlt": "Evart Estates dört mevsim yaşam"
+        "imageAlt": "Evart Mansion dört mevsim yaşam"
       },
       {
         "kicker": "Fiyatlandırma",
         "title": "Bir Mülk Değil, Bir Yaşam Seçimi",
         "subtitle": "2.500.000 £ – 3.000.000 £",
         "body": "Yaşam kalitesi odaklı bir tercihtir.",
-        "imageAlt": "Evart Estates fiyatlandırma ve değer"
+        "imageAlt": "Evart Mansion fiyatlandırma ve değer"
       },
       {
         "kicker": "Kapanış",
         "title": "Sınırlı Sayıda. Kalıcı Değer.",
-        "body": "Evart Estates Yalıkavak, Bodrum’da ayrıcalıklı bir yaşam sunar.",
+        "body": "Evart Mansion Yalıkavak, Bodrum’da ayrıcalıklı bir yaşam sunar.",
         "body2": "Bu, bir konut değil; seçilmiş bir yaşam biçimidir.",
-        "imageAlt": "Evart Estates kapanış görseli"
+        "imageAlt": "Evart Mansion kapanış görseli"
       }
     ],
     "closingCta": "İletişime Geç"

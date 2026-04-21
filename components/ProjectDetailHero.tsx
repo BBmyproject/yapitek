@@ -12,7 +12,7 @@ type ProjectDetailHeroProps = {
 
 /** Tek ek paragraf (heroLead2) — estates, imza vb. */
 const HERO_EXTRA_SINGLE_SLUGS: ReadonlySet<ProjectSlug> = new Set([
-  "evart-estates-yalikavak",
+  "evart-mansion-yalikavak",
   "imza-gokdemir",
 ]);
 
@@ -29,7 +29,7 @@ const HERO_EXPLORE_CTA_SLUGS: ReadonlySet<ProjectSlug> = new Set([
   "evart-1",
   "evart-2",
   "evart-yalikavak",
-  "evart-estates-yalikavak",
+  "evart-mansion-yalikavak",
   "imza-gokdemir",
   "may-life-incek",
   "docs-vadi",

@@ -17,7 +17,7 @@ const HERO_BANNER_EXTRA_IMAGES = [
   "/images/hero-banner-3.png",
 ] as const;
 const HERO_BANNER_MOBILE_PROJECT_LINKS = [
-  { label: "Evart Estates", slug: "evart-estates-yalikavak" },
+  { label: "Evart Mansion", slug: "evart-mansion-yalikavak" },
   { label: "Evart Oran", slug: "evart-oran" },
   { label: "Evart Yalikavak", slug: "evart-yalikavak" },
 ] as const;
