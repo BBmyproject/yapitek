@@ -132,7 +132,7 @@ export default function ProjectShowcase() {
               className="grid w-full grid-cols-1 md:sticky md:top-0 md:h-[600px] md:grid-cols-2"
               style={{ zIndex: (index + 1) * 5 }}
             >
-              <div className={textFirst ? "order-1" : "order-2 md:order-1"}>
+              <div className={textFirst ? "order-1 md:h-[600px]" : "order-2 md:order-1 md:h-[600px]"}>
                 {textFirst ? (
                   <div className="flex h-full items-center justify-center text-center px-8 py-8 md:px-16 lg:px-24 bg-[#ecf2f2]">
                     <div className="max-w-[300px] space-y-4">
@@ -162,7 +162,7 @@ export default function ProjectShowcase() {
                 )}
               </div>
 
-              <div className={textFirst ? "order-2" : "order-1 md:order-2"}>
+              <div className={textFirst ? "order-2 md:h-[600px]" : "order-1 md:order-2 md:h-[600px]"}>
                 {textFirst ? (
                   <img
                     src={PROJECT_IMAGES[index]}
