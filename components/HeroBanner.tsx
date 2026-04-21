@@ -125,7 +125,7 @@ export function HeroBanner() {
           </div>
         </div>
         <div
-          className="absolute inset-0 bg-linear-to-b from-black/55 via-black/45 to-black/60"
+          className="absolute hidden md:block inset-0 bg-linear-to-b from-black/55 via-black/45 to-black/60"
           aria-hidden
         />
       </HeroBackdropLayer>

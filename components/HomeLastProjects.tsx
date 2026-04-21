@@ -30,20 +30,20 @@ export function HomeLastProjects() {
       <div className="mx-auto max-w-[1400px] px-6 pb-8 pt-12 lg:px-10 lg:pb-20 lg:pt-16">
         <div className="flex flex-col gap-10 md:flex-row md:items-end md:justify-between md:gap-12">
           <div className="max-w-2xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#0f677d]">
+            <p className="text-2xl md:text-xs text-center md:text-left font-semibold uppercase text-[#1f3a40] md:text-[#0f677d]">
               {t("kicker")}
             </p>
             <h2
               id="home-last-projects-heading"
-              className="mt-3 font-serif text-2xl font-medium uppercase tracking-[0.08em] text-[#1f3a40] md:text-4xl lg:text-4xl lg:leading-tight"
+              className="mt-3 font-serif hidden md:block text-2xl font-medium uppercase tracking-[0.08em] text-[#1f3a40] md:text-4xl lg:text-4xl lg:leading-tight"
             >
               {t("title")}
             </h2>
-            <p className="mt-5 text-sm font-normal leading-relaxed text-[#1f3a40]/78 md:text-base md:leading-relaxed">
+            <p className="mt-5 hidden md:block text-sm font-normal leading-relaxed text-[#1f3a40]/78 md:text-base md:leading-relaxed">
               {t("body")}
             </p>
           </div>
-          <div className="shrink-0 md:pt-1">
+          <div className="shrink-0 hidden md:block md:pt-1">
             <Link
               href="/projects"
               className="inline-flex items-center justify-center border border-[#1f3a40]/25 bg-white/80 px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-[#1f3a40] transition-colors hover:border-[#0f677d] hover:bg-[#ecf2f2] hover:text-[#0f677d]"
@@ -53,7 +53,7 @@ export function HomeLastProjects() {
           </div>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-10 lg:mt-16 lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:gap-14 lg:items-center">
+        <div className="mt-4 md:mt-12 grid grid-cols-1 gap-10 lg:mt-16 lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:gap-14 lg:items-center">
           <div className="flex min-w-0 flex-col gap-0" aria-label={t("listLabel")}>
             {slugs.map((slug) => {
               const isSelected = selected === slug;
@@ -165,6 +165,15 @@ export function HomeLastProjects() {
             ))}
           </div>
         </div>
+        
+        <div className=" flex justify-center mt-6 shrink-0 block md:hidden md:pt-1">
+            <Link
+              href="/projects"
+              className="inline-flex items-center justify-center border border-[#1f3a40]/25 bg-white/80 px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-[#1f3a40] transition-colors hover:border-[#0f677d] hover:bg-[#ecf2f2] hover:text-[#0f677d]"
+            >
+              {t("allProjectsCta")}
+            </Link>
+          </div>
       </div>
       <div
         className="mx-auto flex w-full max-w-[1440px] items-center gap-0 px-6 pb-10 lg:pb-25 pt-2 lg:pt-10"

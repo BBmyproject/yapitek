@@ -16,9 +16,9 @@ export default function Home() {
         id="content"
         className="relative z-10 text-foreground bg-[#f9f6f3]"
       >
+        <HomeLastProjects />
         <AboutSection />
         <PhotoGallery />
-        <HomeLastProjects />
         <ProjectShowcase />
       </main>
     </>
