@@ -5,34 +5,109 @@ import { PROJECT_SLUGS_BY_CATEGORY } from "@/lib/project-categories";
 import { PROJECT_COVERS } from "@/lib/projects";
 import useEmblaCarousel from "embla-carousel-react";
 import { useTranslations } from "next-intl";
-import { useCallback, useEffect } from "react";
+import { useEffect, useState } from "react";
 
-export default function ProjectShowcase() {
-  const t = useTranslations("ProjectShowcase");
+const PROJECT_IMAGES = [
+  "/images/evart-oran.jpg",
+  "https://images.unsplash.com/photo-1481026469463-66327c86e544?auto=format&fit=crop&w=1536&h=1024&q=80",
+  "/images/kurumsal.png",
+  "/images/services.png",
+] as const;
+
+const ROW_LAYOUT = ["image-left", "text-left", "image-left", "text-left"] as const;
+
+function HousingProjectsCarousel() {
   const tProjects = useTranslations("ProjectsPage");
-  const tHomeLastProjects = useTranslations("HomeLastProjects");
   const housingSlugs = PROJECT_SLUGS_BY_CATEGORY.housing;
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
-    loop: false,
+    loop: true,
     dragFree: false,
   });
-  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
-  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   useEffect(() => {
     if (!emblaApi) return;
 
-    const id = window.setInterval(() => {
-      if (emblaApi.canScrollNext()) {
-        emblaApi.scrollNext();
-        return;
-      }
-      emblaApi.scrollTo(0);
-    }, 4000);
+    const onSelect = () => setSelectedIndex(emblaApi.selectedScrollSnap());
+    emblaApi.on("select", onSelect);
+    emblaApi.on("reInit", onSelect);
+    onSelect();
 
-    return () => window.clearInterval(id);
+    return () => {
+      emblaApi.off("select", onSelect);
+      emblaApi.off("reInit", onSelect);
+    };
   }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    let autoplayId: number | null = null;
+    let resumeId: number | null = null;
+
+    const stopAutoplay = () => {
+      if (autoplayId !== null) {
+        window.clearInterval(autoplayId);
+        autoplayId = null;
+      }
+    };
+
+    const startAutoplay = () => {
+      stopAutoplay();
+      autoplayId = window.setInterval(() => {
+        emblaApi.scrollNext();
+      }, 3500);
+    };
+
+    const pauseAndResume = () => {
+      stopAutoplay();
+      if (resumeId !== null) window.clearTimeout(resumeId);
+      resumeId = window.setTimeout(() => startAutoplay(), 2000);
+    };
+
+    startAutoplay();
+    emblaApi.on("pointerDown", pauseAndResume);
+
+    return () => {
+      stopAutoplay();
+      if (resumeId !== null) window.clearTimeout(resumeId);
+      emblaApi.off("pointerDown", pauseAndResume);
+    };
+  }, [emblaApi]);
+
+  return (
+    <div className="relative h-full w-full overflow-hidden bg-[#d1dfdf]/40" ref={emblaRef}>
+      <div className="flex h-full touch-pan-y">
+        {housingSlugs.map((slug) => (
+          <Link
+            key={slug}
+            href={{ pathname: "/projects/[slug]", params: { slug } }}
+            className="group relative h-full min-w-0 shrink-0 basis-full"
+          >
+            <img
+              src={PROJECT_COVERS[slug]}
+              alt={tProjects(`cards.${slug}.title`)}
+              width={1536}
+              height={1024}
+              className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+              loading="lazy"
+              decoding="async"
+            />
+          </Link>
+        ))}
+      </div>
+      <div className="pointer-events-none absolute bottom-4 right-4 z-10 bg-black/45 px-3 py-2 backdrop-blur-sm">
+        <p className="font-serif text-sm tracking-wide text-white md:text-base">
+          {tProjects(`cards.${housingSlugs[selectedIndex]}.title`)}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function ProjectShowcase() {
+  const t = useTranslations("ProjectShowcase");
 
   return (
     <section
@@ -40,73 +115,83 @@ export default function ProjectShowcase() {
       className="w-full pb-12 lg:pb-20 text-[#1f3a40]"
       aria-labelledby="project-showcase-heading"
     >
+      <p className="px-4 text-center tracking-tight text-[#0f677d]">{t("description")}</p>
       <h2
         id="project-showcase-heading"
         className="px-4 pb-8 pt-8 text-center font-serif text-3xl tracking-tight text-[#1f3a40] md:text-6xl md:pb-16"
       >
         {t("title")}
       </h2>
-      <div className="mx-auto w-full max-w-[1320px] px-4 md:px-6 lg:px-8">
-        <div className="relative">
-          <button
-            type="button"
-            onClick={scrollPrev}
-            aria-label="Previous slide"
-            className="absolute left-2 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-[#00000066] text-white transition-transform active:scale-95 md:left-3"
-          >
-            <span aria-hidden>‹</span>
-          </button>
-          <button
-            type="button"
-            onClick={scrollNext}
-            aria-label="Next slide"
-            className="absolute right-2 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-[#00000066] text-white transition-transform active:scale-95 md:right-3"
-          >
-            <span aria-hidden>›</span>
-          </button>
 
-          <div className="overflow-hidden" ref={emblaRef}>
-            <div className="flex touch-pan-y">
-              {housingSlugs.map((slug) => (
-                <div key={slug} className="min-w-0 shrink-0 basis-[84%] pl-4 md:basis-1/2 lg:basis-1/3">
-                  <Link
-                    href={{ pathname: "/projects/[slug]", params: { slug } }}
-                    className="group block h-full overflow-hidden bg-white"
-                  >
-                    <img
-                      src={PROJECT_COVERS[slug]}
-                      alt={tProjects(`cards.${slug}.title`)}
-                      width={900}
-                      height={620}
-                      className="h-[220px] w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03] md:h-[250px]"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                    <div className="space-y-2 px-5 py-5">
-                      <h4 className="font-serif text-xl tracking-tight text-[#1f3a40]">
-                        {tProjects(`cards.${slug}.title`)}
-                      </h4>
-                      <p className="line-clamp-3 text-sm leading-relaxed text-[#1f3a40]/85">
-                        {tProjects(`cards.${slug}.excerpt`)}
+      <div className="w-full">
+        {ROW_LAYOUT.map((layout, index) => {
+          const textFirst = layout === "text-left";
+          return (
+            <article
+              key={index}
+              className="grid w-full grid-cols-1 md:sticky md:top-0 md:h-[600px] md:grid-cols-2"
+              style={{ zIndex: (index + 1) * 5 }}
+            >
+              <div className={textFirst ? "order-1" : "order-2 md:order-1"}>
+                {textFirst ? (
+                  <div className="flex h-full items-center justify-center text-center px-8 py-8 md:px-16 lg:px-24 bg-[#ecf2f2]">
+                    <div className="max-w-[300px] space-y-4">
+                      <h3 className="font-serif text-2xl font-medium tracking-tight md:text-3xl">
+                        {t(`items.${index}.heading`)}
+                      </h3>
+                      <p className="text-base leading-relaxed">
+                        {t(`items.${index}.line1`)}
                       </p>
-                      <span className="inline-flex pt-1 font-serif text-xs font-semibold uppercase tracking-wide text-[#0f677d] underline-offset-4 transition-opacity group-hover:underline">
-                        {tProjects("cardCta")}
-                      </span>
+                      <p className="text-base leading-relaxed">
+                        {t(`items.${index}.line2`)}
+                      </p>
                     </div>
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        <div className="mt-8 flex justify-center md:mt-10">
-          <Link
-            href="/projects"
-            className="inline-flex items-center justify-center border border-[#1f3a40]/25 bg-white/80 px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-[#1f3a40] transition-colors hover:border-[#0f677d] hover:bg-[#ecf2f2] hover:text-[#0f677d]"
-          >
-            {tHomeLastProjects("allProjectsCta")}
-          </Link>
-        </div>
+                  </div>
+                ) : index === 0 ? (
+                  <HousingProjectsCarousel />
+                ) : (
+                  <img
+                    src={PROJECT_IMAGES[index]}
+                    alt={t(`items.${index}.heading`)}
+                    width={1536}
+                    height={1024}
+                    className="h-full w-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                )}
+              </div>
+
+              <div className={textFirst ? "order-2" : "order-1 md:order-2"}>
+                {textFirst ? (
+                  <img
+                    src={PROJECT_IMAGES[index]}
+                    alt={t(`items.${index}.heading`)}
+                    width={1536}
+                    height={1024}
+                    className="h-full w-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ) : (
+                  <div className="flex h-full items-center justify-center text-center px-8 py-8 md:px-16 lg:px-24 bg-[#ecf2f2]">
+                    <div className="max-w-[300px] space-y-4">
+                      <h3 className="font-serif text-2xl font-medium tracking-tight md:text-3xl">
+                        {t(`items.${index}.heading`)}
+                      </h3>
+                      <p className="text-base leading-relaxed">
+                        {t(`items.${index}.line1`)}
+                      </p>
+                      <p className="text-base leading-relaxed">
+                        {t(`items.${index}.line2`)}
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );

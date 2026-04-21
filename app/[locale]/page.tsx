@@ -3,6 +3,7 @@ import { HomeEntryLoader } from "@/components/HomeEntryLoader";
 import { HomeLastProjects } from "@/components/HomeLastProjects";
 import PhotoGallery from "@/components/PhotoGallery";
 import ProjectShowcase from "@/components/ProjectShowcase";
+import AboutSection from "@/components/AboutSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         id="content"
         className="relative z-10 text-foreground bg-[#f9f6f3]"
       >
+        <AboutSection />
         <HomeLastProjects />
         <PhotoGallery />
         <ProjectShowcase />

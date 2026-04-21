@@ -161,7 +161,7 @@ export function HeroBanner() {
             pathname: "/projects/[slug]",
             params: { slug: selectedProject.slug },
           }}
-          className="pointer-events-auto inline-flex items-center rounded-full border border-white/35 bg-white/45 px-3 py-1.5 text-xs font-medium tracking-wide text-white backdrop-blur-sm transition-colors hover:bg-black/60"
+          className="pointer-events-auto inline-flex items-center border border-white/35 bg-white/45 px-3 py-1.5 text-xs font-medium tracking-wide text-white backdrop-blur-sm transition-colors hover:bg-black/60"
         >
           {selectedProject.label}
         </Link>
