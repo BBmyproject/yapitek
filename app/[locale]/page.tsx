@@ -1,4 +1,3 @@
-import AboutSection from "@/components/AboutSection";
 import { HeroBanner } from "@/components/HeroBanner";
 import { HomeEntryLoader } from "@/components/HomeEntryLoader";
 import { HomeLastProjects } from "@/components/HomeLastProjects";
@@ -17,7 +16,6 @@ export default function Home() {
         className="relative z-10 text-foreground bg-[#f9f6f3]"
       >
         <HomeLastProjects />
-        <AboutSection />
         <PhotoGallery />
         <ProjectShowcase />
       </main>

@@ -30,7 +30,7 @@ export function HomeLastProjects() {
       <div className="mx-auto max-w-[1400px] px-6 pb-8 pt-12 lg:px-10 lg:pb-20 lg:pt-16">
         <div className="flex flex-col gap-10 md:flex-row md:items-end md:justify-between md:gap-12">
           <div className="max-w-2xl">
-            <p className="text-2xl md:text-xs text-center md:text-left font-semibold uppercase text-[#1f3a40] md:text-[#0f677d]">
+            <p className="text-3xl font-serif md:font-sans md:text-xs text-center md:text-left md:font-semibold uppercase text-[#1f3a40] md:text-[#0f677d]">
               {t("kicker")}
             </p>
             <h2
