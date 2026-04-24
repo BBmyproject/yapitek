@@ -6,6 +6,15 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { Bricolage_Grotesque, Playfair_Display } from "next/font/google";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import {
+  buildPageMetadata,
+  getDefaultDescription,
+  getHomeTitle,
+  getLocalizedPath,
+  getSiteName,
+  getSiteUrl,
+  type AppLocale,
+} from "@/lib/seo";
 
 const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ["latin", "latin-ext"],
@@ -23,15 +32,58 @@ const playfairDisplay = Playfair_Display({
   style: ["normal", "italic"],
 });
 
-export const metadata: Metadata = {
-  title: "Yapıtek Anka İnşaat",
-  description: "Yapıtek Anka İnşaat",
-  icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
-  },
+type MetadataProps = {
+  params?: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({
+  params,
+}: MetadataProps): Promise<Metadata> {
+  const resolvedParams = await params;
+  if (!resolvedParams) {
+    return {};
+  }
+  const { locale } = resolvedParams;
+  if (!hasLocale(routing.locales, locale)) {
+    return {};
+  }
+
+  const currentLocale = locale as AppLocale;
+
+  return {
+    metadataBase: new URL(getSiteUrl()),
+    ...buildPageMetadata({
+      locale: currentLocale,
+      title: getHomeTitle(currentLocale),
+      description: getDefaultDescription(currentLocale),
+      path: getLocalizedPath(currentLocale, "/"),
+    }),
+    alternates: {
+      canonical: getLocalizedPath(currentLocale, "/"),
+      languages: {
+        tr: getLocalizedPath("tr", "/"),
+        en: getLocalizedPath("en", "/"),
+        "x-default": getLocalizedPath("tr", "/"),
+      },
+    },
+    openGraph: {
+      ...buildPageMetadata({
+        locale: currentLocale,
+        title: getHomeTitle(currentLocale),
+        description: getDefaultDescription(currentLocale),
+        path: getLocalizedPath(currentLocale, "/"),
+      }).openGraph,
+      siteName: getSiteName(currentLocale),
+    },
+    applicationName: getSiteName(currentLocale),
+    category: currentLocale === "tr" ? "inşaat" : "construction",
+    icons: {
+      icon: "/favicon.ico",
+      shortcut: "/favicon.ico",
+      apple: "/favicon.ico",
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -39,11 +91,15 @@ export function generateStaticParams() {
 
 type Props = {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params?: Promise<{ locale: string }>;
 };
 
 export default async function LocaleLayout({ children, params }: Props) {
-  const { locale } = await params;
+  const resolvedParams = await params;
+  if (!resolvedParams) {
+    notFound();
+  }
+  const { locale } = resolvedParams;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();

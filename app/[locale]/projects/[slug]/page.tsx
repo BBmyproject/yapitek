@@ -21,16 +21,26 @@ import { ProjectMayLifeIncekContent } from "@/components/project-detail/ProjectM
 import { ProjectDetailHero } from "@/components/ProjectDetailHero";
 import { ProjectDetailOtherProjects } from "@/components/ProjectDetailOtherProjects";
 import {
+  PROJECT_COVERS,
   isProjectSlug,
   PROJECT_SLUGS,
   type ProjectSlug,
 } from "@/lib/projects";
+import {
+  buildPageMetadata,
+  getLocalizedProjectPath,
+  getSiteName,
+  toAbsoluteUrl,
+  type AppLocale,
+} from "@/lib/seo";
 import type { Metadata } from "next";
+import { hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
 
 type Props = {
-  params: Promise<{ locale: string; slug: string }>;
+  params?: Promise<{ locale: string; slug: string }>;
 };
 
 export function generateStaticParams() {
@@ -38,31 +48,89 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale, slug } = await params;
-  if (!isProjectSlug(slug)) {
+  const resolvedParams = await params;
+  if (!resolvedParams) {
+    return {};
+  }
+  const { locale, slug } = resolvedParams;
+  if (!hasLocale(routing.locales, locale) || !isProjectSlug(slug)) {
     return {};
   }
   const s = slug as ProjectSlug;
+  const currentLocale = locale as AppLocale;
   const t = await getTranslations({ locale, namespace: "ProjectDetail" });
+  const path = getLocalizedProjectPath(currentLocale, slug);
 
   return {
-    title: t(`items.${s}.metaTitle`),
-    description: t(`items.${s}.metaDescription`),
+    ...buildPageMetadata({
+      locale: currentLocale,
+      title: t(`items.${s}.metaTitle`),
+      description: t(`items.${s}.metaDescription`),
+      path,
+    }),
+    alternates: {
+      canonical: path,
+      languages: {
+        tr: getLocalizedProjectPath("tr", slug),
+        en: getLocalizedProjectPath("en", slug),
+        "x-default": getLocalizedProjectPath("tr", slug),
+      },
+    },
+    openGraph: {
+      ...buildPageMetadata({
+        locale: currentLocale,
+        title: t(`items.${s}.metaTitle`),
+        description: t(`items.${s}.metaDescription`),
+        path,
+      }).openGraph,
+      images: [
+        {
+          url: toAbsoluteUrl(PROJECT_COVERS[s]),
+          alt: t(`items.${s}.heroImageAlt`),
+        },
+      ],
+    },
   };
 }
 
 export default async function ProjectDetailPage({ params }: Props) {
-  const { locale, slug } = await params;
+  const resolvedParams = await params;
+  if (!resolvedParams) {
+    notFound();
+  }
+  const { locale, slug } = resolvedParams;
 
   if (!isProjectSlug(slug)) {
     notFound();
   }
 
   setRequestLocale(locale);
+  const currentLocale = hasLocale(routing.locales, locale)
+    ? (locale as AppLocale)
+    : "tr";
   const t = await getTranslations("ProjectDetail");
+  const projectTitle = t(`items.${slug}.heroTitle`);
+  const projectDescription = t(`items.${slug}.metaDescription`);
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: projectTitle,
+    description: projectDescription,
+    url: toAbsoluteUrl(getLocalizedProjectPath(currentLocale, slug)),
+    inLanguage: currentLocale,
+    image: toAbsoluteUrl(PROJECT_COVERS[slug]),
+    creator: {
+      "@type": "Organization",
+      name: getSiteName(currentLocale),
+    },
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <ProjectDetailHero slug={slug} />
       <div className="h-dvh hidden md:block shrink-0" aria-hidden />
       {slug === "evart-oran" ? (
