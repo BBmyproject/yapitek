@@ -215,11 +215,6 @@ const AboutSection = ({
 
               {showSignature ? (
                 <div className={`mt-12 ${hideOnHomeMobile ? "hidden md:block" : "block"}`}>
-                  <img
-                    src="https://framerusercontent.com/images/0hH5uI9JcqjX0lPnZmDd4wZyyY.png"
-                    alt="Signature"
-                    className="mx-auto mb-2 h-8"
-                  />
                   <p className="font-medium">{t("signName")}</p>
                   <p className="text-sm opacity-60">{t("signRole")}</p>
                 </div>
