@@ -15,6 +15,7 @@ function isNonEmptyString(v: unknown, max: number): v is string {
 }
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const RECAPTCHA_VERIFY_URL = "https://www.google.com/recaptcha/api/siteverify";
 
 export async function POST(request: Request) {
   let body: Record<string, unknown>;
@@ -42,6 +43,8 @@ export async function POST(request: Request) {
     typeof body.subject === "string" ? body.subject.trim() : "";
   const message =
     typeof body.message === "string" ? body.message.trim() : "";
+  const recaptchaToken =
+    typeof body.recaptchaToken === "string" ? body.recaptchaToken.trim() : "";
 
   if (
     !isNonEmptyString(firstName, LIMITS.firstName) ||
@@ -49,7 +52,8 @@ export async function POST(request: Request) {
     !isNonEmptyString(email, LIMITS.email) ||
     !EMAIL_RE.test(email) ||
     !isNonEmptyString(subject, LIMITS.subject) ||
-    !isNonEmptyString(message, LIMITS.message)
+    !isNonEmptyString(message, LIMITS.message) ||
+    !isNonEmptyString(recaptchaToken, 4000)
   ) {
     return NextResponse.json(
       { ok: false, code: "validation" },
@@ -57,17 +61,69 @@ export async function POST(request: Request) {
     );
   }
 
+  const service = process.env.SMTP_SERVICE;
   const host = process.env.SMTP_HOST;
   const port = Number(process.env.SMTP_PORT || "587");
-  const user = process.env.SMTP_USER;
-  const pass = process.env.SMTP_PASS;
+  const user = process.env.SMTP_USER || process.env.GMAIL_APP_USER;
+  const pass = process.env.SMTP_PASS || process.env.GMAIL_APP_PASSWORD;
   const to = process.env.CONTACT_EMAIL_TO || "info@yapitekyapi.com";
   const from = process.env.SMTP_FROM || user;
+  const recaptchaSecret = process.env.RECAPTCHA_SECRET_KEY;
+  const recaptchaMinScore = Number(process.env.RECAPTCHA_MIN_SCORE || "0.5");
 
-  if (!host || !user || !pass || !from) {
+  if (!user || !pass || !from || !recaptchaSecret) {
     return NextResponse.json(
       { ok: false, code: "not_configured" },
       { status: 503 },
+    );
+  }
+
+  try {
+    const forwardedFor = request.headers.get("x-forwarded-for");
+    const remoteIp = forwardedFor?.split(",")[0]?.trim();
+    const verifyBody = new URLSearchParams({
+      secret: recaptchaSecret,
+      response: recaptchaToken,
+    });
+    if (remoteIp) {
+      verifyBody.set("remoteip", remoteIp);
+    }
+
+    const verifyRes = await fetch(RECAPTCHA_VERIFY_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: verifyBody.toString(),
+      cache: "no-store",
+    });
+
+    if (!verifyRes.ok) {
+      return NextResponse.json(
+        { ok: false, code: "recaptcha_failed" },
+        { status: 400 },
+      );
+    }
+
+    const verifyData = (await verifyRes.json()) as {
+      success?: boolean;
+      score?: number;
+      action?: string;
+    };
+
+    const score = typeof verifyData.score === "number" ? verifyData.score : 0;
+    if (
+      !verifyData.success ||
+      verifyData.action !== "contact_form_submit" ||
+      score < recaptchaMinScore
+    ) {
+      return NextResponse.json(
+        { ok: false, code: "recaptcha_failed" },
+        { status: 400 },
+      );
+    }
+  } catch {
+    return NextResponse.json(
+      { ok: false, code: "recaptcha_failed" },
+      { status: 400 },
     );
   }
 
@@ -81,12 +137,22 @@ export async function POST(request: Request) {
   ].join("\n");
 
   try {
-    const transporter = nodemailer.createTransport({
-      host,
-      port,
-      secure: process.env.SMTP_SECURE === "true",
-      auth: { user, pass },
-    });
+    const transporter = service
+      ? nodemailer.createTransport({
+          service,
+          auth: { user, pass },
+        })
+      : host
+        ? nodemailer.createTransport({
+            host,
+            port,
+            secure: process.env.SMTP_SECURE === "true",
+            auth: { user, pass },
+          })
+        : nodemailer.createTransport({
+            service: "gmail",
+            auth: { user, pass },
+          });
 
     await transporter.sendMail({
       from,
