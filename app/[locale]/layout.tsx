@@ -6,6 +6,7 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { Bricolage_Grotesque, Playfair_Display } from "next/font/google";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import {
   buildPageMetadata,
   getDefaultDescription,
@@ -15,6 +16,9 @@ import {
   getSiteUrl,
   type AppLocale,
 } from "@/lib/seo";
+
+const GOOGLE_SITE_VERIFICATION = "N0V6WeJklW740Suw7PdjjPtdmhAp8ja6U41x-5NM2ts";
+const GOOGLE_ANALYTICS_ID = "G-Q248YCGQC0";
 
 const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ["latin", "latin-ext"],
@@ -82,6 +86,9 @@ export async function generateMetadata({
       shortcut: "/favicon.ico",
       apple: "/favicon.ico",
     },
+    verification: {
+      google: GOOGLE_SITE_VERIFICATION,
+    },
   };
 }
 
@@ -115,6 +122,18 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${bricolageGrotesque.variable} ${playfairDisplay.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GOOGLE_ANALYTICS_ID}');
+          `}
+        </Script>
         <NextIntlClientProvider messages={messages}>
           <SiteHeader />
           <div className="flex flex-1 flex-col">{children}</div>
