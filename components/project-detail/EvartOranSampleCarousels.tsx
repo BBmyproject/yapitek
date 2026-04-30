@@ -19,7 +19,7 @@ const SLIDE_W = 600;
 const SLIDE_H = 480;
 
 function slideWidthClass() {
-  return "w-[min(600px,calc(100vw-7rem))]";
+  return "w-[min(600px,calc(100vw))]";
 }
 
 type CarouselProps = {
@@ -218,6 +218,33 @@ function UnitCarousel({
 
 export function EvartOranSampleCarousels() {
   const t = useTranslations("ProjectEvartOran");
+  const tGallery = useTranslations("PhotoGallery");
+  const [loftEmblaRef, loftEmblaApi] = useEmblaCarousel({
+    align: "start",
+    loop: false,
+    skipSnaps: false,
+    dragFree: false,
+  });
+  const [loftSelected, setLoftSelected] = useState(0);
+
+  const onLoftSelect = useCallback(() => {
+    if (!loftEmblaApi) return;
+    setLoftSelected(loftEmblaApi.selectedScrollSnap());
+  }, [loftEmblaApi]);
+
+  useEffect(() => {
+    if (!loftEmblaApi) return;
+    loftEmblaApi.on("reInit", onLoftSelect);
+    loftEmblaApi.on("select", onLoftSelect);
+    queueMicrotask(onLoftSelect);
+    return () => {
+      loftEmblaApi.off("reInit", onLoftSelect);
+      loftEmblaApi.off("select", onLoftSelect);
+    };
+  }, [loftEmblaApi, onLoftSelect]);
+
+  const loftDotCount =
+    loftEmblaApi?.scrollSnapList().length ?? EVART_ORAN_LOFT_IMAGES.length;
 
   return (
     <div className="border-t border-[#d1dfe0] bg-[#f9f6f3] px-6 py-12 lg:px-10 lg:py-16">
@@ -249,7 +276,96 @@ export function EvartOranSampleCarousels() {
           >
             {t("sampleLoftTitle")}
           </h2>
-          <div className="grid grid-cols-1 gap-5 md:flex md:gap-5">
+          <div className="relative md:hidden">
+            <button
+              type="button"
+              aria-label={tGallery("prev")}
+              onClick={() => loftEmblaApi?.scrollPrev()}
+              className="absolute left-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full bg-[#0003] text-white transition-all duration-150 active:scale-[0.92]"
+            >
+              <svg
+                className="h-5 w-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                aria-hidden
+              >
+                <path
+                  d="M15 18l-6-6 6-6"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+            <button
+              type="button"
+              aria-label={tGallery("next")}
+              onClick={() => loftEmblaApi?.scrollNext()}
+              className="absolute right-3 top-1/2 z-10 flex h-10 w-10 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full bg-[#0003] text-white transition-all duration-150 active:scale-[0.92]"
+            >
+              <svg
+                className="h-5 w-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                aria-hidden
+              >
+                <path
+                  d="M9 6l6 6-6 6"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+
+            <div className="overflow-hidden" ref={loftEmblaRef}>
+              <div className="flex touch-pan-y">
+                {EVART_ORAN_LOFT_IMAGES.map((src, index) => (
+                  <div
+                    key={src}
+                    className="relative aspect-4/3 shrink-0 basis-full overflow-hidden bg-[#d1dfdf]/40"
+                  >
+                    <img
+                      src={src}
+                      alt={t("sampleLoftImageAlt", { n: index + 1 })}
+                      width={1200}
+                      height={900}
+                      className="h-full w-full object-cover"
+                      sizes="100vw"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div
+              className="absolute bottom-4 left-1/2 flex -translate-x-1/2 flex-wrap items-center justify-center gap-2 px-4"
+              role="tablist"
+              aria-label={tGallery("dotsLabel")}
+            >
+              {Array.from({ length: loftDotCount }, (_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  role="tab"
+                  aria-selected={loftSelected === i}
+                  aria-label={tGallery("goToSlide", { n: i + 1 })}
+                  onClick={() => loftEmblaApi?.scrollTo(i)}
+                  className={`h-2 cursor-pointer rounded-full transition-all duration-200 active:scale-75 ${
+                    loftSelected === i
+                      ? "w-8 bg-[#f9f6f3]"
+                      : "w-2 bg-[#f9f6f3]/30 hover:bg-[#f9f6f3]/50"
+                  }`}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div className="hidden md:flex md:gap-5">
             {EVART_ORAN_LOFT_IMAGES.map((src, index) => (
               <div
                 key={src}

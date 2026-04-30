@@ -4,12 +4,16 @@ import { useLayoutEffect, useRef, type ReactNode } from "react";
 
 type HeroBackdropLayerProps = {
   children: ReactNode;
+  mobileFullHeight?: boolean;
 };
 
 const DURATION_MS = 1000;
 const EASING = "cubic-bezier(0.22, 1, 0.36, 1)";
 
-export function HeroBackdropLayer({ children }: HeroBackdropLayerProps) {
+export function HeroBackdropLayer({
+  children,
+  mobileFullHeight = false,
+}: HeroBackdropLayerProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useLayoutEffect(() => {
@@ -44,7 +48,9 @@ export function HeroBackdropLayer({ children }: HeroBackdropLayerProps) {
   return (
     <div
       ref={ref}
-      className="relative md:absolute inset-0 origin-center"
+      className={`relative md:absolute inset-0 origin-center ${
+        mobileFullHeight ? "h-full md:h-auto" : ""
+      }`}
       style={{ opacity: 0.5, transform: "scale(1.02)" }}
     >
       {children}

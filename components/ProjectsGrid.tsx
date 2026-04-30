@@ -70,7 +70,7 @@ function ProjectCard({ slug, index }: { slug: ProjectSlug; index: number }) {
           />
         </div>
         <div
-          className={`flex min-h-0 flex-col justify-center px-6 py-8 md:px-10 md:py-12 ${
+          className={`flex min-h-0 flex-col justify-center py-8 md:px-10 md:py-12 ${
             swap ? "md:order-1" : "md:order-2"
           }`}
         >
