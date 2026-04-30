@@ -13,9 +13,9 @@ export const EVART_ORAN_1PLUS1_IMAGES = [
 ] as const;
 
 export const EVART_ORAN_2PLUS1_IMAGES = [
-  "/images/evart-oran-iki.jpg",
-  "/images/evart-oran-iki-2.jpg",
   "/images/evart-oran-iki-3.jpg",
+  "/images/evart-oran-iki-2.jpg",
+  "/images/evart-oran-iki.jpg",
   "/images/evart-oran-iki-4.jpg",
   "/images/evart-oran-iki-5.jpg",
   "/images/evart-oran-iki-6.jpg",
